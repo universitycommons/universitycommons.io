@@ -5,6 +5,12 @@ html, body
   padding: 0;
 }
 
+html
+{
+  background: #F9F9F9;
+  border-top: 3px solid #59AA55;
+}
+
 .hidden
 {
   height: 1px;
@@ -15,12 +21,11 @@ html, body
   width: 1px;
 }
 
-.top
+input[type="button"], input[type="submit"]
 {
-  background: #59AA55;
-  padding-bottom: 1.5em;
-  position: absolute;
-  top: 0;
+  background: #4EAD4E;
+  border: 0;
+  color: #FFF;
 }
 
 header
@@ -41,34 +46,39 @@ header h1
 header .tagline
 {
   font-size: 1.1em;
+  font-weight: 500;
+}
+
+nav
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 nav ul
 {
   display: flex;
-  align-content: space-around;
   font-family: 'Raleway', sans-serif;
-  margin: 0;
   list-style: none;
+  margin: 0 auto;
   padding: 0;
-  position: absolute;
   text-align: center;
   text-transform: uppercase;
-  top: 0;
   width: 100%;
-  zoom: 1;
 }
 
 nav ul li
 {
   display: block;
+  flex: 1;
 }
 
 nav ul a
 {
-  border-top: 3px solid #b3dcb3;
   color: #111;
   display: block;
+  font-weight: 500;
   padding: 1em 0;
   text-decoration: none;
   transition: border-color 0.3s;
@@ -78,4 +88,48 @@ nav ul a
 nav ul a:hover
 {
   border-color: #4EAD4E;
+}
+
+.search-form
+{
+  margin: 2em 1em;
+}
+
+.search-form input
+{
+  display: block;
+  font-size: 1.1em;
+  margin: 1em auto;
+  padding: 0.5em;
+  width: 90%;
+}
+
+@media (min-width: 37.5em)
+{
+  header h1
+  {
+    font-size: 3em;
+    margin-bottom: 0.25em;
+    margin-top: 1.5em;
+  }
+
+  header .tagline
+  {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 43.75em)
+{
+  header h1
+  {
+    font-size: 3.5em;
+    margin-top: 1.5em;
+  }
+
+  nav ul
+  {
+    max-width: 37.5em;
+    width: 60%;
+  }
 }
