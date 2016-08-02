@@ -1,10 +1,28 @@
+/* =VARIABLES
+------------------------------------------------------- */
+
+/**
+ * COLORS
+ * Background:  #F9F9F9
+ * Base Font:   #111111
+ * Button Font: #FFFFFF
+ * Inactive:    #CCCCCC
+ * Primary:     #4EAD4E
+ */
+
+/**
+ * FONTS
+ * Base:      'Open Sans', sans-serif;
+ * Headings:  'Raleway', sans-serif;
+ */
+
 /* =ROOT
 ------------------------------------------------------- */
 
 html, body
 {
   color: #111;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -12,7 +30,7 @@ html, body
 html
 {
   background: #F9F9F9;
-  border-top: 3px solid #59AA55;
+  border-top: 3px solid #4EAD4E;
 }
 
 /* =GLOBAL
@@ -20,7 +38,8 @@ html
 
 .container
 {
-  margin: 4em 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   max-width: 39em;
 }
 
@@ -28,7 +47,7 @@ html
 {
   height: 1px;
   left: -10000px;
-  overflow:hidden;
+  overflow: hidden;
   position: absolute;
   top: auto;
   width: 1px;
@@ -46,7 +65,17 @@ h2
   font-weight: 700;
 }
 
-@media(min-width: 39em)
+a
+{
+  color: #4EAD4E;
+}
+
+input
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media(min-width: 39em) /* 624px */
 {
   .container
   {
@@ -63,6 +92,7 @@ input[type="button"], input[type="submit"]
   background: #4EAD4E;
   border: 0;
   color: #FFF;
+  cursor: pointer;
 }
 
 .form
@@ -95,7 +125,7 @@ input[type="button"], input[type="submit"]
   padding: 0.5em 1em;
 }
 
-@media(min-width: 31.25em)
+@media(min-width: 31.25em) /* 500px */
 {
   .form label
   {
@@ -125,7 +155,7 @@ header h1
 header .tagline
 {
   font-size: 1.1em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (min-width: 37.5em)
@@ -133,7 +163,7 @@ header .tagline
   header h1
   {
     font-size: 3em;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.1em;
     margin-top: 1.5em;
   }
 
@@ -143,7 +173,7 @@ header .tagline
   }
 }
 
-@media (min-width: 43.75em)
+@media (min-width: 43.75em) /* 700px */
 {
   header h1
   {
@@ -165,7 +195,6 @@ nav
 nav ul
 {
   display: flex;
-  font-family: 'Raleway', sans-serif;
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -184,14 +213,13 @@ nav ul a
 {
   color: #111;
   display: block;
-  font-weight: 500;
+  font-weight: 600;
   padding: 1em 0;
   text-decoration: none;
-  transition: border-color 0.3s;
   width: 100%;
 }
 
-@media (min-width: 43.75em)
+@media (min-width: 43.75em) /* 700px */
 {
   nav ul
   {
@@ -202,6 +230,13 @@ nav ul a
 
 /* =SEARCH-FORM
 ------------------------------------------------------- */
+
+.search-form
+{
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
+  overflow: auto;
+}
 
 .search-form input
 {
@@ -218,7 +253,7 @@ nav ul a
   padding: 0.6em 0.5em;
 }
 
-@media(min-width: 31.25em)
+@media(min-width: 31.25em) /* 500px */
 {
   .search-form input[type="submit"]
   {
@@ -236,6 +271,12 @@ nav ul a
 /* =COPY
 ------------------------------------------------------- */
 
+.copy
+{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
 .copy p, .copy ul
 {
   font-size: 1.1em;
@@ -245,4 +286,82 @@ nav ul a
 .copy ul li
 {
   margin-bottom: 1em;
+}
+
+/* =PROJECT-LIST
+------------------------------------------------------- */
+
+.project-list
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project
+{
+  border-left: 3px solid #CCC;
+  display: block;
+  padding: 0 1em;
+}
+
+.project:hover
+{
+  border-left-color: #4EAD4E;
+}
+
+.project-name
+{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.project-info
+{
+  list-style: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+}
+
+.project-info li
+{
+  display: block;
+  margin: 1em 0;
+}
+
+.info-title
+{
+  display: block;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project-description
+{
+  margin: 1em 0;
+}
+
+@media(min-width: 25em) /* 400px */
+{
+  .project-info li
+  {
+    float: left;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+
+@media(min-width: 31.25em) /* 500px */
+{
+  .project-info li.project-category, .project-info li.project-platform
+  {
+    width: 35%;
+  }
+
+  .project-info li.project-license, .project-info li.project-source
+  {
+    width: 15%;
+  }
 }

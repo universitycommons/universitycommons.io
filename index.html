@@ -7,7 +7,7 @@
   <title>University Commons</title>
   <meta name="Description" content="A search engine for open-source higher education projects">
 
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:700,900" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="style/main.css">
 </head>
 <body>
@@ -29,33 +29,36 @@
 
   <main id="content">
 
-    <!--
     <form class="container search-form" method="GET" action="">
       <label for="search-input" class="hidden">Search Term</label>
       <input type="text" id="search-input" name="q" placeholder="Learning management systems">
       <input type="submit" value="Search">
     </form>
-    -->
 
-    <!--
-    <section id="results">
+    <section id="results" class="container">
       <h2 class="hidden">Results</h2>
 
-      <ul>
-        <li>
+      <ul class="project-list">
+        <li class="project">
+
           <span class="project-name">Project Name</span>
 
           <ul class="project-info">
-            <li>
+            <li class="project-category">
               <span class="info-title">Category</span>
-              <span class="info-value">Project Category</span>
+              <a href="#" class="info-value">Project Category</a>
             </li>
-            <li>
+            <li class="project-platform">
               <span class="info-title">Platform</span>
-              <span class="info-value">Project Platform</span>
+              <a href="#" class="info-value">Project Platform</a>
             </li>
-            <li class="source-control-link">
-              <a href="#">Link to Source Control</span>
+            <li class="project-license">
+              <span class="info-title">License</span>
+              <a href="#" class="info-value">MIT</a>
+            </li>
+            <li class="project-source">
+              <span class="info-title">Source</span>
+              <a href="#">GitHub</a>
             </li>
           </ul>
 
@@ -63,16 +66,12 @@
             This is a description of the project
           </p>
 
-          <div class="license-info">
-            <span class="info-title">License</span>
-            <a href="#" class="info-value">MIT</a>
-          </div>
         </li>
       </ul>
     </section>
-  -->
 
     <!-- About -->
+    <!--
     <section id="what-is-this" class="copy container">
       <h2>What is This?</h2>
       <p>
@@ -132,6 +131,7 @@
         </li>
       </ul>
     </section>
+  -->
 
   </main>
 
