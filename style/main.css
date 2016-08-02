@@ -1,6 +1,10 @@
+/* =ROOT
+------------------------------------------------------- */
+
 html, body
 {
   color: #111;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -9,6 +13,15 @@ html
 {
   background: #F9F9F9;
   border-top: 3px solid #59AA55;
+}
+
+/* =GLOBAL
+------------------------------------------------------- */
+
+.container
+{
+  margin: 4em 1em;
+  max-width: 39em;
 }
 
 .hidden
@@ -21,6 +34,30 @@ html
   width: 1px;
 }
 
+h1, h2
+{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+h2
+{
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+@media(min-width: 39em)
+{
+  .container
+  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* =FORMS
+------------------------------------------------------- */
+
 input[type="button"], input[type="submit"]
 {
   background: #4EAD4E;
@@ -28,9 +65,50 @@ input[type="button"], input[type="submit"]
   color: #FFF;
 }
 
+.form
+{
+  margin: 2em 0;
+}
+
+.form ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form label
+{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.form input
+{
+  font-size: 1em;
+  padding: 0.3em;
+}
+
+.form input[type="submit"]
+{
+  padding: 0.5em 1em;
+}
+
+@media(min-width: 31.25em)
+{
+  .form label
+  {
+    float: left;
+    width: 25%;
+  }
+}
+
+/* =HEADER
+------------------------------------------------------- */
+
 header
 {
-  font-family: 'Raleway', sans-serif;
   text-align: center;
   text-transform: uppercase;
   margin: 0 1em;
@@ -40,6 +118,7 @@ header h1
 {
   color: #4EAD4E;
   font-size: 2.5em;
+  font-weight: 900;
   margin: 2em 0 0.5em;
 }
 
@@ -48,6 +127,33 @@ header .tagline
   font-size: 1.1em;
   font-weight: 500;
 }
+
+@media (min-width: 37.5em)
+{
+  header h1
+  {
+    font-size: 3em;
+    margin-bottom: 0.25em;
+    margin-top: 1.5em;
+  }
+
+  header .tagline
+  {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 43.75em)
+{
+  header h1
+  {
+    font-size: 3.5em;
+    margin-top: 1.5em;
+  }
+}
+
+/* =MAIN-NAV
+------------------------------------------------------- */
 
 nav
 {
@@ -85,15 +191,17 @@ nav ul a
   width: 100%;
 }
 
-nav ul a:hover
+@media (min-width: 43.75em)
 {
-  border-color: #4EAD4E;
+  nav ul
+  {
+    max-width: 37.5em;
+    width: 60%;
+  }
 }
 
-.search-form
-{
-  margin: 2em 1em;
-}
+/* =SEARCH-FORM
+------------------------------------------------------- */
 
 .search-form input
 {
@@ -104,32 +212,37 @@ nav ul a:hover
   width: 90%;
 }
 
-@media (min-width: 37.5em)
+.search-form input[type="submit"]
 {
-  header h1
+  max-width: 10em;
+  padding: 0.6em 0.5em;
+}
+
+@media(min-width: 31.25em)
+{
+  .search-form input[type="submit"]
   {
-    font-size: 3em;
-    margin-bottom: 0.25em;
-    margin-top: 1.5em;
+    float: right;
+    width: 30%;
   }
 
-  header .tagline
+  .search-form input[type="text"]
   {
-    font-size: 1.3em;
+    float: left;
+    width: 63%;
   }
 }
 
-@media (min-width: 43.75em)
-{
-  header h1
-  {
-    font-size: 3.5em;
-    margin-top: 1.5em;
-  }
+/* =COPY
+------------------------------------------------------- */
 
-  nav ul
-  {
-    max-width: 37.5em;
-    width: 60%;
-  }
+.copy p, .copy ul
+{
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+.copy ul li
+{
+  margin-bottom: 1em;
 }
