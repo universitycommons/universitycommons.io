@@ -1,0 +1,48 @@
+extends layout
+
+block content
+  section(id='what-is-this', class='copy container')
+    h2= 'What is This?'
+
+    p.
+      University Commons is a
+      <strong>search engine for open-source higher education</strong>
+      projects. This project's goal is to catalog and promote open-source
+      options, ranging from small components to full-scale systems.
+
+    section(id='add-project', class='copy container')
+      h2= 'Add Your Project'
+
+      p.
+        Use this form to submit your project for review. If your project meets
+        the guidelines outlined below, it will be added to the
+        University Commons.
+
+      form(method='POST', action='/submit', class='form')
+        ul
+          li
+            label(for='project-url')= 'Project URL'
+            input(type='text', id='project-url', name='project-url')
+          li
+            label(for='email')= 'E-mail'
+            input(type='text', id='email', name='email')
+          li
+            input(type='submit', value='Submit Your Project')
+
+    section(id='guideline', class='copy container')
+      h2= 'Guidelines'
+
+      p.
+        Projects within the University Commons must meet three guidelines:
+
+      ul
+        li
+          <strong>Open-Source:</strong>
+          The source code of the project must be publicly accessible online
+        li
+          <strong>Related to Higher Education:</strong>
+          The project must be related specifically to higher education
+        li
+          <strong>Shareable:</strong>
+          The project must have applicability beyond a single university
+          or organization
