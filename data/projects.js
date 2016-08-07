@@ -25,20 +25,17 @@ module.exports = [
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/instructure/canvas-lms',
       description: 'The open LMS by Instructure, Inc.'
+    },
+
+    {
+      name: 'Caucus',
+      projectUrl: 'http://www.caucus.com/',
+      category: CATEGORY.LMS,
+      platform: PLATFORM.JAVA,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.SELFHOSTED,
+      sourceUrl: 'http://www.caucus.com/down_caucus5.shtml',
+      description: 'An open-source, web-based eLearning and discussion platform'
     }
 
 ];
-
-/*
-New Project Template:
-{
-  name: 'Project Name',
-  projectUrl: '',
-  category: CATEGORY.,
-  platform: PLATFORM.,
-  license: LICENSE.,
-  sourceHost: SOURCEHOST.,
-  sourceUrl: '',
-  description: 'This is a description of the first project'
-}
-*/

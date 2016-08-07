@@ -1,3 +1,4 @@
 module.exports = {
-  GITHUB: 'GitHub'
+  GITHUB: 'GitHub',
+  SELFHOSTED: 'Self-Hosted'
 };
