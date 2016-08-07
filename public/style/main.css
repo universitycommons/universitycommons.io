@@ -258,6 +258,11 @@ nav ul a
   padding: 0.6em 0.5em;
 }
 
+.search-form.minimal input[type="submit"]
+{
+  display: none;
+}
+
 @media(min-width: 31.25em) /* 500px */
 {
   .search-form input[type="submit"]
@@ -270,6 +275,12 @@ nav ul a
   {
     float: left;
     width: 63%;
+  }
+
+  .search-form.minimal input[type="text"]
+  {
+    float: none;
+    width: 90%;
   }
 }
 
@@ -307,6 +318,7 @@ nav ul a
 {
   border-left: 3px solid #CCC;
   display: block;
+  margin-bottom: 2em;
   padding: 0 1em;
 }
 
@@ -343,9 +355,20 @@ nav ul a
   text-transform: uppercase;
 }
 
+.info-value
+{
+  font-size: 0.9em;
+}
+
 .project-description
 {
   margin: 1em 0;
+}
+
+.no-results-message
+{
+  font-size: 1.25em;
+  text-align: center;
 }
 
 @media(min-width: 25em) /* 400px */
