@@ -1,6 +1,10 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  section(class='copy container')
+    h2= message
+
+    if message == 'Not Found'
+      p= 'The requested page could not be found'
+    else
+      p= 'An unknown error occurred'
