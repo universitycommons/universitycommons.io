@@ -1,18 +1,7 @@
-var CATEGORY = {
-  LMS: 'Learning Management System'
-};
-
-var LICENSE = {
-  GPL2: 'GPL-2.0'
-};
-
-var PLATFORM = {
-  PHP: 'PHP'
-};
-
-var SOURCEHOST = {
-  GITHUB: 'GitHub'
-};
+var CATEGORY = require('./category.js');
+var LICENSE = require('./license.js');
+var PLATFORM = require('./platform.js');
+var SOURCEHOST = require('./sourcehost.js');
 
 module.exports = [
 
@@ -25,6 +14,17 @@ module.exports = [
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/atutor/ATutor',
       description: 'An Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses'
+    },
+
+    {
+      name: 'Canvas',
+      projectUrl: 'https://www.canvaslms.com/',
+      category: CATEGORY.LMS,
+      platform: PLATFORM.RUBY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/instructure/canvas-lms',
+      description: 'The open LMS by Instructure, Inc.'
     }
 
 ];
