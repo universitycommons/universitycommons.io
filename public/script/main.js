@@ -82,7 +82,8 @@ function getResultsList(results)
   if(results.length === 0)
   {
     // "No Results" Message
-    return resultsContainer.appendChild(elem('p', { class: 'no-results-message', text: 'No results found' }));
+    resultsContainer.appendChild(elem('p', { class: 'no-results-message', text: 'No results found' }));
+    return resultsContainer;
   }
 
   // Project List
@@ -111,7 +112,6 @@ function getResultsList(results)
   });
 
   resultsContainer.appendChild(projectList);
-
   return resultsContainer;
 }
 

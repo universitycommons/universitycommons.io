@@ -1,48 +1,41 @@
 var express = require('express');
 var router = express.Router();
-
-var mockSearchResults = [
-
-  {
-    name: 'Project Name 1',
-    category: 'Category Name 1',
-    platform: 'Platform Name 1',
-    license: 'MIT',
-    sourceHost: 'GitHub',
-    sourceUrl: 'https://github.com/universitycommons/universitycommons.io',
-    description: 'This is a description of the first project'
-  },
-
-  {
-    name: 'Project Name 2',
-    category: 'Category Name 2',
-    platform: 'Platform Name 2',
-    license: 'ISC',
-    sourceHost: 'SourceForge',
-    sourceUrl: 'https://github.com/universitycommons/universitycommons.io',
-    description: 'This is a description of the second project'
-  },
-
-];
+var searchProjects = require('../lib/search-projects');
 
 // Home
 router.get('/', function(req, res, next) {
 
-  var searchResults = {};
-  var showResults = false;
   var searchInput = req.query.q;
 
-  if(typeof searchInput != 'undefined')
+  if(searchInput)
   {
-    showResults = true;
-    searchResults = mockSearchResults;
-  }
+    handleSearch(searchInput, function(results) {
 
-  res.render('index', {
-    title: 'University Commons',
-    showResults: showResults,
-    searchResults: searchResults
-  });
+      var showResults = true;
+      var searchResults = [];
+
+      if(results)
+      {
+        showResults = true;
+        searchResults = results;
+      }
+
+      res.render('index', {
+        title: 'University Commons',
+        showResults: showResults,
+        searchResults: searchResults
+      });
+
+    });
+  }
+  else
+  {
+    res.render('index', {
+      title: 'University Commons',
+      showResults: false,
+      searchResults: []
+    });
+  }
 
 });
 
@@ -53,7 +46,19 @@ router.get('/about', function(req, res, next) {
 
 // Search
 router.get('/search', function(req, res, next) {
-  res.json(mockSearchResults);
+  handleSearch(req.query.q, function(results) { res.json(results); });
 });
+
+function handleSearch(query, callback)
+{
+  if(typeof query != 'undefined')
+  {
+    searchProjects(decodeURI(query), callback);
+  }
+  else
+  {
+    callback();
+  }
+}
 
 module.exports = router;
