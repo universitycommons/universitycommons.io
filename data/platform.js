@@ -1,5 +1,6 @@
 module.exports = {
-  JAVA: 'JAVA',
+  ASP: 'ASP',
+  JAVA: 'Java',
   PHP: 'PHP',
   RUBY: 'Ruby'
 };
