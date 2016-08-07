@@ -327,10 +327,11 @@ nav ul a
   border-left-color: #4EAD4E;
 }
 
-.project-name
+.project-name, a.project-name
 {
   font-size: 1.2em;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .project-info
@@ -383,12 +384,12 @@ nav ul a
 
 @media(min-width: 31.25em) /* 500px */
 {
-  .project-info li.project-category, .project-info li.project-platform
+  .project-info li.project-category
   {
-    width: 35%;
+    width: 55%;
   }
 
-  .project-info li.project-license, .project-info li.project-source
+  .project-info li.project-license, .project-info li.project-source, .project-info li.project-platform
   {
     width: 15%;
   }

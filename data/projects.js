@@ -1,23 +1,44 @@
+var CATEGORY = {
+  LMS: 'Learning Management System'
+};
+
+var LICENSE = {
+  GPL2: 'GPL-2.0'
+};
+
+var PLATFORM = {
+  PHP: 'PHP'
+};
+
+var SOURCEHOST = {
+  GITHUB: 'GitHub'
+};
+
 module.exports = [
 
     {
-      name: 'Project Name 1',
-      category: 'Category Name 1',
-      platform: 'Platform Name 1',
-      license: 'MIT',
-      sourceHost: 'GitHub',
-      sourceUrl: 'https://github.com/universitycommons/universitycommons.io',
-      description: 'This is a description of the first project'
-    },
-
-    {
-      name: 'Project Name 2',
-      category: 'Category Name 2',
-      platform: 'Platform Name 2',
-      license: 'ISC',
-      sourceHost: 'SourceForge',
-      sourceUrl: 'https://github.com/universitycommons/universitycommons.io',
-      description: 'This is a description of the second project'
+      name: 'ATutor',
+      projectUrl: 'http://www.atutor.ca/',
+      category: CATEGORY.LMS,
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/atutor/ATutor',
+      description: 'An Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses'
     }
 
 ];
+
+/*
+New Project Template:
+{
+  name: 'Project Name',
+  projectUrl: '',
+  category: CATEGORY.,
+  platform: PLATFORM.,
+  license: LICENSE.,
+  sourceHost: SOURCEHOST.,
+  sourceUrl: '',
+  description: 'This is a description of the first project'
+}
+*/

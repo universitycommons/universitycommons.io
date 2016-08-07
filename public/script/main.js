@@ -94,7 +94,7 @@ function getResultsList(results)
     var projectListItem = elem('li', { class: 'project' });
 
     // Project Name
-    projectListItem.appendChild(elem('span', { class: 'project-name', text: project.name }));
+    projectListItem.appendChild(elem('a', { class: 'project-name', text: project.name, href: project.projectUrl }));
 
     // Project Info
     var projectInfo = elem('ul', { class: 'project-info' });
@@ -153,6 +153,11 @@ function elem(elementName, options)
   if(options.text)
   {
     element.textContent = options.text;
+  }
+
+  if(options.href)
+  {
+    element.setAttribute('href', options.href);
   }
 
   return element;

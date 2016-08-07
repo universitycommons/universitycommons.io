@@ -28,7 +28,6 @@ gulp.task('minify:js', function () {
 gulp.task('clean:css', function() {
 
   del('./public/style/*.min.css');
-  del('./public/style/*.css');
 
 });
 

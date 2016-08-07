@@ -17,7 +17,7 @@ block content
           each project in searchResults
 
             li(class='project')
-              span(class='project-name')= project.name
+              a(class='project-name', href= project.projectUrl)= project.name
 
               ul(class='project-info')
                 li(class='project-category')
@@ -34,7 +34,7 @@ block content
 
                 li(class='project-source')
                   span(class='info-title')= 'Source'
-                  a(class='info-value', href=project.sourceUrl)= project.sourceHost
+                  a(class='info-value', href= project.sourceUrl)= project.sourceHost
 
               p(class='project-description')= project.description
 
