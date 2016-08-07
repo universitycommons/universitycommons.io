@@ -8,7 +8,7 @@ html(lang='en')
     meta(name='Description', content='A search engine for open-source higher education projects')
 
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:700,900')
-    link(rel='stylesheet', href='style/main.css')
+    link(rel='stylesheet', href='style/main.min.css')
   body
     a(class='hidden', href='#content')= 'Skip to Content'
 
@@ -29,4 +29,4 @@ html(lang='en')
     main(id='content')
       block content
 
-    script(src='script/main.js')
+    block script
