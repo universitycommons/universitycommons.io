@@ -1,3 +1,4 @@
 module.exports = {
-  LMS: 'Learning Management System'
+  LMS: 'Learning Management System',
+  SIS: 'Student Information System'
 };

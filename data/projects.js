@@ -158,6 +158,50 @@ module.exports = [
       sourceUrl: 'https://source.sakaiproject.org/svn/sakai/',
       description: 'A fully customizable, 100% open source learning management system'
     },
+
+    {
+      name: 'eduTrac',
+      projectUrl: 'https://www.edutracsis.com/',
+      category: CATEGORY.SIS,
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.SOURCEFORGE,
+      sourceUrl: 'https://sourceforge.net/p/edutrac/code/ci/master/tree/',
+      description: 'A free and open source student information system for higher education'
+    },
+
+    {
+      name: 'Fedena',
+      projectUrl: 'http://projectfedena.org/',
+      category: CATEGORY.SIS,
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/projectfedena/fedena',
+      description: 'A free and open-source school management software that has more features than a student information system'
+    },
+
+    {
+      name: 'openSIS',
+      projectUrl: 'http://www.opensis.com/',
+      category: CATEGORY.SIS,
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.SOURCEFORGE,
+      sourceUrl: 'https://sourceforge.net/p/opensis-ce/code/HEAD/tree/',
+      description: 'A commercial grade, secure, scalable and intuitive Student Information System from OS4ED'
+    },
+
+    {
+      name: 'RosarioSIS',
+      projectUrl: 'https://www.rosariosis.org/',
+      category: CATEGORY.SIS,
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/francoisjacquet/rosariosis',
+      description: 'A free and open-source Student Information System (SIS)'
+    },
 ];
 
 /*
