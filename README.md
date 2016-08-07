@@ -2,9 +2,24 @@
 
 A search engine for open-source higher education projects
 
-## Running the Project
+## Add a Project
 
-To run the project locally, simply follow these steps:
+Projects can be added by [opening a GitHub issue](https://github.com/universitycommons/universitycommons.io/issues),
+describing the project.
+
+Projects must meet the **guidelines** outlined below.
+
+## Guidelines
+
+Projects within the University Commons must meet three guidelines:
+
+* **Open-Source:** The source code of the project must be publicly accessible online
+* **Related to Higher Education:** The project must be related specifically to higher education
+* **Shareable:** The project must have applicability beyond a single university or organization
+
+## Running University Commons
+
+To run University Commons locally, simply follow these steps:
 
 1. `git clone https://github.com/universitycommons/universitycommons.io`
 2. `npm install`
