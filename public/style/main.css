@@ -386,11 +386,11 @@ nav ul a
 {
   .project-info li.project-category
   {
-    width: 55%;
+    width: 49%;
   }
 
   .project-info li.project-license, .project-info li.project-source, .project-info li.project-platform
   {
-    width: 15%;
+    width: 17%;
   }
 }

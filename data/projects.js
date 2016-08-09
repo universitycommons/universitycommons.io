@@ -202,6 +202,18 @@ module.exports = [
       sourceUrl: 'https://github.com/francoisjacquet/rosariosis',
       description: 'A free and open-source Student Information System (SIS)'
     },
+
+    {
+      name: 'Shopping Sheet',
+      projectUrl: 'https://github.com/ucsbfinaid/Shopping-Sheet',
+      category: CATEGORY.FINAID,
+      platform: PLATFORM.HTML,
+      license: LICENSE.BSD3CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucsbfinaid/Shopping-Sheet',
+      description: 'An open-source web template for the Financial Aid Shopping Sheet'
+    },
+
 ];
 
 /*
