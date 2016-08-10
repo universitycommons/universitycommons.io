@@ -5,5 +5,6 @@ module.exports = {
   ECL2: 'ECL-2.0',
   GPL2: 'GPL-2.0',
   GPL3: 'GPL-3.0',
+  MIT: 'MIT',
   NONE: 'None'
 };

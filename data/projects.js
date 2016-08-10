@@ -214,6 +214,38 @@ module.exports = [
       description: 'An open-source web template for the Financial Aid Shopping Sheet'
     },
 
+    {
+      name: 'Course Cart',
+      projectUrl: 'https://github.com/biola/course-cart',
+      category: CATEGORY.ONLINECOURSES,
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/biola/course-cart',
+      description: 'Online signups and payment for online courses'
+    },
+
+    {
+      name: 'BBConnect Sync',
+      projectUrl: 'https://github.com/biola/bbconnect-sync',
+      category: CATEGORY.UTILITY,
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/biola/bbconnect-sync',
+      description: 'Syncs contacts from Banner to Blackboard Connect'
+    },
+
+    {
+      name: 'Digital Signage',
+      projectUrl: 'https://github.com/biola/digital_signage',
+      category: CATEGORY.DIGITALSIGNAGE,
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/biola/digital_signage',
+      description: 'This application is used for managing a collection of digital signs'
+    }
 ];
 
 /*
