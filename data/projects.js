@@ -1,4 +1,3 @@
-var CATEGORY = require('./category.js');
 var LICENSE = require('./license.js');
 var PLATFORM = require('./platform.js');
 var SOURCEHOST = require('./sourcehost.js');
@@ -8,7 +7,7 @@ module.exports = [
     {
       name: 'ATutor',
       projectUrl: 'http://www.atutor.ca/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -19,7 +18,7 @@ module.exports = [
     {
       name: 'Canvas',
       projectUrl: 'https://www.canvaslms.com/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.RUBY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -30,7 +29,7 @@ module.exports = [
     {
       name: 'Caucus',
       projectUrl: 'http://www.caucus.com/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.JAVA,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.SELFHOSTED,
@@ -41,7 +40,7 @@ module.exports = [
     {
       name: 'Chamilo',
       projectUrl: 'https://chamilo.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -52,7 +51,7 @@ module.exports = [
     {
       name: 'eFront',
       projectUrl: 'https://www.efrontlearning.com/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.CPAL1,
       sourceHost: SOURCEHOST.GITHUB,
@@ -63,7 +62,7 @@ module.exports = [
     {
       name: 'ELMS LN',
       projectUrl: 'https://www.elmsln.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -74,7 +73,7 @@ module.exports = [
     {
       name: 'Forma LMS',
       projectUrl: 'http://www.formalms.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SOURCEFORGE,
@@ -85,7 +84,7 @@ module.exports = [
     {
       name: 'ILIAS',
       projectUrl: 'http://www.ilias.de/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -96,7 +95,7 @@ module.exports = [
     {
       name: 'LAMS',
       projectUrl: 'https://www.lamsfoundation.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.JAVA,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SELFHOSTED,
@@ -107,7 +106,7 @@ module.exports = [
     {
       name: 'Moodle',
       projectUrl: 'https://moodle.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -118,7 +117,7 @@ module.exports = [
     {
       name: 'OLAT',
       projectUrl: 'http://www.olat.org/product',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.JAVA,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.SELFHOSTED,
@@ -129,7 +128,7 @@ module.exports = [
     {
       name: 'Open Elms',
       projectUrl: 'http://www.openelms.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.ASP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.SOURCEFORGE,
@@ -140,7 +139,7 @@ module.exports = [
     {
       name: 'Opigno',
       projectUrl: 'https://www.opigno.org/en',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.DRUPAL,
@@ -151,7 +150,7 @@ module.exports = [
     {
       name: 'Sakai',
       projectUrl: 'https://www.sakaiproject.org/',
-      category: CATEGORY.LMS,
+      tags: ['learning management system', 'lms'],
       platform: PLATFORM.JAVA,
       license: LICENSE.ECL2,
       sourceHost: SOURCEHOST.SELFHOSTED,
@@ -162,7 +161,7 @@ module.exports = [
     {
       name: 'eduTrac',
       projectUrl: 'https://www.edutracsis.com/',
-      category: CATEGORY.SIS,
+      tags: ['student information system', 'sis'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.SOURCEFORGE,
@@ -173,7 +172,7 @@ module.exports = [
     {
       name: 'Fedena',
       projectUrl: 'http://projectfedena.org/',
-      category: CATEGORY.SIS,
+      tags: ['student information system', 'sis'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -184,7 +183,7 @@ module.exports = [
     {
       name: 'openSIS',
       projectUrl: 'http://www.opensis.com/',
-      category: CATEGORY.SIS,
+      tags: ['student information system', 'sis'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SOURCEFORGE,
@@ -195,7 +194,7 @@ module.exports = [
     {
       name: 'RosarioSIS',
       projectUrl: 'https://www.rosariosis.org/',
-      category: CATEGORY.SIS,
+      tags: ['student information system', 'sis'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -206,7 +205,7 @@ module.exports = [
     {
       name: 'Shopping Sheet',
       projectUrl: 'https://github.com/ucsbfinaid/Shopping-Sheet',
-      category: CATEGORY.FINAID,
+      tags: ['financial aid'],
       platform: PLATFORM.HTML,
       license: LICENSE.BSD3CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -217,7 +216,7 @@ module.exports = [
     {
       name: 'Course Cart',
       projectUrl: 'https://github.com/biola/course-cart',
-      category: CATEGORY.ONLINECOURSES,
+      tags: ['online courses'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -228,7 +227,7 @@ module.exports = [
     {
       name: 'BBConnect Sync',
       projectUrl: 'https://github.com/biola/bbconnect-sync',
-      category: CATEGORY.UTILITY,
+      tags: ['banner', 'blackboard'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -239,7 +238,7 @@ module.exports = [
     {
       name: 'Digital Signage',
       projectUrl: 'https://github.com/biola/digital_signage',
-      category: CATEGORY.DIGITALSIGNAGE,
+      tags: ['digital signage'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -253,7 +252,7 @@ module.exports = [
 {
   name: '',
   projectUrl: '',
-  category: CATEGORY.,
+  tags: tags.,
   platform: PLATFORM.,
   license: LICENSE.,
   sourceHost: SOURCEHOST.,

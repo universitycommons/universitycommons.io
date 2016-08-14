@@ -98,7 +98,7 @@ function getResultsList(results)
 
     // Project Info
     var projectInfo = elem('ul', { class: 'project-info' });
-    projectInfo.appendChild(projectInfoElem('project-category', 'Category', project.category));
+    projectInfo.appendChild(projectInfoElem('project-tags', 'Tags', project.tags.join(', ')));
     projectInfo.appendChild(projectInfoElem('project-platform', 'Platform', project.platform));
     projectInfo.appendChild(projectInfoElem('project-license', 'License', project.license));
     projectInfo.appendChild(projectInfoElem('project-source', 'Source', project.sourceHost, project.sourceUrl));

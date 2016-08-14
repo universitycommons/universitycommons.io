@@ -20,9 +20,9 @@ block content
               a(class='project-name', href= project.projectUrl)= project.name
 
               ul(class='project-info')
-                li(class='project-category')
-                  span(class='info-title')= 'Category'
-                  span(class='info-value')= project.category
+                li(class='project-tags')
+                  span(class='info-title')= 'Tags'
+                  span(class='info-value') #{project.tags.join(', ')}
 
                 li(class='project-platform')
                   span(class='info-title')= 'Platform'
