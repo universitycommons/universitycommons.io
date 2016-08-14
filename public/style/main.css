@@ -384,7 +384,7 @@ nav ul a
 
 @media(min-width: 31.25em) /* 500px */
 {
-  .project-info li.project-category
+  .project-info li.project-tags
   {
     width: 49%;
   }
