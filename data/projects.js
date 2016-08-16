@@ -244,6 +244,17 @@ module.exports = [
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/biola/digital_signage',
       description: 'This application is used for managing a collection of digital signs'
+    },
+
+    {
+      name: 'VIVO',
+      projectUrl: 'http://vivoweb.org/',
+      tags: ['research'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/vivo-project/VIVO',
+      description: 'VIVO is an extensible semantic web application for research discovery and showcasing scholarly work'
     }
 ];
 
