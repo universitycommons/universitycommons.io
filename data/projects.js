@@ -255,6 +255,17 @@ module.exports = [
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/vivo-project/VIVO',
       description: 'VIVO is an extensible semantic web application for research discovery and showcasing scholarly work'
+    },
+
+    {
+      name: 'CentreSIS',
+      projectUrl: 'http://centresis.org/',
+      tags: ['student information system', 'sis'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/centresis/centresis',
+      description: 'The premier open soure student information system'
     }
 ];
 
