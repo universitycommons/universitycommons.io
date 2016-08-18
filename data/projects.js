@@ -12,7 +12,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/atutor/ATutor',
-      description: 'An Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses'
+      description: 'An Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses',
+      author: 'ATutor',
+      authorUrl: 'https://github.com/atutor/',
     },
 
     {
@@ -23,7 +25,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/instructure/canvas-lms',
-      description: 'The open LMS by Instructure, Inc.'
+      description: 'The open LMS by Instructure, Inc.',
+      author: 'Instructure, Inc.',
+      authorUrl: 'https://github.com/instructure/'
     },
 
     {
@@ -34,7 +38,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.SELFHOSTED,
       sourceUrl: 'http://www.caucus.com/down_caucus5.shtml',
-      description: 'An open-source, web-based eLearning and discussion platform'
+      description: 'An open-source, web-based eLearning and discussion platform',
+      author: 'Caucus',
+      authorUrl: 'http://www.caucus.com/'
     },
 
     {
@@ -45,7 +51,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/chamilo/chamilo-lms',
-      description: 'A learning management system focusing on ease of use, re-usability, collaboration and sharing'
+      description: 'A learning management system focusing on ease of use, re-usability, collaboration and sharing',
+      author: 'Chamilo',
+      authorUrl: 'https://github.com/chamilo/'
     },
 
     {
@@ -56,7 +64,9 @@ module.exports = [
       license: LICENSE.CPAL1,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/epignosis/efront_open_source',
-      description: 'A highly customized eLearning experience to fit your brand and preferences'
+      description: 'A highly customized eLearning experience to fit your brand and preferences',
+      author: 'Epignosis',
+      authorUrl: 'https://github.com/epignosis/'
     },
 
     {
@@ -67,7 +77,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/elmsln/elmsln',
-      description: 'An open source educational technology platform for building and sustaining innovation in course technologies'
+      description: 'An open source educational technology platform for building and sustaining innovation in course technologies',
+      author: 'ELMS LN',
+      authorUrl: 'https://github.com/elmsln/'
     },
 
     {
@@ -78,7 +90,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SOURCEFORGE,
       sourceUrl: 'https://sourceforge.net/p/forma/code/HEAD/tree/',
-      description: 'An open-source, web-based elearning platform (Learning Management System - LMS), used to manage and deliver online training courses'
+      description: 'An open-source, web-based elearning platform (Learning Management System - LMS), used to manage and deliver online training courses',
+      author: 'Forma LMA',
+      authorUrl: 'http://www.formalms.org/'
     },
 
     {
@@ -89,7 +103,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ILIAS-eLearning/ILIAS',
-      description: 'A powerful Open Source Learning Management System for developing and realising web-based e-learning.'
+      description: 'A powerful Open Source Learning Management System for developing and realising web-based e-learning.',
+      author: 'ILIAS',
+      authorUrl: 'https://github.com/ILIAS-eLearning/'
     },
 
     {
@@ -100,7 +116,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SELFHOSTED,
       sourceUrl: 'http://code.lamsfoundation.org/fisheye/browse/lams',
-      description: 'A revolutionary new tool for designing, managing and delivering online collaborative learning activities'
+      description: 'A revolutionary new tool for designing, managing and delivering online collaborative learning activities',
+      author: 'LAMS Foundation',
+      authorUrl: 'https://www.lamsfoundation.org/'
     },
 
     {
@@ -111,7 +129,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/moodle/moodle',
-      description: 'A learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments'
+      description: 'A learning platform designed to provide educators, administrators and learners with a single robust, secure and integrated system to create personalised learning environments',
+      author: 'Moodle',
+      authorUrl: 'https://github.com/moodle/'
     },
 
     {
@@ -122,7 +142,9 @@ module.exports = [
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.SELFHOSTED,
       sourceUrl: 'http://hg.olat.org/repos/',
-      description: 'An open source learning management system (LMS) which delivers learning services for large academic institutions to help their people accomplish a meaningful teaching and learning experience'
+      description: 'An open source learning management system (LMS) which delivers learning services for large academic institutions to help their people accomplish a meaningful teaching and learning experience',
+      author: 'OLAT',
+      authorUrl: 'http://www.olat.org/'
     },
 
     {
@@ -133,7 +155,9 @@ module.exports = [
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.SOURCEFORGE,
       sourceUrl: 'http://openelms.cvs.sourceforge.net/viewvc/openelms/openelms/',
-      description: 'Open Elms is an open source project designed to create a Learning Management System focussed on the needs of business'
+      description: 'Open Elms is an open source project designed to create a Learning Management System focussed on the needs of business',
+      author: 'Open Elms',
+      authorUrl: 'http://www.openelms.org/'
     },
 
     {
@@ -144,7 +168,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.DRUPAL,
       sourceUrl: 'http://cgit.drupalcode.org/opigno_lms/tree/',
-      description: 'An Open Source e-learning platform based on Drupal that allows you to manage your online trainings, and efficiently ensure that student, employee and partner skills remain up to date'
+      description: 'An Open Source e-learning platform based on Drupal that allows you to manage your online trainings, and efficiently ensure that student, employee and partner skills remain up to date',
+      author: 'Opigno',
+      authorUrl: 'https://www.opigno.org/en'
     },
 
     {
@@ -155,7 +181,9 @@ module.exports = [
       license: LICENSE.ECL2,
       sourceHost: SOURCEHOST.SELFHOSTED,
       sourceUrl: 'https://source.sakaiproject.org/svn/sakai/',
-      description: 'A fully customizable, 100% open source learning management system'
+      description: 'A fully customizable, 100% open source learning management system',
+      author: 'Sakai',
+      authorUrl: 'https://www.sakaiproject.org/'
     },
 
     {
@@ -166,7 +194,9 @@ module.exports = [
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.SOURCEFORGE,
       sourceUrl: 'https://sourceforge.net/p/edutrac/code/ci/master/tree/',
-      description: 'A free and open source student information system for higher education'
+      description: 'A free and open source student information system for higher education',
+      author: 'eduTrac',
+      authorUrl: 'https://www.edutracsis.com/'
     },
 
     {
@@ -177,7 +207,9 @@ module.exports = [
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/projectfedena/fedena',
-      description: 'A free and open-source school management software that has more features than a student information system'
+      description: 'A free and open-source school management software that has more features than a student information system',
+      author: 'Fedena',
+      authorUrl: 'https://github.com/projectfedena/'
     },
 
     {
@@ -188,7 +220,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SOURCEFORGE,
       sourceUrl: 'https://sourceforge.net/p/opensis-ce/code/HEAD/tree/',
-      description: 'A commercial grade, secure, scalable and intuitive Student Information System from OS4ED'
+      description: 'A commercial grade, secure, scalable and intuitive Student Information System from OS4ED',
+      author: 'openSIS',
+      authorUrl: 'http://www.opensis.com/'
     },
 
     {
@@ -199,7 +233,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/francoisjacquet/rosariosis',
-      description: 'A free and open-source Student Information System (SIS)'
+      description: 'A free and open-source Student Information System (SIS)',
+      author: 'Francois Jacquet',
+      authorUrl: 'https://github.com/francoisjacquet/',
     },
 
     {
@@ -210,7 +246,9 @@ module.exports = [
       license: LICENSE.BSD3CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ucsbfinaid/Shopping-Sheet',
-      description: 'An open-source web template for the Financial Aid Shopping Sheet'
+      description: 'An open-source web template for the Financial Aid Shopping Sheet',
+      author: 'UCSB Office of Financial Aid and Scholarships',
+      authorUrl: 'https://github.com/ucsbfinaid/'
     },
 
     {
@@ -221,7 +259,9 @@ module.exports = [
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/biola/course-cart',
-      description: 'Online signups and payment for online courses'
+      description: 'Online signups and payment for online courses',
+      author: 'Biola University',
+      authorUrl: 'https://github.com/biola/'
     },
 
     {
@@ -232,7 +272,9 @@ module.exports = [
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/biola/bbconnect-sync',
-      description: 'Syncs contacts from Banner to Blackboard Connect'
+      description: 'Syncs contacts from Banner to Blackboard Connect',
+      author: 'Biola University',
+      authorUrl: 'https://github.com/biola/'
     },
 
     {
@@ -243,7 +285,9 @@ module.exports = [
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/biola/digital_signage',
-      description: 'This application is used for managing a collection of digital signs'
+      description: 'This application is used for managing a collection of digital signs',
+      author: 'Biola University',
+      authorUrl: 'https://github.com/biola/'
     },
 
     {
@@ -254,7 +298,9 @@ module.exports = [
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/vivo-project/VIVO',
-      description: 'VIVO is an extensible semantic web application for research discovery and showcasing scholarly work'
+      description: 'VIVO is an extensible semantic web application for research discovery and showcasing scholarly work',
+      author: 'VIVO',
+      authorUrl: 'https://github.com/vivo-project/'
     },
 
     {
@@ -265,7 +311,9 @@ module.exports = [
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/centresis/centresis',
-      description: 'The premier open soure student information system'
+      description: 'The premier open soure student information system',
+      author: 'CentreSIS',
+      authorUrl: 'https://github.com/centresis/'
     }
 ];
 
