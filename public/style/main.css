@@ -384,9 +384,14 @@ nav ul a
 
 @media(min-width: 31.25em) /* 500px */
 {
-  .project-info li.project-tags
+  .project-info li.project-author
   {
     width: 49%;
+  }
+
+  .project-info li.project-tags
+  {
+    width: 100%;
   }
 
   .project-info li.project-license, .project-info li.project-source, .project-info li.project-platform
