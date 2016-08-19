@@ -3,5 +3,6 @@ module.exports = {
   HTML: 'HTML',
   JAVA: 'Java',
   PHP: 'PHP',
+  PYTHON: 'Python',
   RUBY: 'Ruby'
 };
