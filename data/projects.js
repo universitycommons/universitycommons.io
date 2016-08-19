@@ -314,6 +314,58 @@ module.exports = [
       description: 'The premier open soure student information system',
       author: 'CentreSIS',
       authorUrl: 'https://github.com/centresis/'
+    },
+
+    {
+      name: 'ETD Application',
+      projectUrl: 'https://github.com/Brown-University-Library/etd_app',
+      tags: ['thesis', 'dissertation', 'django'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CCBYSA3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Brown-University-Library/etd_app',
+      description: 'Django app for handling Electronic Theses and Dissertations.',
+      author: 'Brown University Library',
+      authorUrl: 'https://github.com/Brown-University-Library'
+    },
+
+    {
+      name: 'VIVO Data Management',
+      projectUrl: 'https://github.com/Brown-University-Library/vivo-data-management',
+      tags: ['vivo'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Brown-University-Library/vivo-data-management',
+      description: 'Python and RDFLib tools for managing data for VIVO.',
+      author: 'Brown University Library',
+      authorUrl: 'https://github.com/Brown-University-Library'
+    },
+
+    {
+      name: 'ILLiad Client',
+      projectUrl: 'https://github.com/Brown-University-Library/illiad-client',
+      tags: ['illiad'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Brown-University-Library/illiad-client',
+      description: 'A Python library for interacting with the Illiad Interlibrary Loan software.',
+      author: 'Brown University Library',
+      authorUrl: 'https://github.com/Brown-University-Library'
+    },
+
+    {
+      name: 'ezid.py',
+      projectUrl: 'https://github.com/Brown-University-Library/ezid_api',
+      tags: ['ezid'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.UNLICENSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Brown-University-Library/ezid_api',
+      description: 'API tools for EZID API.',
+      author: 'Brown University Library',
+      authorUrl: 'https://github.com/Brown-University-Library'
     }
 ];
 
@@ -322,11 +374,13 @@ module.exports = [
 {
   name: '',
   projectUrl: '',
-  tags: tags.,
+  tags: [''],
   platform: PLATFORM.,
   license: LICENSE.,
   sourceHost: SOURCEHOST.,
   sourceUrl: '',
-  description: ''
+  description: '',
+  author: '',
+  authorUrl: ''
 },
 */
