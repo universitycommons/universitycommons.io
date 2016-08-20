@@ -366,6 +366,19 @@ module.exports = [
       description: 'API tools for EZID API.',
       author: 'Brown University Library',
       authorUrl: 'https://github.com/Brown-University-Library'
+    },
+
+    {
+      name: 'BibApp',
+      projectUrl: 'http://bibapp.org/',
+      tags: ['faculty', 'research'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NCSA,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/BibApp/BibApp',
+      description: 'A campus research gateway and expert finder.',
+      author: 'BibApp',
+      authorUrl: 'https://github.com/BibApp'
     }
 ];
 
