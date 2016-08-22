@@ -379,6 +379,58 @@ module.exports = [
       description: 'A campus research gateway and expert finder.',
       author: 'BibApp',
       authorUrl: 'https://github.com/BibApp'
+    },
+
+    {
+      name: 'Open Journal Systems',
+      projectUrl: 'https://pkp.sfu.ca/ojs/',
+      tags: ['journal', 'publishing'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pkp/ojs',
+      description: 'A journal management and publishing system',
+      author: 'Public Knowledge Project',
+      authorUrl: 'https://github.com/pkp'
+    },
+
+    {
+      name: 'Open Monograph Press',
+      projectUrl: 'https://pkp.sfu.ca/omp/',
+      tags: ['editorial', 'review', 'workflow'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pkp/omp',
+      description: 'An open source software platform for managing the editorial workflow required to see monographs, edited volumes and, scholarly editions through internal and external review, editing, cataloguing, production, and publication. ',
+      author: 'Public Knowledge Project',
+      authorUrl: 'https://github.com/pkp'
+    },
+
+    {
+      name: 'Open Conference System',
+      projectUrl: 'https://pkp.sfu.ca/ocs/',
+      tags: ['conference'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pkp/ocs',
+      description: 'A free Web publishing tool that will create a complete Web presence for your scholarly conference.',
+      author: 'Public Knowledge Project',
+      authorUrl: 'https://github.com/pkp'
+    },
+
+    {
+      name: 'Open Harvester Systems',
+      projectUrl: 'https://pkp.sfu.ca/ohs/',
+      tags: ['metadata', 'index'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pkp/harvester',
+      description: 'A free metadata indexing system',
+      author: 'Public Knowledge Project',
+      authorUrl: 'https://github.com/pkp'
     }
 ];
 
