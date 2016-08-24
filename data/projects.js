@@ -431,6 +431,71 @@ module.exports = [
       description: 'A free metadata indexing system',
       author: 'Public Knowledge Project',
       authorUrl: 'https://github.com/pkp'
+    },
+
+    {
+      name: 'DBTracker',
+      projectUrl: 'https://github.com/BCLibraries/DBTracker',
+      tags: ['libguides'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/BCLibraries/DBTracker',
+      description: 'Maintains a locally cached list of databases sourced from the LibGuides databases API and serves it as a (smaller and faster) JSON file.',
+      author: 'Boston College Libraries',
+      authorUrl: 'https://github.com/BCLibraries'
+    },
+
+    {
+      name: 'primo-services',
+      projectUrl: 'https://github.com/BCLibraries/primo-services',
+      tags: ['primo', 'xservice'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/BCLibraries/primo-services',
+      description: 'PHP interface to Primo\'s X-Service Web services',
+      author: 'Boston College Libraries',
+      authorUrl: 'https://github.com/BCLibraries'
+    },
+
+    {
+      name: 'php-libguides',
+      projectUrl: 'https://github.com/BCLibraries/php-libguides',
+      tags: ['libguides'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/BCLibraries/php-libguides',
+      description: 'Makes interactions with the LibGuides v2 API using PHP 5.4.0+ even easier',
+      author: 'Boston College Libraries',
+      authorUrl: 'https://github.com/BCLibraries'
+    },
+
+    {
+      name: 'php-metalib',
+      projectUrl: 'https://github.com/BCLibraries/php-metalib',
+      tags: ['exlibris', 'metalib'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/BCLibraries/php-metalib',
+      description: 'A tool for working with the Ex Libris\' MetaLib electronic resources federated search tool',
+      author: 'Boston College Libraries',
+      authorUrl: 'https://github.com/BCLibraries'
+    },
+
+    {
+      name: 'php-alma',
+      projectUrl: 'https://github.com/BCLibraries/php-alma',
+      tags: ['alma'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/BCLibraries/php-alma',
+      description: 'Utilities for interacting with Alma Web Services in PHP',
+      author: 'Boston College Libraries',
+      authorUrl: 'https://github.com/BCLibraries'
     }
 ];
 
