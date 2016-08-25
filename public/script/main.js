@@ -8,7 +8,7 @@ if(searchInput && searchForm && mainContentArea)
   searchInput.focus();
 
   // Hide "Search" button
-  searchForm.classList += ' minimal';
+  searchForm.className += ' minimal';
 
   // Display search results as user types
   addEventListener('keyup', function() {
@@ -143,7 +143,7 @@ function elem(elementName, options)
 
   if(options.class)
   {
-    element.classList = options.class;
+    element.className = options.class;
   }
 
   if(options.id)
