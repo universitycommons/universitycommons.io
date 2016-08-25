@@ -280,7 +280,7 @@ module.exports = [
     {
       name: 'Digital Signage',
       projectUrl: 'https://github.com/biola/digital_signage',
-      tags: ['digital signage'],
+      tags: ['signage'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -496,6 +496,58 @@ module.exports = [
       description: 'Utilities for interacting with Alma Web Services in PHP',
       author: 'Boston College Libraries',
       authorUrl: 'https://github.com/BCLibraries'
+    },
+
+    {
+      name: 'Digital Signage 2.0',
+      projectUrl: 'https://github.com/chapmanu/signage',
+      tags: ['signage'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/chapmanu/signage',
+      description: 'Digital Signage Riding on Rails',
+      author: 'Chapman University',
+      authorUrl: 'https://github.com/chapmanu'
+    },
+
+    {
+      name: 'Series25',
+      projectUrl: 'https://github.com/chapmanu/series25',
+      tags: ['series25'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/chapmanu/series25',
+      description: 'A Ruby wrapper for the CollegeNet Series25 Webservies API',
+      author: 'Chapman University',
+      authorUrl: 'https://github.com/chapmanu'
+    },
+
+    {
+      name: 'Digital Signage',
+      projectUrl: 'https://github.com/chapmanu/digital-signage',
+      tags: ['signage'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/chapmanu/digital-signage',
+      description: 'Targeted advertising, information, and emergency notification',
+      author: 'Chapman University',
+      authorUrl: 'https://github.com/chapmanu'
+    },
+
+    {
+      name: 'University Tickets',
+      projectUrl: 'https://github.com/chapmanu/university_tickets',
+      tags: ['university tickets'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/chapmanu/university_tickets',
+      description: 'A Ruby wrapper for University Tickets JSON API',
+      author: 'Chapman University',
+      authorUrl: 'https://github.com/chapmanu'
     }
 ];
 
