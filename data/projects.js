@@ -548,6 +548,110 @@ module.exports = [
       description: 'A Ruby wrapper for University Tickets JSON API',
       author: 'Chapman University',
       authorUrl: 'https://github.com/chapmanu'
+    },
+
+    {
+      name: 'Social Feed Manager',
+      projectUrl: 'http://gwu-libraries.github.io/sfm-ui/',
+      tags: ['social'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/sfm-ui',
+      description: 'Harvests social media data from multiple platforms\' public APIs to help archivists, librarians, and researchers to build social media collections.',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'orcid2vivo',
+      projectUrl: 'https://github.com/gwu-libraries/orcid2vivo',
+      tags: ['orcid', 'vivo'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/orcid2vivo',
+      description: 'Tool for retrieving data from the ORCID API and crosswalking to VIVO-ISF.',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'VIVO2NotLD',
+      projectUrl: 'https://github.com/gwu-libraries/vivo2notld',
+      tags: ['vivo'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/vivo2notld',
+      description: 'Provides tools to convert RDF that conforms to the VIVO-ISF Ontology to a more simplified form encoded in JSON, XML, YAML, or other.',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'inventory',
+      projectUrl: 'https://github.com/gwu-libraries/inventory',
+      tags: ['inventory'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/inventory',
+      description: 'A system for tracking location of digital items and progress in reformatting projects',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'DigOps',
+      projectUrl: 'https://github.com/gwu-libraries/DigOp',
+      tags: ['workflow', 'digitization'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/DigOp',
+      description: 'A Django App designed to keep track of time spent in different workflow steps involved in digitization of items.',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'idservice',
+      projectUrl: 'https://github.com/gwu-libraries/idservice',
+      tags: ['identifier', 'library'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/idservice',
+      description: 'Application for the creation of unique identifiers for library collections and items.',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'bagsinspace',
+      projectUrl: 'https://github.com/gwu-libraries/bagsinspace',
+      tags: ['dspace'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/bagsinspace',
+      description: 'A script for importing bags into DSpace',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'summoner',
+      projectUrl: 'https://github.com/gwu-libraries/summoner',
+      tags: ['summon'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gwu-libraries/summoner',
+      description: 'Work with the Serial Solutions Summon API from Python.',
+      author: 'GWU Libraries',
+      authorUrl: 'https://github.com/gwu-libraries'
     }
 ];
 
