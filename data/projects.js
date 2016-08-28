@@ -652,6 +652,19 @@ module.exports = [
       description: 'Work with the Serial Solutions Summon API from Python.',
       author: 'GWU Libraries',
       authorUrl: 'https://github.com/gwu-libraries'
+    },
+
+    {
+      name: 'Omeka',
+      projectUrl: 'https://github.com/omeka/Omeka',
+      tags: ['library', 'museum', 'collections', 'archives', 'exhibitions'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/omeka/Omeka',
+      description: 'A flexible web publishing platform for the display of library, museum and scholarly collections, archives and exhibitions.',
+      author: 'Omeka',
+      authorUrl: 'https://github.com/omeka'
     }
 ];
 
