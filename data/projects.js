@@ -665,6 +665,19 @@ module.exports = [
       description: 'A flexible web publishing platform for the display of library, museum and scholarly collections, archives and exhibitions.',
       author: 'Omeka',
       authorUrl: 'https://github.com/omeka'
+    },
+
+    {
+      name: 'Hydra',
+      projectUrl: 'https://projecthydra.org/',
+      tags: ['repository'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/projecthydra',
+      description: 'Hydra is a repository solution that is being used by institutions worldwide to provide access to their digital content',
+      author: 'Hydra',
+      authorUrl: 'https://github.com/projecthydra'
     }
 ];
 
