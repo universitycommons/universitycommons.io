@@ -678,6 +678,58 @@ module.exports = [
       description: 'Hydra is a repository solution that is being used by institutions worldwide to provide access to their digital content',
       author: 'Hydra',
       authorUrl: 'https://github.com/projecthydra'
+    },
+
+    {
+      name: 'batch-tools',
+      projectUrl: 'http://georgetown-university-libraries.github.io/batch-tools/',
+      tags: ['dspace'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Georgetown-University-Libraries/batch-tools',
+      description: 'This code was created by the Georgetown University Libraries to assist in the management of DSpace.',
+      author: 'Georgetown University Library',
+      authorUrl: 'https://github.com/Georgetown-University-Libraries/'
+    },
+
+    {
+      name: 'APTUploadVerification',
+      projectUrl: 'https://github.com/Georgetown-University-Libraries/APTUploadVerification',
+      tags: ['aptrust'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Georgetown-University-Libraries/APTUploadVerification',
+      description: 'Command Line Interface to the APTrust API',
+      author: 'Georgetown University Library',
+      authorUrl: 'https://github.com/Georgetown-University-Libraries/'
+    },
+
+    {
+      name: 'ASResourceToDSpaceFindingAid',
+      projectUrl: 'https://github.com/Georgetown-University-Libraries/ASResourceToDSpaceFindingAid',
+      tags: ['archivesspace'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Georgetown-University-Libraries/ASResourceToDSpaceFindingAid',
+      description: 'Extract published resources using the ArchivesSpace API.',
+      author: 'Georgetown University Library',
+      authorUrl: 'https://github.com/Georgetown-University-Libraries/'
+    },
+
+    {
+      name: 'GUExtractSierraBibs',
+      projectUrl: 'http://georgetown-university-libraries.github.io/GUExtractSierraBibs/',
+      tags: ['library', 'sierra'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Georgetown-University-Libraries/GUExtractSierraBibs',
+      description: 'This code provides a sample implementation of a BIB and ITEM extract using the Sierra REST API.',
+      author: 'Georgetown University Library',
+      authorUrl: 'https://github.com/Georgetown-University-Libraries/'
     }
 ];
 
