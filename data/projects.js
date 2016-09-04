@@ -743,6 +743,58 @@ module.exports = [
       description: 'The DSpace digital asset management system that powers your Institutional Repository',
       author: 'DSpace',
       authorUrl: 'https://github.com/DSpace'
+    },
+
+    {
+      name: '360Link-Reset',
+      projectUrl: 'https://github.com/gvsulib/360Link-Reset',
+      tags: ['360link'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gvsulib/360Link-Reset',
+      description: 'A tool to radically improve Serials Solutions 360Link Link Resolver',
+      author: 'Grand Valley State University Libraries',
+      authorUrl: 'https://github.com/gvsulib'
+    },
+
+    {
+      name: 'Custom Summon Searches',
+      projectUrl: 'https://github.com/gvsulib/Custom-Summon-Searches',
+      tags: ['summon'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gvsulib/Custom-Summon-Searches',
+      description: 'A tool to easily created scoped searches for Serial Solutions\' Summon discovery platform.',
+      author: 'Grand Valley State University Libraries',
+      authorUrl: 'https://github.com/gvsulib'
+    },
+
+    {
+      name: 'Summon Stats',
+      projectUrl: 'https://github.com/gvsulib/Summon-Stats',
+      tags: ['summon'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gvsulib/Summon-Stats',
+      description: 'Capture data about the items patrons actually click on in Summon results lists',
+      author: 'Grand Valley State University Libraries',
+      authorUrl: 'https://github.com/gvsulib'
+    },
+
+    {
+      name: 'Millennium Stats',
+      projectUrl: 'https://github.com/gvsulib/Millennium-Stats',
+      tags: ['webpac', 'millennium'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gvsulib/Millennium-Stats',
+      description: 'Get better statistics on searches in the Millennium WebPAC than III will give you.',
+      author: 'Grand Valley State University Libraries',
+      authorUrl: 'https://github.com/gvsulib'
     }
 ];
 
