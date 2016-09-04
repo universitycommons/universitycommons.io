@@ -733,6 +733,19 @@ module.exports = [
     },
 
     {
+      name: 'DSpace',
+      projectUrl: 'http://dspace.org/',
+      tags: ['library', 'repository'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/DSpace/DSpace',
+      description: 'The DSpace digital asset management system that powers your Institutional Repository',
+      author: 'DSpace',
+      authorUrl: 'https://github.com/DSpace'
+    },
+
+    {
       name: '360Link-Reset',
       projectUrl: 'https://github.com/gvsulib/360Link-Reset',
       tags: ['360link'],
