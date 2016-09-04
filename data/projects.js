@@ -730,6 +730,19 @@ module.exports = [
       description: 'This code provides a sample implementation of a BIB and ITEM extract using the Sierra REST API.',
       author: 'Georgetown University Library',
       authorUrl: 'https://github.com/Georgetown-University-Libraries/'
+    },
+
+    {
+      name: 'DSpace',
+      projectUrl: 'http://dspace.org/',
+      tags: ['library', 'repository'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/DSpace/DSpace',
+      description: 'The DSpace digital asset management system that powers your Institutional Repository',
+      author: 'DSpace',
+      authorUrl: 'https://github.com/DSpace'
     }
 ];
 
