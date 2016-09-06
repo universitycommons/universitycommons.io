@@ -795,6 +795,19 @@ module.exports = [
       description: 'Get better statistics on searches in the Millennium WebPAC than III will give you.',
       author: 'Grand Valley State University Libraries',
       authorUrl: 'https://github.com/gvsulib'
+    },
+
+    {
+      name: 'map it',
+      projectUrl: 'https://github.com/harvard-lil/map-it',
+      tags: ['library'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/gvsulib/Millennium-Stats',
+      description: 'Helping users locate items in the library stacks.',
+      author: 'Harvard Library Innovation Laboratory',
+      authorUrl: 'https://github.com/harvard-lil'
     }
 ];
 
