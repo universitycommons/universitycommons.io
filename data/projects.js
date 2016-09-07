@@ -808,6 +808,19 @@ module.exports = [
       description: 'Helping users locate items in the library stacks.',
       author: 'Harvard Library Innovation Laboratory',
       authorUrl: 'https://github.com/harvard-lil'
+    },
+
+    {
+      name: 'Computer Lab Availability',
+      projectUrl: 'https://github.com/MontclairState/Computer-Lab-Availability',
+      tags: ['computer', 'lab'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/MontclairState/Computer-Lab-Availability',
+      description: 'Easily track which computers in a lab are in use',
+      author: 'Montclair State University',
+      authorUrl: 'https://github.com/MontclairState'
     }
 ];
 
