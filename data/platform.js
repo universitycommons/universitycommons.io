@@ -4,5 +4,6 @@ module.exports = {
   JAVA: 'Java',
   PHP: 'PHP',
   PYTHON: 'Python',
-  RUBY: 'Ruby'
+  RUBY: 'Ruby',
+  VAGRANT: 'Vagrant'
 };

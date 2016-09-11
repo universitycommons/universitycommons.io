@@ -821,6 +821,45 @@ module.exports = [
       description: 'Easily track which computers in a lab are in use',
       author: 'Montclair State University',
       authorUrl: 'https://github.com/MontclairState'
+    },
+
+    {
+      name: 'vagrant archivesspace',
+      projectUrl: 'https://github.com/NYULibraries/vagrant-archivesspace',
+      tags: ['vagrant', 'archivesspace'],
+      platform: PLATFORM.VAGRANT,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NYULibraries/vagrant-archivesspace',
+      description: 'A vagrant installer for Archivesspace 1.4',
+      author: 'New York University Libraries',
+      authorUrl: 'https://github.com/NYULibraries'
+    },
+
+    {
+      name: 'nyu marcxml export plugin',
+      projectUrl: 'https://github.com/NYULibraries/nyu_marcxml_export_plugin',
+      tags: ['marcxml', 'archivesspace'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NYULibraries/nyu_marcxml_export_plugin',
+      description: 'An Archives Space plugin to export resource and item level records to marcxml',
+      author: 'New York University Libraries',
+      authorUrl: 'https://github.com/NYULibraries'
+    },
+
+    {
+      name: 'at do cleanup',
+      projectUrl: 'https://github.com/NYULibraries/at-do-cleanup',
+      tags: ['archivists', 'toolkit'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NYULibraries/at-do-cleanup',
+      description: 'A utility script to remove duplicate "DigitalObjects" from Archivist\'s Toolkit databases.',
+      author: 'New York University Libraries',
+      authorUrl: 'https://github.com/NYULibraries'
     }
 ];
 
