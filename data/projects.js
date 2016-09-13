@@ -860,6 +860,19 @@ module.exports = [
       description: 'A utility script to remove duplicate "DigitalObjects" from Archivist\'s Toolkit databases.',
       author: 'New York University Libraries',
       authorUrl: 'https://github.com/NYULibraries'
+    },
+
+    {
+      name: 'ArchivesSpace',
+      projectUrl: 'https://github.com/archivesspace/archivesspace',
+      tags: ['archivesspace', 'archive'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.ECL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/archivesspace/archivesspace',
+      description: 'ArchivesSpace is the open source archives information management application for managing and providing web access to archives, manuscripts and digital objects.',
+      author: 'ArchivesSpace',
+      authorUrl: 'https://github.com/archivesspace'
     }
 ];
 
