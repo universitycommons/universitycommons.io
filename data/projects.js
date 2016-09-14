@@ -873,6 +873,58 @@ module.exports = [
       description: 'ArchivesSpace is the open source archives information management application for managing and providing web access to archives, manuscripts and digital objects.',
       author: 'ArchivesSpace',
       authorUrl: 'https://github.com/archivesspace'
+    },
+
+    {
+      name: 'QuickSearch',
+      projectUrl: 'http://www.lib.ncsu.edu/reports/quicksearch',
+      tags: ['search'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NCSU-Libraries/quick_search',
+      description: 'QuickSearch is a toolkit for easily creating custom bento-box search applications',
+      author: 'North Carolina State University Libraries',
+      authorUrl: 'https://github.com/NCSU-Libraries'
+    },
+
+    {
+      name: 'ArchivesSpace Public',
+      projectUrl: 'https://github.com/NCSU-Libraries/aspace_public',
+      tags: ['archivesspace'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NCSU-Libraries/aspace_public',
+      description: 'A Ruby on Rails application for presenting archival finding aids that uses data imported from ArchivesSpace.',
+      author: 'North Carolina State University Libraries',
+      authorUrl: 'https://github.com/NCSU-Libraries'
+    },
+
+    {
+      name: 'Groovy MARC Extensions',
+      projectUrl: 'https://github.com/NCSU-Libraries/groovy-marc',
+      tags: ['marc4j', 'marcxml'],
+      platform: PLATFORM.GROOVY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NCSU-Libraries/groovy-marc',
+      description: 'This project contains a set of Groovy Extensions and utilities for marc4j that allow for more "groovyesque" processing of MARC records.',
+      author: 'North Carolina State University Libraries',
+      authorUrl: 'https://github.com/NCSU-Libraries'
+    },
+
+    {
+      name: 'OLE Migration Toolkit',
+      projectUrl: 'https://github.com/NCSU-Libraries/ole-migrator-tools',
+      tags: ['marc4j', 'ole', 'kuali'],
+      platform: PLATFORM.GROOVY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/NCSU-Libraries/ole-migrator-tools',
+      description: 'A toolkit to assist in the initial migration of bibliographic (MARC records, holdings, and items) data into Kuali OLE (hereafter, "OLE") from an existing ILS.',
+      author: 'North Carolina State University Libraries',
+      authorUrl: 'https://github.com/NCSU-Libraries'
     }
 ];
 
