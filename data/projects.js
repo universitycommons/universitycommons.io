@@ -925,6 +925,19 @@ module.exports = [
       description: 'A toolkit to assist in the initial migration of bibliographic (MARC records, holdings, and items) data into Kuali OLE (hereafter, "OLE") from an existing ILS.',
       author: 'North Carolina State University Libraries',
       authorUrl: 'https://github.com/NCSU-Libraries'
+    },
+
+    {
+      name: 'MARC4J',
+      projectUrl: 'https://github.com/marc4j/marc4j',
+      tags: ['marcxml', 'marc', 'marc4j'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/marc4j/marc4j',
+      description: 'The goal of MARC4J is to provide an easy to use Application Programming Interface (API) for working with MARC and MARCXML in Java.',
+      author: 'MARC4J',
+      authorUrl: 'https://github.com/marc4j'
     }
 ];
 
