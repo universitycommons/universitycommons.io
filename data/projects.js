@@ -938,6 +938,45 @@ module.exports = [
       description: 'The goal of MARC4J is to provide an easy to use Application Programming Interface (API) for working with MARC and MARCXML in Java.',
       author: 'MARC4J',
       authorUrl: 'https://github.com/marc4j'
+    },
+
+    {
+      name: 'manage user defined fields',
+      projectUrl: 'https://github.com/osulibraries/manage_user_defined_fields',
+      tags: ['archivesspace'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/osulibraries/manage_user_defined_fields',
+      description: 'This ArchivesSpace plugin hides any user defined fields that are default or not used for the specific type of item being created/edited',
+      author: 'Ohio State University Libraries',
+      authorUrl: 'https://github.com/osulibraries'
+    },
+
+    {
+      name: 'dspace xmlui theme snazy',
+      projectUrl: 'https://github.com/osulibraries/dspace-xmlui-theme-snazy',
+      tags: ['dspace'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/osulibraries/dspace-xmlui-theme-snazy',
+      description: 'DSpace XMLUI theme to add specific view options based on MIMETYPE',
+      author: 'Ohio State University Libraries',
+      authorUrl: 'https://github.com/osulibraries'
+    },
+
+    {
+      name: 'dspace stats elasticsearch',
+      projectUrl: 'https://github.com/osulibraries/dspace-stats-elasticsearch',
+      tags: ['dspace'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/osulibraries/dspace-stats-elasticsearch',
+      description: 'Module for using ElasticSearch for DSpace',
+      author: 'Ohio State University Libraries',
+      authorUrl: 'https://github.com/osulibraries'
     }
 ];
 
