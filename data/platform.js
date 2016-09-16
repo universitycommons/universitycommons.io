@@ -3,6 +3,7 @@ module.exports = {
   GROOVY: 'Groovy',
   HTML: 'HTML',
   JAVA: 'Java',
+  JAVASCRIPT: 'JavaScript',
   PHP: 'PHP',
   PYTHON: 'Python',
   RUBY: 'Ruby',
