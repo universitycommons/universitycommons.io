@@ -977,6 +977,32 @@ module.exports = [
       description: 'Module for using ElasticSearch for DSpace',
       author: 'Ohio State University Libraries',
       authorUrl: 'https://github.com/osulibraries'
+    },
+
+    {
+      name: 'SelfDeposit',
+      projectUrl: 'https://github.com/osulp/selfdeposit',
+      tags: ['dspace'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/osulp/selfdeposit',
+      description: 'A Web-based UI to let researchers self deposit articles and datasets into DSpace-based institutional repository',
+      author: 'Oregon State University Libraries and Press',
+      authorUrl: 'https://github.com/osulp'
+    },
+
+    {
+      name: 'ILLiad Request History',
+      projectUrl: 'https://github.com/osulp/ILLiad-Request-History',
+      tags: ['illiad'],
+      platform: PLATFORM.LUA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/osulp/ILLiad-Request-History',
+      description: 'Addon for ILLiad to show previous transactions with the same ISSN or ESP Number.',
+      author: 'Oregon State University Libraries and Press',
+      authorUrl: 'https://github.com/osulp'
     }
 ];
 
