@@ -1,4 +1,5 @@
 var express = require('express');
+var projects = require('../data/projects');
 var router = express.Router();
 var searchProjects = require('../lib/search-projects');
 
@@ -23,7 +24,8 @@ router.get('/', function(req, res, next) {
       res.render('index', {
         title: 'University Commons',
         showResults: showResults,
-        searchResults: searchResults
+        searchResults: searchResults,
+        totalProjectCount: projects.length
       });
 
     });
@@ -33,7 +35,8 @@ router.get('/', function(req, res, next) {
     res.render('index', {
       title: 'University Commons',
       showResults: false,
-      searchResults: []
+      searchResults: [],
+      totalProjectCount: projects.length
     });
   }
 
