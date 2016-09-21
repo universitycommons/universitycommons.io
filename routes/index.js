@@ -25,7 +25,8 @@ router.get('/', function(req, res, next) {
         title: 'University Commons',
         showResults: showResults,
         searchResults: searchResults,
-        totalProjectCount: projects.length
+        totalProjectCount: projects.length,
+        searchInput: searchInput
       });
 
     });
@@ -36,7 +37,8 @@ router.get('/', function(req, res, next) {
       title: 'University Commons',
       showResults: false,
       searchResults: [],
-      totalProjectCount: projects.length
+      totalProjectCount: projects.length,
+      searchInput: null
     });
   }
 

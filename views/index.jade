@@ -3,7 +3,7 @@ extends layout
 block content
   form(class='container search-form', method='GET', action='')
     label(for='search-input', class='hidden')= 'Search Term'
-    input(type='text', id='search-input', name='q', placeholder='Search for learning management systems...')
+    input(type='text', id='search-input', name='q', placeholder='Search for learning management systems...', value=searchInput)
     input(type='submit', value='Search')
 
   if showResults
