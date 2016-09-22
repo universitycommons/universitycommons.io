@@ -1,6 +1,7 @@
 module.exports = {
   APACHE2: 'Apache-2.0',
   BSD3CLAUSE: 'BSD-3-Clause',
+  CC0: 'CC0-1.0',
   CCBYSA3: 'CC-BY-SA-3.0',
   CPAL1: 'CPAL-1.0',
   CUSTOM: 'Custom',

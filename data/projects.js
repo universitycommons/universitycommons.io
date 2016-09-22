@@ -1003,6 +1003,136 @@ module.exports = [
       description: 'Addon for ILLiad to show previous transactions with the same ISSN or ESP Number.',
       author: 'Oregon State University Libraries and Press',
       authorUrl: 'https://github.com/osulp'
+    },
+
+    {
+      name: 'Alma Patron Management',
+      projectUrl: 'https://github.com/pdxlibrary/alma-patron-load',
+      tags: ['alma', 'banner'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/alma-patron-load',
+      description: 'This is a big, messy script that converts a CSV export from Banner (Student Information System) to a zip archive of Alma-compatible XML files.',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Digtal Commons DOI',
+      projectUrl: 'https://github.com/pdxlibrary/DigtalCommons-DOI',
+      tags: ['digital commons', 'doi'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/DigtalCommons-DOI',
+      description: 'Ruby script that generates an XML file for import to Crossref DOI from a Digital Commons metadata export.',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Primo Send Search To',
+      projectUrl: 'https://github.com/pdxlibrary/Primo-Send-Search-To',
+      tags: ['ex libris', 'primo back office', 'worldcat', 'google scholar'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/Primo-Send-Search-To',
+      description: 'Added a facet group to primo to forward the current search to external sites like WorldCat and Google Scholar',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Primo Expandable Facets',
+      projectUrl: 'https://github.com/pdxlibrary/Primo-Expandable-Facets',
+      tags: ['ex libris', 'primo back office'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/Primo-Expandable-Facets',
+      description: 'This application overrides the default sidebar facets in Ex Libris Primo to make them expandable/collapsible.',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Primo Text a Call Number',
+      projectUrl: 'https://github.com/pdxlibrary/Primo-Text-a-Call-Number',
+      tags: ['ex libris', 'primo back office'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/Primo-Text-a-Call-Number',
+      description: 'Adds a Text Call Number option to the Actions Menu in the Ex Libris Primo Catalog Search Interface',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Alma Hours Widget',
+      projectUrl: 'https://github.com/pdxlibrary/Alma-Hours-Widget',
+      tags: ['ex libris', 'alma'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/Alma-Hours-Widget',
+      description: 'This application uses the Ex Libris Alma Hours API to create a dynamic HTML hours widget to be used on external websites to display a library\'s upcoming hours.',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Alma Offline Circulation Tool',
+      projectUrl: 'https://github.com/pdxlibrary/alma-offline-circulation-tool',
+      tags: ['ex libris', 'alma'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.CC0,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/alma-offline-circulation-tool',
+      description: 'Replacement for Ex Libris\'s Alma offline circ tool',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Primo Popup Sign In',
+      projectUrl: 'https://github.com/pdxlibrary/Primo-Popup-Sign-In',
+      tags: ['ex libris', 'primo back office'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/Primo-Popup-Sign-In',
+      description: 'Updates all the "Sign In" links to redirect them to open a modal dialog popup with Sign In options.',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Primo Guest Sign In Bar',
+      projectUrl: 'https://github.com/pdxlibrary/Primo-Guest-Sign-In-Bar',
+      tags: ['ex libris', 'primo back office'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/Primo-Guest-Sign-In-Bar',
+      description: 'Adds a sign-in bar with a link to encourage guest users to login for more results and service options',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'DSpace to Digital Commons Migration',
+      projectUrl: 'https://github.com/pdxlibrary/ds2dc',
+      tags: ['dspace', 'digital commons'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pdxlibrary/ds2dc',
+      description: 'Scripts used to migrate collections from DSpace to Digital Commons',
+      author: 'Portland State University Library',
+      authorUrl: 'https://github.com/pdxlibrary'
     }
 ];
 
