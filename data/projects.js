@@ -1133,6 +1133,19 @@ module.exports = [
       description: 'Scripts used to migrate collections from DSpace to Digital Commons',
       author: 'Portland State University Library',
       authorUrl: 'https://github.com/pdxlibrary'
+    },
+
+    {
+      name: 'Universal Viewer',
+      projectUrl: 'https://github.com/UniversalViewer/universalviewer',
+      tags: ['digital artifacts', 'iiif'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UniversalViewer/universalviewer',
+      description: 'The Universal Viewer is an open source project to enable cultural heritage institutions to present their digital artifacts in a IIIF-compliant and highly customisable user interface.',
+      author: 'Universal Viewer',
+      authorUrl: 'https://github.com/UniversalViewer'
     }
 ];
 
