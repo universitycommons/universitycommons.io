@@ -1146,6 +1146,32 @@ module.exports = [
       description: 'The Universal Viewer is an open source project to enable cultural heritage institutions to present their digital artifacts in a IIIF-compliant and highly customisable user interface.',
       author: 'Universal Viewer',
       authorUrl: 'https://github.com/UniversalViewer'
+    },
+
+    {
+      name: 'Spotlight',
+      projectUrl: 'http://spotlight.projectblacklight.org/',
+      tags: ['blacklight', 'digital collections'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/projectblacklight/spotlight',
+      description: 'Spotlight enables librarians, curators, and others who are responsible for digital collections to create attractive, feature-rich websites that highlight these collections.',
+      author: 'Project Blacklight',
+      authorUrl: 'https://github.com/projectblacklight'
+    },
+
+    {
+      name: 'Blacklight',
+      projectUrl: 'http://projectblacklight.org/',
+      tags: ['blacklight', 'digital collections', 'solr'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/projectblacklight/blacklight',
+      description: 'Blacklight provides a discovery interface for any Solr index.',
+      author: 'Project Blacklight',
+      authorUrl: 'https://github.com/projectblacklight'
     }
 ];
 
