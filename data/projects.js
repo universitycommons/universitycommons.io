@@ -1172,6 +1172,19 @@ module.exports = [
       description: 'Blacklight provides a discovery interface for any Solr index.',
       author: 'Project Blacklight',
       authorUrl: 'https://github.com/projectblacklight'
+    },
+
+    {
+      name: 'Umlaut',
+      projectUrl: 'https://github.com/team-umlaut/umlaut',
+      tags: ['library', 'openurl'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/team-umlaut/umlaut',
+      description: 'A specific item service provider for libraries',
+      author: 'Team Umlaut',
+      authorUrl: 'https://github.com/team-umlaut'
     }
 ];
 
