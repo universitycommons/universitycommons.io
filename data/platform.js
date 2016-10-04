@@ -8,5 +8,6 @@ module.exports = {
   PHP: 'PHP',
   PYTHON: 'Python',
   RUBY: 'Ruby',
-  VAGRANT: 'Vagrant'
+  VAGRANT: 'Vagrant',
+  XML: 'XML'
 };

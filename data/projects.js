@@ -1185,6 +1185,110 @@ module.exports = [
       description: 'A specific item service provider for libraries',
       author: 'Team Umlaut',
       authorUrl: 'https://github.com/team-umlaut'
+    },
+
+    {
+      name: 'Plum',
+      projectUrl: 'https://github.com/pulibrary/plum',
+      tags: ['library', 'hydra', 'curationconcerns'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/plum',
+      description: 'Plum: Hydra Head to support digitization workflows',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'MARC Liberation',
+      projectUrl: 'https://github.com/pulibrary/marc_liberation',
+      tags: ['marc', 'voyager'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/marc_liberation',
+      description: 'Web services for retrieving bibliographic and other useful data from Voyager',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'Voyager Helpers',
+      projectUrl: 'https://github.com/pulibrary/voyager_helpers',
+      tags: ['voyager'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/voyager_helpers',
+      description: 'A set of methods for retrieving data from Voyager',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'marc cleanup',
+      projectUrl: 'https://github.com/pulibrary/marc_cleanup',
+      tags: ['marc', 'voyager'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/marc_cleanup',
+      description: 'A collection of Ruby methods to identify errors in MARC records and correct them automatically when possible',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'iiif schemas',
+      projectUrl: 'https://github.com/pulibrary/iiif-schemas',
+      tags: ['iif', 'relax-ng'],
+      platform: PLATFORM.XML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/iiif-schemas',
+      description: 'relax-ng schemas for documents representing iiif primary resource types',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'spiiiffy',
+      projectUrl: 'https://github.com/pulibrary/spiiiffy',
+      tags: ['iif', 'mets'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/spiiiffy',
+      description: 'Creates IIIF manifests from METS files',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'lcsort',
+      projectUrl: 'https://github.com/pulibrary/lcsort',
+      tags: ['library', 'call numbers'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/lcsort',
+      description: 'Normalized sort key for sorting Library of Congress call numbers.',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'iiif image field',
+      projectUrl: 'https://www.drupal.org/sandbox/sdellis/2421047',
+      tags: ['iiif', 'drupal'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/pulibrary/iiif_image_field',
+      description: 'Drupal module for adding IIIF Images to content types.',
+      author: 'Princeton University Library',
+      authorUrl: 'https://github.com/pulibrary'
     }
 ];
 
