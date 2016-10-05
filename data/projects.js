@@ -1315,6 +1315,19 @@ module.exports = [
       description: 'CAS Plugin for OJS',
       author: 'Ryerson University Library & Archives',
       authorUrl: 'https://github.com/ryersonlibrary'
+    },
+
+    {
+      name: 'rruopencourses',
+      projectUrl: 'https://github.com/royalroads/rruopencourses',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/royalroads/rruopencourses',
+      description: 'A Moodle plug-in that automatically opens courses on their start date.',
+      author: 'Royal Roads University',
+      authorUrl: 'https://github.com/royalroads'
     }
 ];
 
