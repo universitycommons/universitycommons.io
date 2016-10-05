@@ -1289,6 +1289,32 @@ module.exports = [
       description: 'Drupal module for adding IIIF Images to content types.',
       author: 'Princeton University Library',
       authorUrl: 'https://github.com/pulibrary'
+    },
+
+    {
+      name: 'ojs Cookbook',
+      projectUrl: 'https://github.com/ryersonlibrary/ojs_cookbook',
+      tags: ['ojs'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ryersonlibrary/ojs_cookbook',
+      description: 'This cookbook will install ojs',
+      author: 'Ryerson University Library & Archives',
+      authorUrl: 'https://github.com/ryersonlibrary'
+    },
+
+    {
+      name: 'OJS CAS',
+      projectUrl: 'https://github.com/ryersonlibrary/ojs-cas',
+      tags: ['ojs', 'cas'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ryersonlibrary/ojs-cas',
+      description: 'CAS Plugin for OJS',
+      author: 'Ryerson University Library & Archives',
+      authorUrl: 'https://github.com/ryersonlibrary'
     }
 ];
 
