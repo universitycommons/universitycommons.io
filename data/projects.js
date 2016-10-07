@@ -1328,6 +1328,32 @@ module.exports = [
       description: 'A Moodle plug-in that automatically opens courses on their start date.',
       author: 'Royal Roads University',
       authorUrl: 'https://github.com/royalroads'
+    },
+
+    {
+      name: 'StatTutor XBlock',
+      projectUrl: 'https://github.com/CMUCTAT/XBlockStattutor',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CCBYSA4,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/CMUCTAT/XBlockStattutor',
+      description: 'The XBlock HTML implementation of the original OLI Flash Statistics tutor',
+      author: 'Carnegie Mellon University - Cognitive Tutor Authoring Tools',
+      authorUrl: 'https://github.com/CMUCTAT'
+    },
+
+    {
+      name: 'CTAT Tutors XBlock',
+      projectUrl: 'https://github.com/CMUCTAT/XBlockCTAT',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.CCBYSA4,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/CMUCTAT/XBlockStattutor',
+      description: 'The CTAT Intelligent Tutor XBlock driver',
+      author: 'Carnegie Mellon University - Cognitive Tutor Authoring Tools',
+      authorUrl: 'https://github.com/CMUCTAT'
     }
 ];
 
