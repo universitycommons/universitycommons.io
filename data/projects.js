@@ -1354,6 +1354,32 @@ module.exports = [
       description: 'The CTAT Intelligent Tutor XBlock driver',
       author: 'Carnegie Mellon University - Cognitive Tutor Authoring Tools',
       authorUrl: 'https://github.com/CMUCTAT'
+    },
+
+    {
+      name: 'Guide on the Side',
+      projectUrl: 'http://code.library.arizona.edu/gots/',
+      tags: ['library'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualibraries/Guide-on-the-Side',
+      description: 'A freely available tool that allows librarians to quickly and easily create online, interactive tutorials that are based on the principles of authentic and active learning',
+      author: 'The University of Arizona Libraries',
+      authorUrl: 'https://github.com/ualibraries'
+    },
+
+    {
+      name: 'chat analyzer',
+      projectUrl: 'https://github.com/ualibraries/chat-analyzer',
+      tags: ['library', 'libraryh3lp'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualibraries/chat-analyzer',
+      description: 'A helpful little tool for analyzing chat data from libraryh3lp',
+      author: 'The University of Arizona Libraries',
+      authorUrl: 'https://github.com/ualibraries'
     }
 ];
 
