@@ -1380,6 +1380,19 @@ module.exports = [
       description: 'A helpful little tool for analyzing chat data from libraryh3lp',
       author: 'The University of Arizona Libraries',
       authorUrl: 'https://github.com/ualibraries'
+    },
+
+    {
+      name: 'CONTENTdm Collection Harvester',
+      projectUrl: 'https://github.com/ubc-library/harvester-contentdm',
+      tags: ['contentdm'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc-library/harvester-contentdm',
+      description: 'Harvester is used to pull items out of CONTENTdm using the RESTful API, and in turn submit them to an ingestion service (e.g a search service such as elasticsearch, or a disovery layer such as Blacklight perhaps)',
+      author: 'The University of British Columbia Library',
+      authorUrl: 'https://github.com/ubc-library'
     }
 ];
 
