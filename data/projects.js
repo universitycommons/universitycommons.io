@@ -1393,6 +1393,19 @@ module.exports = [
       description: 'Harvester is used to pull items out of CONTENTdm using the RESTful API, and in turn submit them to an ingestion service (e.g a search service such as elasticsearch, or a disovery layer such as Blacklight perhaps)',
       author: 'The University of British Columbia Library',
       authorUrl: 'https://github.com/ubc-library'
+    },
+
+    {
+      name: 'banweb',
+      projectUrl: 'https://github.com/portlandcc/banweb',
+      tags: ['banner'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/portlandcc/banweb',
+      description: 'Scripts and styles to enhance the banner interface.',
+      author: 'Portland Community College',
+      authorUrl: 'https://github.com/portlandcc'
     }
 ];
 
