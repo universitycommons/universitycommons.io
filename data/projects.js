@@ -1406,6 +1406,32 @@ module.exports = [
       description: 'Scripts and styles to enhance the banner interface.',
       author: 'Portland Community College',
       authorUrl: 'https://github.com/portlandcc'
+    },
+
+    {
+      name: 'Beehive',
+      projectUrl: 'http://beehive.berkeley.edu/',
+      tags: ['research'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucberkeley/Beehive',
+      description: 'An application for university departments to facilitate the process of matching undergraduates to research positions.',
+      author: 'University of California, Berkeley',
+      authorUrl: 'https://github.com/ucberkeley'
+    },
+
+    {
+      name: 'MOOCchat',
+      projectUrl: 'https://github.com/ucberkeley/moocchat',
+      tags: ['mooc'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucberkeley/moocchat',
+      description: 'SaaS app for integrating peer learning/peer discussion into MOOCs and similar settings',
+      author: 'University of California, Berkeley',
+      authorUrl: 'https://github.com/ucberkeley'
     }
 ];
 
