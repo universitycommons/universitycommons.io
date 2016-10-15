@@ -1432,6 +1432,45 @@ module.exports = [
       description: 'SaaS app for integrating peer learning/peer discussion into MOOCs and similar settings',
       author: 'University of California, Berkeley',
       authorUrl: 'https://github.com/ucberkeley'
+    },
+
+    {
+      name: 'Digital Media Reserves',
+      projectUrl: 'https://github.com/ucsdlib/dmr',
+      tags: ['videos'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucsdlib/dmr',
+      description: 'Digital Media Reserves manages video resources used for courses.',
+      author: 'University of California, San Diego Library',
+      authorUrl: 'https://github.com/ucsdlib'
+    },
+
+    {
+      name: 'damsmanager',
+      projectUrl: 'https://github.com/ucsdlib/damsmanager',
+      tags: ['collections'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucsdlib/damsmanager',
+      description: 'DAMS Manager is an ingest, collection management, and statistics application that works with DAMS Repository.',
+      author: 'University of California, San Diego Library',
+      authorUrl: 'https://github.com/ucsdlib'
+    },
+
+    {
+      name: 'The UC San Diego Library DAMS repository',
+      projectUrl: 'https://github.com/ucsdlib/damsrepo',
+      tags: ['library'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucsdlib/damsrepo',
+      description: 'DAMS Repository is a digital object repository developed at the UC San Diego Library.',
+      author: 'University of California, San Diego Library',
+      authorUrl: 'https://github.com/ucsdlib'
     }
 ];
 
