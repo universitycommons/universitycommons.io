@@ -1471,6 +1471,19 @@ module.exports = [
       description: 'DAMS Repository is a digital object repository developed at the UC San Diego Library.',
       author: 'University of California, San Diego Library',
       authorUrl: 'https://github.com/ucsdlib'
+    },
+
+    {
+      name: 'Scripto',
+      projectUrl: 'https://github.com/ui-libraries/plugin-Scripto',
+      tags: ['transcription', 'omeka', 'drupal', 'wordpress'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ui-libraries/plugin-Scripto',
+      description: 'Scripto is an open-source tool developed by Center for History & New Media that allows collaborative transcription of digital files.',
+      author: 'University of Iowa Libraries',
+      authorUrl: 'https://github.com/ui-libraries/'
     }
 ];
 
