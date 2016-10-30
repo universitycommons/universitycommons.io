@@ -1484,6 +1484,19 @@ module.exports = [
       description: 'Scripto is an open-source tool developed by Center for History & New Media that allows collaborative transcription of digital files.',
       author: 'University of Iowa Libraries',
       authorUrl: 'https://github.com/ui-libraries/'
+    },
+
+    {
+      name: 't4Query',
+      projectUrl: 'https://github.com/userexec/t4Query',
+      tags: ['terminalfour', 'javascript'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/userexec/t4Query',
+      description: 'A language superset for the TERMINALFOUR JavaScript layout processor intended to simplify the inclusion of data in your content and page layouts.',
+      author: 'userexec',
+      authorUrl: 'https://github.com/userexec'
     }
 ];
 
