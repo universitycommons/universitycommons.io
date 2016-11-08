@@ -1497,6 +1497,188 @@ module.exports = [
       description: 'A language superset for the TERMINALFOUR JavaScript layout processor intended to simplify the inclusion of data in your content and page layouts.',
       author: 'userexec',
       authorUrl: 'https://github.com/userexec'
+    },
+
+    {
+      name: 'openedx certificates',
+      projectUrl: 'https://github.com/Stanford-Online/openedx-certificates',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/openedx-certificates',
+      description: 'This script will continuously monitor an XQueue to generate course certificates for users.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Qualtrics Survey',
+      projectUrl: 'https://github.com/Stanford-Online/xblock-qualtrics-survey',
+      tags: ['edx', 'xblock', 'qualtrics'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/xblock-qualtrics-survey',
+      description: 'Xblock for creating a Qualtrics survey.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'JS Input Examples',
+      projectUrl: 'https://github.com/Stanford-Online/js-input-samples',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/js-input-samples',
+      description: 'JS Input samples for using with edX platform',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'edx theme',
+      projectUrl: 'https://github.com/Stanford-Online/edx-theme',
+      tags: ['edx'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/edx-theme',
+      description: 'This directory stores a default theme for an Open edX instance.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Submit and Compare XBlock',
+      projectUrl: 'https://github.com/Stanford-Online/xblock-submit-and-compare',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/xblock-submit-and-compare',
+      description: 'Self Assessment XBlock for the edX Platform',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Image Modal XBlock',
+      projectUrl: 'https://github.com/Stanford-Online/xblock-image-modal',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/xblock-image-modal',
+      description: 'A fullscreen image modal XBlock.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Free-text Response XBlock',
+      projectUrl: 'https://github.com/Stanford-Online/xblock-free-text-response',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/xblock-free-text-response',
+      description: 'XBlock to capture a free-text response.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Staff Graded Assignment XBlock',
+      projectUrl: 'https://github.com/Stanford-Online/edx-sga',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/edx-sga',
+      description: 'Staff Graded Assignment XBlock for the edX platform',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'DoneXBlock',
+      projectUrl: 'https://github.com/Stanford-Online/DoneXBlock',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/DoneXBlock',
+      description: 'Lets a student mark they\'ve finished an activity.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Xblock GradeMe',
+      projectUrl: 'https://github.com/Stanford-Online/xblock-grademe',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/xblock-grademe',
+      description: 'Button to send request to server to grade user.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'XBlock MUFI',
+      projectUrl: 'https://github.com/Stanford-Online/xblock-mufi',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/xblock-mufi',
+      description: 'XBlock for transcribing manuscripts using MUFI font.',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'docker xblock sdk',
+      projectUrl: 'https://github.com/Stanford-Online/docker-xblock-sdk',
+      tags: ['edx', 'xblock', 'docker'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/docker-xblock-sdk',
+      description: 'A Docker container to host the OpenEdx XBlock SDK',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'grunt init xblock',
+      projectUrl: 'https://github.com/Stanford-Online/grunt-init-xblock',
+      tags: ['edx', 'xblock', 'grunt'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/grunt-init-xblock',
+      description: 'A grunt-init template for OpenEdX XBlocks',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'tracking analysis',
+      projectUrl: 'https://github.com/Stanford-Online/tracking-analysis',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Stanford-Online/tracking-analysis',
+      description: 'Tools for analyzing edX tracking logs',
+      author: 'Stanford Online Education',
+      authorUrl: 'https://github.com/Stanford-Online'
     }
 ];
 
