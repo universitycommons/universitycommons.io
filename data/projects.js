@@ -1679,6 +1679,19 @@ module.exports = [
       description: 'Tools for analyzing edX tracking logs',
       author: 'Stanford Online Education',
       authorUrl: 'https://github.com/Stanford-Online'
+    },
+
+    {
+      name: 'Diagnostic Feedback',
+      projectUrl: 'https://github.com/mckinseyacademy/xblock-diagnosticfeedback',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mckinseyacademy/xblock-diagnosticfeedback',
+      description: 'This repository provides Diagnostic Feedback Authoring XBlock.',
+      author: 'McKinsey Academy',
+      authorUrl: 'https://github.com/mckinseyacademy'
     }
 ];
 
