@@ -1692,6 +1692,19 @@ module.exports = [
       description: 'This repository provides Diagnostic Feedback Authoring XBlock.',
       author: 'McKinsey Academy',
       authorUrl: 'https://github.com/mckinseyacademy'
+    },
+
+    {
+      name: 'Open edX Platform',
+      projectUrl: 'https://open.edx.org/',
+      tags: ['edx', 'lms', 'learning management system'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/edx/edx-platform',
+      description: 'This is the main edX platform which consists of LMS and Studio.',
+      author: 'edX',
+      authorUrl: 'https://github.com/edx'
     }
 ];
 
