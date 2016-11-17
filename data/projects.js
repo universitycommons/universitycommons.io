@@ -1705,6 +1705,32 @@ module.exports = [
       description: 'This is the main edX platform which consists of LMS and Studio.',
       author: 'edX',
       authorUrl: 'https://github.com/edx'
+    },
+
+    {
+      name: 'Inline Dropdown XBlock',
+      projectUrl: 'https://github.com/openlearninginitiative/xblock-inline-dropdown',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/openlearninginitiative/xblock-inline-dropdown',
+      description: 'This XBlock provides a way to place dropdown questions inline with other text, for example, in a paragraph.',
+      author: 'openlearninginitiative',
+      authorUrl: 'https://github.com/openlearninginitiative/'
+    },
+
+    {
+      name: 'Submit and Compare XBlock',
+      projectUrl: 'https://github.com/openlearninginitiative/xblock-submit-and-compare',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/openlearninginitiative/xblock-submit-and-compare',
+      description: 'This XBlock provides a way to do an ungraded self assessment activity.',
+      author: 'openlearninginitiative',
+      authorUrl: 'https://github.com/openlearninginitiative/'
     }
 ];
 
