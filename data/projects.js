@@ -1731,6 +1731,19 @@ module.exports = [
       description: 'This XBlock provides a way to do an ungraded self assessment activity.',
       author: 'openlearninginitiative',
       authorUrl: 'https://github.com/openlearninginitiative/'
+    },
+
+    {
+      name: 'edX JSME',
+      projectUrl: 'https://github.com/jazkarta/edx-jsme',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/jazkarta/edx-jsme',
+      description: 'An XBlock (add on component) for the edX platform which provides a new problem type: "Molecular Structure"',
+      author: 'Jazkarta',
+      authorUrl: 'https://jazkarta.com/'
     }
 ];
 
