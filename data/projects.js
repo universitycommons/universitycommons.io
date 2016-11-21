@@ -1744,6 +1744,71 @@ module.exports = [
       description: 'An XBlock (add on component) for the edX platform which provides a new problem type: "Molecular Structure"',
       author: 'Jazkarta',
       authorUrl: 'https://jazkarta.com/'
+    },
+
+    {
+      name: 'ScholarSphere',
+      projectUrl: 'https://scholarsphere.psu.edu/',
+      tags: ['sufia', 'hydra', 'repository'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/psu-stewardship/scholarsphere',
+      description: 'A web application for ingest, curation, search, and display of digital assets.',
+      author: 'Penn State Digital Stewardship',
+      authorUrl: 'https://github.com/psu-stewardship'
+    },
+
+    {
+      name: 'archivesphere',
+      projectUrl: 'https://github.com/psu-stewardship/archivesphere',
+      tags: ['repository'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/psu-stewardship/archivesphere',
+      description: 'Repository for storing digital archived materials originating from media',
+      author: 'Penn State Digital Stewardship',
+      authorUrl: 'https://github.com/psu-stewardship'
+    },
+
+    {
+      name: 'hydra fits',
+      projectUrl: 'https://github.com/psu-stewardship/hydra-fits',
+      tags: ['hydra', 'fits'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/psu-stewardship/hydra-fits',
+      description: 'Hydra fits Instance -- a prepackaged version of the File Information Tool Set (FITS)',
+      author: 'Penn State Digital Stewardship',
+      authorUrl: 'https://github.com/psu-stewardship'
+    },
+
+    {
+      name: 'Hydra EZID',
+      projectUrl: 'https://github.com/psu-stewardship/hydra-ezid',
+      tags: ['hydra', 'ezid'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/psu-stewardship/hydra-ezid',
+      description: 'A Ruby gem providing EZID services for Hydra applications',
+      author: 'Penn State Digital Stewardship',
+      authorUrl: 'https://github.com/psu-stewardship'
+    },
+
+    {
+      name: 'OpenCASA',
+      projectUrl: 'https://github.com/psu-stewardship/OpenCASA',
+      tags: ['archive'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/psu-stewardship/OpenCASA',
+      description: 'A service architecture, built upon open standards and open source software, providing curatorial and archival functions to applications, such as for ingest, management, discovery, and publishing of digital objects.',
+      author: 'Penn State Digital Stewardship',
+      authorUrl: 'https://github.com/psu-stewardship'
     }
 ];
 
