@@ -1809,6 +1809,71 @@ module.exports = [
       description: 'A service architecture, built upon open standards and open source software, providing curatorial and archival functions to applications, such as for ingest, management, discovery, and publishing of digital objects.',
       author: 'Penn State Digital Stewardship',
       authorUrl: 'https://github.com/psu-stewardship'
+    },
+
+    {
+      name: 'Hydra North',
+      projectUrl: 'https://github.com/ualbertalib/HydraNorth',
+      tags: ['hydra', 'dam'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualbertalib/HydraNorth',
+      description: 'A DAMS built on Hydra',
+      author: 'University of Alberta Libraries',
+      authorUrl: 'https://github.com/ualbertalib'
+    },
+
+    {
+      name: 'sfx2sirsi',
+      projectUrl: 'https://github.com/ualbertalib/sfx2sirsi',
+      tags: ['sfx', 'sirsi', 'symphony'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualbertalib/sfx2sirsi',
+      description: 'Application to send ILS updated SFX e-journal records',
+      author: 'University of Alberta Libraries',
+      authorUrl: 'https://github.com/ualbertalib'
+    },
+
+    {
+      name: 'MODS Oxygen Template',
+      projectUrl: 'https://github.com/ualbertalib/MODS-Oxygen-Template',
+      tags: ['mods', 'oxygen'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualbertalib/MODS-Oxygen-Template',
+      description: 'Framework for editing MODS records in Oxygen',
+      author: 'University of Alberta Libraries',
+      authorUrl: 'https://github.com/ualbertalib'
+    },
+
+    {
+      name: 'RubyEDS',
+      projectUrl: 'https://github.com/ualbertalib/ruby_eds',
+      tags: ['eds'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualbertalib/ruby_eds',
+      description: 'Ruby wrapper for the EDS API',
+      author: 'University of Alberta Libraries',
+      authorUrl: 'https://github.com/ualbertalib'
+    },
+
+    {
+      name: 'mods editor',
+      projectUrl: 'https://github.com/ualbertalib/mods-editor',
+      tags: ['mods', 'cocoon'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ualbertalib/mods-editor',
+      description: 'A web form to edit MODS records built on Cocoon Forms.',
+      author: 'University of Alberta Libraries',
+      authorUrl: 'https://github.com/ualbertalib'
     }
 ];
 
