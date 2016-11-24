@@ -1887,6 +1887,19 @@ module.exports = [
       description: 'Lagotto allows a user to track events around research articles and other scholarly outputs, including how often a work has been viewed, cited, saved, discussed and recommended.',
       author: 'Lagotto',
       authorUrl: 'http://www.lagotto.io/'
+    },
+
+    {
+      name: 'ansible hydra',
+      projectUrl: 'https://github.com/curationexperts/ansible-hydra',
+      tags: ['hydra'],
+      platform: PLATFORM.SHELL,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/curationexperts/ansible-hydra',
+      description: 'Ansible playbook and roles to build a production-style Hydra Head.',
+      author: 'Data Curation Experts',
+      authorUrl: 'https://github.com/curationexperts'
     }
 ];
 
