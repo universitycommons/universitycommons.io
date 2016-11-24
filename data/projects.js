@@ -1874,6 +1874,19 @@ module.exports = [
       description: 'A web form to edit MODS records built on Cocoon Forms.',
       author: 'University of Alberta Libraries',
       authorUrl: 'https://github.com/ualbertalib'
+    },
+
+    {
+      name: 'Lagotto',
+      projectUrl: 'http://www.lagotto.io/',
+      tags: ['scholar', 'research'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/lagotto/lagotto',
+      description: 'Lagotto allows a user to track events around research articles and other scholarly outputs, including how often a work has been viewed, cited, saved, discussed and recommended.',
+      author: 'Lagotto',
+      authorUrl: 'http://www.lagotto.io/'
     }
 ];
 
