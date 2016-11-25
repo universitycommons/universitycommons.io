@@ -1900,6 +1900,19 @@ module.exports = [
       description: 'Ansible playbook and roles to build a production-style Hydra Head.',
       author: 'Data Curation Experts',
       authorUrl: 'https://github.com/curationexperts'
+    },
+
+    {
+      name: 'Dataverse',
+      projectUrl: 'http://dataverse.org/',
+      tags: ['research'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IQSS/dataverse',
+      description: 'A data repository framework to share and publish research data.',
+      author: 'Institute for Quantitative Social Science',
+      authorUrl: 'http://www.iq.harvard.edu/'
     }
 ];
 
