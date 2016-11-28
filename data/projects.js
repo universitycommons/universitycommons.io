@@ -1912,7 +1912,215 @@ module.exports = [
       sourceUrl: 'https://github.com/IQSS/dataverse',
       description: 'A data repository framework to share and publish research data.',
       author: 'Institute for Quantitative Social Science',
-      authorUrl: 'http://www.iq.harvard.edu/'
+      authorUrl: 'https://github.com/IQSS'
+    },
+
+    {
+      name: 'Neatline',
+      projectUrl: 'http://neatline.org/',
+      tags: ['omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/Neatline',
+      description: 'A lightweight framework for building interactive maps and publishing them on the web.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'XML Import',
+      projectUrl: 'https://github.com/scholarslab/GenericXmlImporter',
+      tags: ['omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/GenericXmlImporter',
+      description: 'A plugin for Omeka that allows to import data and files and to update records from one or multiple XML files via a generic or a custom XSLT sheet.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'Library Metric Utilities',
+      projectUrl: 'https://github.com/scholarslab/library-metrics',
+      tags: ['library'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/library-metrics',
+      description: 'Scripts and utilities for generating numbers for various library metrics that we\'re required to give every year.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'BulkUsers',
+      projectUrl: 'https://github.com/scholarslab/BulkUsers',
+      tags: ['omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/BulkUsers',
+      description: 'A simple way to add a bunch of users to Omeka at once.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'BagIt PHP',
+      projectUrl: 'https://github.com/scholarslab/BagItPHP',
+      tags: ['bagit'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/BagItPHP',
+      description: 'This is a PHP implementation of the BagIt 0.96 specification',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'SolrSearch',
+      projectUrl: 'https://github.com/scholarslab/SolrSearch',
+      tags: ['omeka', 'solr'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/SolrSearch',
+      description: 'Add a Solr-backed search interface to Omeka.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'BagIt Omeka Plugin',
+      projectUrl: 'https://github.com/scholarslab/BagItPlugin',
+      tags: ['bagit', 'omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/BagItPlugin',
+      description: 'Omeka plugin that implements the BagIt specification for storing collections of files.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'Fedora Connector',
+      projectUrl: 'https://github.com/scholarslab/FedoraConnector',
+      tags: ['fedora', 'omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/FedoraConnector',
+      description: 'This is an Omeka plugin for importing items from a Fedora Commons repository.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'Geoloader',
+      projectUrl: 'https://github.com/scholarslab/Geoloader',
+      tags: ['geotiff', 'shapefile', 'geoserver', 'geonetwork', 'solr'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/Geoloader',
+      description: 'Load GeoTIFFs and Shapefiles into Geoserver, Geonetwork, and Solr.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'TeiDisplay',
+      projectUrl: 'https://github.com/scholarslab/TeiDisplay',
+      tags: ['tei', 'omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/TeiDisplay',
+      description: 'Attach TEI documents to Omeka items.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'VraCoreElementSet',
+      projectUrl: 'https://github.com/scholarslab/VraCoreElementSet',
+      tags: ['art', 'artifact'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/VraCoreElementSet',
+      description: 'A semantically appropriate schema for describing art and artifacts.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'Timeline',
+      projectUrl: 'https://github.com/scholarslab/Timeline',
+      tags: ['simile', 'timeline'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/Timeline',
+      description: 'A helper function for creating SIMILE Timelines from an array of items.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'EAD Importer',
+      projectUrl: 'https://github.com/scholarslab/EadImporter',
+      tags: ['ead'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/EadImporter',
+      description: 'User may select an EAD finding aid from their hard drive to upload to the server, where the XML undergoes an XSL transformation',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'Omeka Plugin Template',
+      projectUrl: 'https://github.com/scholarslab/OmekaPluginStarterKit',
+      tags: ['omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/OmekaPluginStarterKit',
+      description: 'Contains the basic directory structure and files needed for an Omeka plugin.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'Omeka Theme Minifier',
+      projectUrl: 'https://github.com/scholarslab/omeka-theme-minify',
+      tags: ['omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.UNLICENSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/omeka-theme-minify',
+      description: 'Scripts to minify CSS and Javascripts; as well as optimize image assets',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'geordf',
+      projectUrl: 'https://github.com/scholarslab/geordf',
+      tags: ['rdf', 'geotools', 'jena'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/scholarslab/geordf',
+      description: 'Adds RDF output abilities to geotools through Jena.',
+      author: 'Scholars\' Lab',
+      authorUrl: 'https://github.com/scholarslab'
     }
 ];
 
