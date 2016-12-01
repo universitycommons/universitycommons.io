@@ -2121,6 +2121,19 @@ module.exports = [
       description: 'Adds RDF output abilities to geotools through Jena.',
       author: 'Scholars\' Lab',
       authorUrl: 'https://github.com/scholarslab'
+    },
+
+    {
+      name: 'EPrints',
+      projectUrl: 'http://www.eprints.org/uk/index.php/eprints-software/',
+      tags: ['document management'],
+      platform: PLATFORM.PERL,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/eprints/eprints',
+      description: 'EPrints is a document management system aimed at Higher Educational institutions and individuals.',
+      author: 'EPrints',
+      authorUrl: 'https://github.com/eprints'
     }
 ];
 
