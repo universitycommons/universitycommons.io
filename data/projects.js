@@ -2134,6 +2134,71 @@ module.exports = [
       description: 'EPrints is a document management system aimed at Higher Educational institutions and individuals.',
       author: 'EPrints',
       authorUrl: 'https://github.com/eprints'
+    },
+
+    {
+      name: 'SUSHI Lite plugin for OJS',
+      projectUrl: 'https://github.com/ulsdevteam/ojs-sushiLite-plugin',
+      tags: ['ojs', 'sushi'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ulsdevteam/ojs-sushiLite-plugin',
+      description: 'This plugin provides the NISO SUSHI-Lite standard for PKP Open Journal Systems.',
+      author: 'University of Pittsburgh - University Library System',
+      authorUrl: 'https://github.com/ulsdevteam'
+    },
+
+    {
+      name: 'eprints marc',
+      projectUrl: 'https://github.com/ulsdevteam/eprints-marc',
+      tags: ['eprints', 'marc', 'marcxml'],
+      platform: PLATFORM.XML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ulsdevteam/eprints-marc',
+      description: 'Stylesheet transform of EPrints to MARCXML',
+      author: 'University of Pittsburgh - University Library System',
+      authorUrl: 'https://github.com/ulsdevteam'
+    },
+
+    {
+      name: 'ORCID Profile Puller',
+      projectUrl: 'https://github.com/ulsdevteam/pkp-orcidprofile',
+      tags: ['pkp', 'ojs', 'orcid'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ulsdevteam/pkp-orcidprofile',
+      description: 'A plugin to pull ORCID information into a PKP user profile',
+      author: 'University of Pittsburgh - University Library System',
+      authorUrl: 'https://github.com/ulsdevteam'
+    },
+
+    {
+      name: 'Plum Analytics Artifact Widget plugin for OJS',
+      projectUrl: 'https://github.com/ulsdevteam/ojs-plum-plugin',
+      tags: ['pkp', 'ojs', 'plum'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ulsdevteam/ojs-plum-plugin',
+      description: 'This plugin provides display of PlumX Metrics from Plum Analytics on the article level for PKP Open Journal Systems.',
+      author: 'University of Pittsburgh - University Library System',
+      authorUrl: 'https://github.com/ulsdevteam'
+    },
+
+    {
+      name: 'COUNTER Reports classes',
+      projectUrl: 'https://github.com/ulsdevteam/COUNTER',
+      tags: ['counter'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ulsdevteam/COUNTER',
+      description: 'Convenience interface to PHP\'s DOMDocument for the Project COUNTER schema',
+      author: 'University of Pittsburgh - University Library System',
+      authorUrl: 'https://github.com/ulsdevteam'
     }
 ];
 
