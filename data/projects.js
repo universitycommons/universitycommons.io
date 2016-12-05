@@ -2199,6 +2199,136 @@ module.exports = [
       description: 'Convenience interface to PHP\'s DOMDocument for the Project COUNTER schema',
       author: 'University of Pittsburgh - University Library System',
       authorUrl: 'https://github.com/ulsdevteam'
+    },
+
+    {
+      name: 'Marc to Bibframe Validation',
+      projectUrl: 'https://github.com/sul-dlss/marc-to-bibframe-validation',
+      tags: ['marc', 'bibframe'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/marc-to-bibframe-validation',
+      description: 'This project is focused on validating particulars of bibframe graphs produced from MARC data.',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'Mods',
+      projectUrl: 'https://github.com/sul-dlss/mods',
+      tags: ['mods'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/mods',
+      description: 'A Gem to parse MODS (Metadata Object Description Schema) records.',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'Triannon',
+      projectUrl: 'https://github.com/sul-dlss/triannon',
+      tags: ['rdf'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/triannon',
+      description: 'Store Open Annotation RDF in Fedora4 to support the Linked Data for Libraries use cases.',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'BlacklightHeatmaps',
+      projectUrl: 'https://github.com/sul-dlss/blacklight_heatmaps',
+      tags: ['blacklight'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/blacklight_heatmaps',
+      description: 'Heatmaps for Blacklight',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'Colligo',
+      projectUrl: 'https://github.com/sul-dlss/colligo',
+      tags: ['blacklight', 'manuscript'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/colligo',
+      description: 'Blacklight project to showcase digital manuscripts',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'crez-sw-ingest',
+      projectUrl: 'https://github.com/sul-dlss/crez-sw-ingest',
+      tags: ['sirsi', 'searchworks', 'solr', 'ingest'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/crez-sw-ingest',
+      description: 'Pulls course reserve dumps from Symphony and updates SearchWorks Solr records as appropriate',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'archive-utils',
+      projectUrl: 'https://github.com/sul-dlss/archive-utils',
+      tags: ['archive', 'bagit'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/archive-utils',
+      description: 'Ruby utilities for archival data (BagIt, Fixity, Tarfile).',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'Blacklight::Oembed',
+      projectUrl: 'https://github.com/sul-dlss/blacklight-oembed',
+      tags: ['blacklight', 'oembed'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/blacklight-oembed',
+      description: 'OEmbed media views for Blacklight',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'traject_profiling',
+      projectUrl: 'https://github.com/sul-dlss/traject_profiling',
+      tags: ['traject', 'marc'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/traject_profiling',
+      description: 'Traject macros to provide profiling information on MARC bibliographic records.',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'Microservices',
+      projectUrl: 'https://github.com/sul-dlss/microservices',
+      tags: ['library'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/sul-dlss/microservices',
+      description: 'This gem implements a number of California Digital Library Curation Microservices.',
+      author: 'Stanford University Digital Library',
+      authorUrl: 'https://github.com/sul-dlss'
     }
 ];
 
