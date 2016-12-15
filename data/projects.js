@@ -2329,6 +2329,19 @@ module.exports = [
       description: 'This gem implements a number of California Digital Library Curation Microservices.',
       author: 'Stanford University Digital Library',
       authorUrl: 'https://github.com/sul-dlss'
+    },
+
+    {
+      name: 'uPortal',
+      projectUrl: 'https://www.apereo.org/projects/uportal',
+      tags: ['portal'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Jasig/uPortal',
+      description: 'Enterprise open source portal built by and for the higher education community.',
+      author: 'Apereo Foundation',
+      authorUrl: 'https://github.com/Jasig'
     }
 ];
 
