@@ -9,6 +9,7 @@ module.exports = {
   PHP: 'PHP',
   PYTHON: 'Python',
   RUBY: 'Ruby',
+  SALTSTACK: 'SaltStack',
   SHELL: 'Shell',
   VAGRANT: 'Vagrant',
   XML: 'XML'

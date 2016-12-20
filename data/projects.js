@@ -2342,6 +2342,201 @@ module.exports = [
       description: 'Enterprise open source portal built by and for the higher education community.',
       author: 'Apereo Foundation',
       authorUrl: 'https://github.com/Jasig'
+    },
+
+    {
+      name: 'edxcut',
+      projectUrl: 'https://github.com/mitodl/edxcut',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/edxcut',
+      description: 'edX Course Unit Tests',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'Staff Graded Assignment XBlock',
+      projectUrl: 'https://github.com/mitodl/edx-sga',
+      tags: ['edx', 'xblock'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/edx-sga',
+      description: 'This package provides an XBlock for use with the edX platform which provides a staff graded assignment.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'edx2bigquery',
+      projectUrl: 'https://github.com/mitodl/edx2bigquery',
+      tags: ['edx', 'bigquery'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/edx2bigquery',
+      description: 'A tool for importing edX SQL and log data into Google BigQuery for research and analysis.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'sga-lti',
+      projectUrl: 'https://github.com/mitodl/sga-lti',
+      tags: ['edx', 'lti'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.BSD3CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/sga-lti',
+      description: 'An LTI implementation of Staff Graded Assignments, for use with edX',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'edx-api-client',
+      projectUrl: 'https://github.com/mitodl/edx-api-client',
+      tags: ['edx', 'api'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/edx-api-client',
+      description: 'Python interface for edX REST APIs',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'PyLTI',
+      projectUrl: 'https://github.com/mitodl/pylti',
+      tags: ['lti'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.BSD2CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/pylti',
+      description: 'A Python implementation of the LTI specification',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'XAnalytics',
+      projectUrl: 'https://github.com/mitodl/xanalytics',
+      tags: ['edx', 'analytics'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/xanalytics',
+      description: 'Provides analytics for edX platform courses, based on SQL and tracking logs data stored in BigQuery.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'edx sandbox',
+      projectUrl: 'https://github.com/mitodl/edx-sandbox-formula',
+      tags: ['edx'],
+      platform: PLATFORM.SALTSTACK,
+      license: LICENSE.BSD3CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/edx-sandbox-formula',
+      description: 'SaltStack Formula for building an edX sandbox using edX configuration.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'xbundle',
+      projectUrl: 'https://github.com/mitodl/xbundle',
+      tags: ['edx', 'olx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.BSD2CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/xbundle',
+      description: 'Converts back and forth between OLX and "xbundle" style XML formats.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'git2edx',
+      projectUrl: 'https://github.com/mitodl/git2edx',
+      tags: ['edx', 'git', 'github'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/git2edx',
+      description: 'Webhook server for automatic loading of course content from github to edX Studio instances.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'xsiftx',
+      projectUrl: 'https://github.com/mitodl/xsiftx',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/xsiftx',
+      description: 'A program to run scripts against edx-platform data for a course or all courses and then writing that to the grade book s3 bucket to show up on the instructor dashboard.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'ims lti py',
+      projectUrl: 'https://github.com/mitodl/ims_lti_py',
+      tags: ['lti'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/ims_lti_py',
+      description: 'Python port of the useful ims-lti Ruby library.',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'Sample LTI Provider for Flask',
+      projectUrl: 'https://github.com/mitodl/mit_lti_flask_sample',
+      tags: ['lti', 'flask'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/mit_lti_flask_sample',
+      description: 'A sample LTI provider for the Flask framework',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'Course Tester',
+      projectUrl: 'https://github.com/mitodl/openedx-course-test',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.BSD2CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/openedx-course-test',
+      description: 'Script for validating/testing Open Learning XML courses for the edx-platform using a docker container',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'edx2course axis',
+      projectUrl: 'https://github.com/mitodl/edx2course_axis',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/mitodl/edx2course_axis',
+      description: 'Python scripts to create a "course axis" from an edX course XML dump',
+      author: 'MIT Office of Digital Learning',
+      authorUrl: 'https://github.com/mitodl'
     }
 ];
 
