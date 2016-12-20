@@ -1,6 +1,7 @@
 module.exports = {
   AGPL3: 'AGPL-3.0',
   APACHE2: 'Apache-2.0',
+  BSD2CLAUSE: 'BSD-2-Clause',
   BSD3CLAUSE: 'BSD-3-Clause',
   CC0: 'CC0-1.0',
   CCBYSA3: 'CC-BY-SA-3.0',
