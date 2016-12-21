@@ -2537,6 +2537,110 @@ module.exports = [
       description: 'Python scripts to create a "course axis" from an edX course XML dump',
       author: 'MIT Office of Digital Learning',
       authorUrl: 'https://github.com/mitodl'
+    },
+
+    {
+      name: 'PTF',
+      projectUrl: 'https://github.com/ucdavis/PTF',
+      tags: ['facility'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/PTF',
+      description: 'Plant Transformation Facility Experiment and Order Tracking System',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'Gramps',
+      projectUrl: 'https://github.com/ucdavis/Gramps',
+      tags: ['granr'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/Gramps',
+      description: 'Grant Management Application',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'AD419',
+      projectUrl: 'https://github.com/ucdavis/AD419',
+      tags: ['ad419'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/AD419',
+      description: 'Application for Managing AD419 Reporting',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'PrePurchasing',
+      projectUrl: 'https://github.com/ucdavis/Purchasing',
+      tags: ['purchasing'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/Purchasing',
+      description: 'A web application designed to streamline the steps required for making campus acquisitions.',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'Commencement',
+      projectUrl: 'https://github.com/ucdavis/Commencement',
+      tags: ['commencement'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/Commencement',
+      description: 'Handles Commencement Ceremonies for UC Davis',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'ESRA',
+      projectUrl: 'https://github.com/ucdavis/ESRA',
+      tags: ['salary', 'pps', 'payroll'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/ESRA',
+      description: 'Application for comparing employee salaries for the purposes of equity reviews at UC Davis.',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'EligibilityList',
+      projectUrl: 'https://github.com/ucdavis/EligibilityList',
+      tags: ['merit', 'promotion'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/EligibilityList',
+      description: 'Track merits, promotions and eligibilities for your staff.',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'DataDictionary',
+      projectUrl: 'https://github.com/ucdavis/DataDictionary',
+      tags: ['data'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucdavis/DataDictionary',
+      description: 'An application that collects miscellaneous table and column meta-data from various campus\' Oracle databases and displays that information back out as an on-line data dictionary.',
+      author: 'University of California, Davis',
+      authorUrl: 'https://github.com/ucdavis'
     }
 ];
 
