@@ -2641,6 +2641,97 @@ module.exports = [
       description: 'An application that collects miscellaneous table and column meta-data from various campus\' Oracle databases and displays that information back out as an on-line data dictionary.',
       author: 'University of California, Davis',
       authorUrl: 'https://github.com/ucdavis'
+    },
+
+    {
+      name: 'moodle mod zoom',
+      projectUrl: 'https://github.com/ucla/moodle-mod_zoom',
+      tags: ['moodle', 'zoom'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/moodle-mod_zoom',
+      description: 'Moodle plugin for Zoom meeting',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'moodle mod casa',
+      projectUrl: 'https://github.com/ucla/moodle-mod_casa',
+      tags: ['moodle', 'casa'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/moodle-mod_casa',
+      description: 'This plugin helps with the integration of CASA (Community App Sharing Architecture) into Moodle.',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'ohmageX',
+      projectUrl: 'http://ohmage.org/',
+      tags: ['data', 'research'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/ohmageX',
+      description: 'An open-source, mobile to web platform that records, analyzes, and visualizes data from both prompted experience samples entered by the user, as well as continuous streams of data passively collected from sensors or applications onboard the mobile device.',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'moodle atto chemrender',
+      projectUrl: 'https://github.com/ucla/moodle-atto_chemrender',
+      tags: ['moodle', 'atto', 'chemrender', 'chemistry'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/moodle-atto_chemrender',
+      description: 'Chemical structure editor and molecular data file import plugin for the Atto HTML Editor.',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'moodle filter chemrender',
+      projectUrl: 'https://github.com/ucla/moodle-filter-chemrender',
+      tags: ['moodle', 'atto', 'chemrender', 'chemistry'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/moodle-filter-chemrender',
+      description: 'Chemical and molecular data file filter for Moodle 2.7+ using the ChemRender atto editor plugin',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'Invitation Enrollment Plug-in',
+      projectUrl: 'https://github.com/ucla/moodle-enrol_invitation',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/moodle-enrol_invitation',
+      description: 'Plug-in for Moodle that allows instructor to invite students to their site and grant necessary access and role to them.',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'Syllabus Plug-in',
+      projectUrl: 'https://github.com/ucla/moodle-local_syllabus',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ucla/moodle-local_syllabus',
+      description: 'Plug-in for Moodle that allows for the integration of syllabi into the course.',
+      author: 'University of California, Los Angeles',
+      authorUrl: 'https://github.com/ucla'
     }
 ];
 
