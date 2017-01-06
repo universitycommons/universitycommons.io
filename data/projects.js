@@ -2732,6 +2732,110 @@ module.exports = [
       description: 'Plug-in for Moodle that allows for the integration of syllabi into the course.',
       author: 'University of California, Los Angeles',
       authorUrl: 'https://github.com/ucla'
+    },
+
+    {
+      name: 'IMS Global - LTI Utilities',
+      projectUrl: 'https://github.com/IMSGlobal/basiclti-util-java',
+      tags: ['lti'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/basiclti-util-java',
+      description: 'A set of utility classes to aid in the development of LTI v1.0 consumers and providers.',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'LTI Tool Provider Library PHP',
+      projectUrl: 'https://github.com/IMSGlobal/LTI-Tool-Provider-Library-PHP',
+      tags: ['lti'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/LTI-Tool-Provider-Library-PHP',
+      description: 'This set of PHP classes encapsulates the code required by a Learning Tools Interoperability (LTI) compliant tool provider to communicate with an LTI tool consumer.',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'caliper net',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-net-public',
+      tags: ['caliper'],
+      platform: PLATFORM.CSHARP,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-net-public',
+      description: 'A .NET client for Caliper that provides an implementation of the Caliper SensorAPI',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'caliper php',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-php-public',
+      tags: ['caliper'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-php-public',
+      description: 'A PHP library for Caliper that provides an implementation of the Caliper SensorAPI',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'caliper ruby',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-ruby-public',
+      tags: ['caliper'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-ruby-public',
+      description: 'A Ruby client for Caliper that provides an implementation of the Caliper SensorAPI',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'caliper js',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-js-public',
+      tags: ['caliper'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-js-public',
+      description: 'A Javascript client for Caliper that provides an implementation of the Caliper SensorAPI',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'caliper java',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-java-public',
+      tags: ['caliper'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-java-public',
+      description: 'A Java client for Caliper that provides an implementation of the Caliper SensorAPI',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'caliper python',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-python-public',
+      tags: ['caliper'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-python-public',
+      description: 'A Python client package for Caliper that provides an implementation of the Caliper SensorAPI',
+      author: 'IMS Global Learning Consortium',
+      authorUrl: 'https://github.com/IMSGlobal'
     }
 ];
 
