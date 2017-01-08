@@ -2836,6 +2836,162 @@ module.exports = [
       description: 'A Python client package for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
+    },
+
+    {
+      name: 'Coursework Activity',
+      projectUrl: 'https://github.com/ULCC/open-mod_coursework',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/open-mod_coursework',
+      description: 'A way to receive coursework and have it marked without teachers knowing which student the work belongs to.',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'block equella tasks',
+      projectUrl: 'https://github.com/ULCC/block_equella_tasks',
+      tags: ['moodle', 'equella'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/block_equella_tasks',
+      description: 'Moodle block for viewing your EQUELLA tasks',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'block equella links',
+      projectUrl: 'https://github.com/ULCC/block_equella_links',
+      tags: ['moodle', 'equella'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/block_equella_links',
+      description: 'Moodle block for providing links into EQUELLA',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'block gsb',
+      projectUrl: 'https://github.com/ULCC/block_gsb',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/block_gsb',
+      description: 'Allows you to benchmark courses to select criteria based upon activity and resource types and then display a medal to teachers on a course.',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'assignsubmission mahara',
+      projectUrl: 'https://github.com/ULCC/mod_assign_submission_mahara',
+      tags: ['moodle', 'mahara'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/mod_assign_submission_mahara',
+      description: 'Mahara assignment submission plugin for Moodle 2.3+',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'moodle kaltura package',
+      projectUrl: 'https://github.com/ULCC/moodle_kaltura_package',
+      tags: ['moodle', 'kaltura'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/moodle_kaltura_package',
+      description: 'This repository contains the various Moodle plugins that allow the use of Kaltura throughout Moodle',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'moodle theme javascript collapse course navigation',
+      projectUrl: 'https://github.com/ULCC/moodle-theme-javascript_collapse_course_navigation',
+      tags: ['moodle'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/moodle-theme-javascript_collapse_course_navigation',
+      description: 'These files are necessary to auto-collapse the courses menu in the Navigation menu on Moodle.',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'eprints webservices',
+      projectUrl: 'https://github.com/ULCC/eprints-webservices',
+      tags: ['eprints', 'soap'],
+      platform: PLATFORM.WSDL,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/eprints-webservices',
+      description: 'Plug-ins for e-Prints that is intended for reception of records under protocol SOAP',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'public moodle block reports',
+      projectUrl: 'https://github.com/ULCC/public-moodle-block_reports',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/public-moodle-block_reports',
+      description: 'Displays the course reports list from Moodle where a user wants to remove the Navigation block',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'moodle format single',
+      projectUrl: 'https://github.com/ULCC/moodle-format_single',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/moodle-format_single',
+      description: 'Displays only a single section at a time - desinged to be used with course menu style navigation',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'moodle block jumpmenu',
+      projectUrl: 'https://github.com/ULCC/moodle-block_jumpmenu',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/moodle-block_jumpmenu',
+      description: 'A navigation block that creates topics as a drop down menu for quick links',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'moodle enrol qualification',
+      projectUrl: 'https://github.com/ULCC/moodle-enrol_qualification',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ULCC/moodle-enrol_qualification',
+      description: 'An extension of the meta enrolment plugin which can sync grades/outcomes',
+      author: 'University of London Computer Centre',
+      authorUrl: 'https://github.com/ULCC'
     }
 ];
 

@@ -13,5 +13,6 @@ module.exports = {
   SALTSTACK: 'SaltStack',
   SHELL: 'Shell',
   VAGRANT: 'Vagrant',
+  WSDL: 'WSDL',
   XML: 'XML'
 };
