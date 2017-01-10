@@ -2992,6 +2992,58 @@ module.exports = [
       description: 'An extension of the meta enrolment plugin which can sync grades/outcomes',
       author: 'University of London Computer Centre',
       authorUrl: 'https://github.com/ULCC'
+    },
+
+    {
+      name: 'moodle mod questionnaire',
+      projectUrl: 'https://github.com/remotelearner/moodle-mod_questionnaire',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/remotelearner/moodle-mod_questionnaire',
+      description: 'The questionnaire module allows you to construct questionnaires (surveys) from a variety of question type.',
+      author: 'Remote-Learner',
+      authorUrl: 'https://github.com/remotelearner'
+    },
+
+    {
+      name: 'Moodle Tours Plugin',
+      projectUrl: 'https://github.com/remotelearner/moodle-local_tours',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/remotelearner/moodle-local_tours',
+      description: 'This Moodle plugin allows administrators to create tours of Moodle to introduce new features, important information, and more.',
+      author: 'Remote-Learner',
+      authorUrl: 'https://github.com/remotelearner'
+    },
+
+    {
+      name: 'moodle plugin travis',
+      projectUrl: 'https://github.com/remotelearner/moodle-plugin-travis',
+      tags: ['moodle', 'travis'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/remotelearner/moodle-plugin-travis',
+      description: 'The goal of this project is to facilitate the running of tests and code analysis tools against a Moodle plugin in Travis CI.',
+      author: 'Remote-Learner',
+      authorUrl: 'https://github.com/remotelearner'
+    },
+
+    {
+      name: 'moodle mod adobeconnect',
+      projectUrl: 'https://github.com/remotelearner/moodle-mod_adobeconnect',
+      tags: ['moodle', 'connect'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/remotelearner/moodle-mod_adobeconnect',
+      description: 'The Adobe Connect / Moodle integration.',
+      author: 'Remote-Learner',
+      authorUrl: 'https://github.com/remotelearner'
     }
 ];
 
