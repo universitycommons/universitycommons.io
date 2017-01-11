@@ -3044,6 +3044,422 @@ module.exports = [
       description: 'The Adobe Connect / Moodle integration.',
       author: 'Remote-Learner',
       authorUrl: 'https://github.com/remotelearner'
+    },
+
+    {
+      name: 'OU blog',
+      projectUrl: 'https://github.com/moodleou/moodle-mod_oublog',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-mod_oublog',
+      description: 'This is an alternative blog that you can install into standard Moodle.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'OU wiki',
+      projectUrl: 'https://github.com/moodleou/moodle-mod_ouwiki',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-mod_ouwiki',
+      description: 'This is an alternative wiki that you can install into standard Moodle.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'ForumNG',
+      projectUrl: 'https://github.com/moodleou/moodle-mod_forumng',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-mod_forumng',
+      description: 'This is an alternative forum that you can install into standard Moodle.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Subpage',
+      projectUrl: 'https://github.com/moodleou/moodle-mod_subpage',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-mod_subpage',
+      description: 'This subpage module allows users to create, manage, and view lists of Moodle activities separately from the main course page',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'OU search',
+      projectUrl: 'https://github.com/moodleou/moodle-local_ousearch',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-local_ousearch',
+      description: 'This is a cross-database indexed text-search facility.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'News block',
+      projectUrl: 'https://github.com/moodleou/moodle-block_news',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-block_news',
+      description: 'This is a news block that you can install into standard Moodle.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Course rate block',
+      projectUrl: 'https://docs.moodle.org/32/en/Course_rate_block',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-block_rate_course',
+      description: 'The block contains a link to a separate form page to give a rating, and displays the current aggregate of all user ratings including the number of people who have made ratings.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Edit dates report',
+      projectUrl: 'https://github.com/moodleou/moodle-report_editdates',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-report_editdates',
+      description: 'This \'report\' is actually a tool that lets you edit all the dates for all the activities in your course on a single page.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'moodle dataplus',
+      projectUrl: 'https://github.com/moodleou/moodle-mod_dataplus',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-mod_dataplus',
+      description: 'An alternative database module that stores data for each instance in a standalone SQLite3 database.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Ad-hoc database queries',
+      projectUrl: 'https://github.com/moodleou/moodle-report_customsql',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-report_customsql',
+      description: 'This report plugin allows Administrators to set up arbitrary database queries to act as ad-hoc reports.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Edit groups report',
+      projectUrl: 'https://github.com/moodleou/moodle-report_editgroups',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-report_editgroups',
+      description: 'This \'report\' is actually a tool that lets you edit all the groups settings for all the activities in your course on a single page.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Pattern match question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_pmatch',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_pmatch',
+      description: 'Pattern-match question type for Moodle',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Pattern match with JME editor question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_pmatchjme',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_pmatchjme',
+      description: 'Moodle pmatch question type with jme molecular editor',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Edit ID numbers report',
+      projectUrl: 'https://github.com/moodleou/moodle-report_editidnumber',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-report_editidnumber',
+      description: 'This \'report\' is actually a tool that lets you edit all the ID numbers for all the activities and grade items in your course on a single page.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Variable Numeric Set Question Type With Units',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_varnumunit',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_varnumunit',
+      description: 'Moodle variable numeric sets question type with units.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'The manual grading by student quiz report',
+      projectUrl: 'https://github.com/moodleou/moodle-quiz_gradingstudents',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-quiz_gradingstudents',
+      description: 'A quiz \'report\' add-on for Moodle, like the nomal manual grading report, but which lets you grade one student at a time, rather than one question at a time.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'The Edit quiz settings quiz report',
+      projectUrl: 'https://github.com/moodleou/moodle-quiz_editquizsettings',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-quiz_editquizsettings',
+      description: 'This \'report\' is actually a tool which lets users edit certain settings, currenty the open and close dates, for a quiz, without needing to give them permission to edit all the other quiz settings.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'The Honesty check quiz access rule',
+      projectUrl: 'https://github.com/moodleou/moodle-quizaccess_honestycheck',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-quizaccess_honestycheck',
+      description: 'A Moodle quiz access plugin that asks the student to promise not to cheat.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Variable Numeric Question Type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_varnumeric',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_varnumeric',
+      description: 'A new question type for Moodle - for numeric questions with variable and expression evaluation',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'The Opaque question type and behaviour',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_opaque',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_opaque',
+      description: 'The Opaque question type for Moodle. Allows Moodle to use any other question engine via a web-service link.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'The OU Multi-response question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_oumultiresponse',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_oumultiresponse',
+      description: 'A multiple-choice, multiple response question type for Moodle, with particular scoring rules.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Edit roles by capability tool',
+      projectUrl: 'https://github.com/moodleou/moodle-tool_editrolesbycap',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-tool_editrolesbycap',
+      description: 'A Moodle admin tool to edit the permissions for one capability in all roles on one screen.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Combined question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_combined',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_combined',
+      description: 'A Moodle question type which allows questions to be built up from parts that are other simpler question types.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Variable Numeric Sets question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_varnumericset',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_varnumericset',
+      description: 'Question type for Moodle - for numeric questions with variable and expression evaluation.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Drag-and-drop markers question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_ddmarker',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_ddmarker',
+      description: 'question type for Moodle - drag and drop markers with text label onto an image background',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Gap-select question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_gapselect',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_gapselect',
+      description: 'This question type allows students to complete a paragraph of text by selecting the missing words using drop-down menus.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'A drag-and-drop question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_ddimageortext',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_ddimageortext',
+      description: 'A new question type for Moodle - drag and drop images and / or text drag items onto an image background',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Drag-and-drop, words to sentences question type',
+      projectUrl: 'https://github.com/moodleou/moodle-qtype_ddwtos',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qtype_ddwtos',
+      description: 'The Drag-and-drop, words-to-sentences question type for Moodle.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'The Opaque question type and behaviour',
+      projectUrl: 'https://github.com/moodleou/moodle-qbehaviour_opaque',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-qbehaviour_opaque',
+      description: 'The Opaque question behaviour.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Superscript/subscript editor',
+      projectUrl: 'https://github.com/moodleou/moodle-editor_supsub',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-editor_supsub',
+      description: 'This is a very cut-down configuration of TinyMCE that just lets users edit one line of input with superscripts and subscripts, for use in Moodle.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'moodle dualpane',
+      projectUrl: 'https://github.com/moodleou/moodle-mod_dualpane',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-mod_dualpane',
+      description: 'Module that divides the screen into two panes. One shows a set of instructions, the other can be used to view web pages from the instructions.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'moodle block recommender',
+      projectUrl: 'https://github.com/moodleou/moodle-block_recommender',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodleou/moodle-block_recommender',
+      description: 'This block offers three different recommendation services: popular activities on this course, popular courses on this site, shared bookmarks.',
+      author: 'Open University Moodle plugins',
+      authorUrl: 'https://github.com/moodleou'
     }
 ];
 
