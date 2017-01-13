@@ -3460,6 +3460,19 @@ module.exports = [
       description: 'This block offers three different recommendation services: popular activities on this course, popular courses on this site, shared bookmarks.',
       author: 'Open University Moodle plugins',
       authorUrl: 'https://github.com/moodleou'
+    },
+
+    {
+      name: 'Kuali Coeus',
+      projectUrl: 'http://www.kuali.org/kc',
+      tags: ['research'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/kuali/kc',
+      description: 'Kuali Research (KC) for Research Administration is a comprehensive system to manage the complexities of research administration needs from the faculty researcher through grants administration to federal funding agencies.',
+      author: 'Kuali',
+      authorUrl: 'http://www.kuali.org/'
     }
 ];
 
