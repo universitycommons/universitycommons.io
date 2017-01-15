@@ -3473,6 +3473,32 @@ module.exports = [
       description: 'Kuali Research (KC) for Research Administration is a comprehensive system to manage the complexities of research administration needs from the faculty researcher through grants administration to federal funding agencies.',
       author: 'Kuali',
       authorUrl: 'http://www.kuali.org/'
+    },
+
+    {
+      name: 'canvas sis integration php',
+      projectUrl: 'https://github.com/umhbwebservices/canvas-sis-integration-php',
+      tags: ['canvas'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/umhbwebservices/canvas-sis-integration-php',
+      description: 'Integrate your SIS data with Canvas',
+      author: 'University of Mary Hardin-Baylor Web Services',
+      authorUrl: 'https://github.com/umhbwebservices'
+    },
+
+    {
+      name: 'canvas ara custom report php',
+      projectUrl: 'https://github.com/umhbwebservices/canvas-ara-custom-report-php',
+      tags: ['canvas'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/umhbwebservices/canvas-ara-custom-report-php',
+      description: 'This is a simple script that will allow you to send a weekly email of participations for users in online courses.',
+      author: 'University of Mary Hardin-Baylor Web Services',
+      authorUrl: 'https://github.com/umhbwebservices'
     }
 ];
 
