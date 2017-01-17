@@ -3499,6 +3499,45 @@ module.exports = [
       description: 'This is a simple script that will allow you to send a weekly email of participations for users in online courses.',
       author: 'University of Mary Hardin-Baylor Web Services',
       authorUrl: 'https://github.com/umhbwebservices'
+    },
+
+    {
+      name: 'E-Newsletter Platform for Educational Institutions',
+      projectUrl: 'https://github.com/unl/UNL_ENews',
+      tags: ['newsletter'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/unl/UNL_ENews',
+      description: 'A micro-news management platform for funneling news and building electronic newsletters.',
+      author: 'University of Nebraska-Lincoln',
+      authorUrl: 'https://github.com/unl'
+    },
+
+    {
+      name: 'UNLchat',
+      projectUrl: 'https://github.com/unl/VisitorChat',
+      tags: ['chat'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.BSD3CLAUSE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/unl/VisitorChat',
+      description: 'A custom live chat solution built for UNL. It is designed to be work for a large organization with many sub-organizations such as a university.',
+      author: 'University of Nebraska-Lincoln',
+      authorUrl: 'https://github.com/unl'
+    },
+
+    {
+      name: 'MediaHub',
+      projectUrl: 'https://github.com/unl/UNL_MediaHub',
+      tags: ['media'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/unl/UNL_MediaHub',
+      description: 'A video/audio aggregator for educational institutions.',
+      author: 'University of Nebraska-Lincoln',
+      authorUrl: 'https://github.com/unl'
     }
 ];
 
