@@ -12,6 +12,7 @@ module.exports = {
   RUBY: 'Ruby',
   SALTSTACK: 'SaltStack',
   SHELL: 'Shell',
+  UNKNOWN: 'Unknown',
   VAGRANT: 'Vagrant',
   WSDL: 'WSDL',
   XML: 'XML'

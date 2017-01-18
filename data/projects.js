@@ -3538,6 +3538,97 @@ module.exports = [
       description: 'A video/audio aggregator for educational institutions.',
       author: 'University of Nebraska-Lincoln',
       authorUrl: 'https://github.com/unl'
+    },
+
+    {
+      name: 'E-resource access checker',
+      projectUrl: 'https://github.com/UNC-Libraries/Ebook-Access-Checker',
+      tags: ['e-resource'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/Ebook-Access-Checker',
+      description: 'A simple JRuby script to check for full-text access to e-resource titles.',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'HathiTrust Print Holdings',
+      projectUrl: 'https://github.com/UNC-Libraries/HathiTrust-Print-Holdings',
+      tags: ['hathitrust'],
+      platform: PLATFORM.PERL,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/HathiTrust-Print-Holdings',
+      description: 'Produce print holdings reports in format required by HathiTrust by querying III Millennium Oracle database',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'E-collections discovery evaluation: catalog data',
+      projectUrl: 'https://github.com/UNC-Libraries/Syndetics-Catalog-Coverage-Assessment',
+      tags: ['catalog'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/Syndetics-Catalog-Coverage-Assessment',
+      description: 'This suite of scripts is used to gather data on the discoverability (in our main online catalog) of individual titles within collections.',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'millennium global update commands',
+      projectUrl: 'https://github.com/UNC-Libraries/millennium-global-update-commands',
+      tags: ['millennium'],
+      platform: PLATFORM.UNKNOWN,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/millennium-global-update-commands',
+      description: 'Reusable global update routines for III Millennium.',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'OmekaOembedImportPlugin',
+      projectUrl: 'https://github.com/UNC-Libraries/OmekaOembedImportPlugin',
+      tags: ['omeka'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/OmekaOembedImportPlugin',
+      description: 'Uses the Omebed protocol to pull remote images into your Omeka project as regular Omeka items.',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'Citation Builder',
+      projectUrl: 'https://github.com/UNC-Libraries/citationbuilder',
+      tags: ['citation'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/citationbuilder',
+      description: 'An application that generates citations from user entered form data.',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'Millennium Payment Information Processor',
+      projectUrl: 'https://github.com/UNC-Libraries/Millennium-Helpers',
+      tags: ['millennium'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UNC-Libraries/Millennium-Helpers',
+      description: 'A helper for working with payment data exported from III Millennium.',
+      author: 'The University of North Carolina at Chapel Hill Libraries',
+      authorUrl: 'https://github.com/UNC-Libraries'
     }
 ];
 
