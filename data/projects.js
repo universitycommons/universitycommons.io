@@ -3629,6 +3629,149 @@ module.exports = [
       description: 'A helper for working with payment data exported from III Millennium.',
       author: 'The University of North Carolina at Chapel Hill Libraries',
       authorUrl: 'https://github.com/UNC-Libraries'
+    },
+
+    {
+      name: 'IRIS',
+      projectUrl: 'https://github.com/ndlib/annex-ims',
+      tags: ['storage', 'inventory'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/annex-ims',
+      description: 'Integrated Retrieval and Inventory System for offsite storage facilities',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Honeycomb',
+      projectUrl: 'https://github.com/ndlib/honeycomb',
+      tags: ['collection'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/annex-ims',
+      description: 'Provides basic collection and item administration, as well as serialization of your collections so they can be used by external applications.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Beehive',
+      projectUrl: 'https://github.com/ndlib/beehive',
+      tags: ['collection'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/beehive',
+      description: 'Provides an attractive frontend display for the collections and exhibits created and managed by Honeycomb.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Disadis',
+      projectUrl: 'https://github.com/ndlib/disadis',
+      tags: ['hydra'],
+      platform: PLATFORM.GO,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/disadis',
+      description: 'Disadis is an download proxy for Hydra-based applications.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'noids',
+      projectUrl: 'https://github.com/ndlib/noids',
+      tags: ['noid'],
+      platform: PLATFORM.GO,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/noids',
+      description: 'Implements a server to provide a NOID service.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Ex Libris Primo JavaScript Files',
+      projectUrl: 'https://github.com/ndlib/primo-javascript',
+      tags: ['ex libris', 'primo'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/primo-javascript',
+      description: 'This is a collection of miscellaneous JavaScript files to enhance the Primo 4 user experience.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Hydramata::Works',
+      projectUrl: 'https://github.com/ndlib/hydramata-works',
+      tags: ['hydra'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/hydramata-works',
+      description: 'Provide a well defined data-structure to ease the interaction between differing layers of a Hydra application.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Hydramaton',
+      projectUrl: 'https://github.com/ndlib/hydramaton',
+      tags: ['hydra'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/hydramaton',
+      description: 'This Rails application is to be the container for integrating and fleshing-out Hydramata components.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Hydra::ObjectViewer',
+      projectUrl: 'https://github.com/ndlib/hydra-object_viewer',
+      tags: ['hydra'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/hydra-object_viewer',
+      description: 'A mountable Rails engine used for displaying objects.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'hydra registry',
+      projectUrl: 'https://github.com/ndlib/hydra-registry',
+      tags: ['hydra'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/hydra-registry',
+      description: 'An end point for reporting Hydra Project Usage',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'Hydra Jetty Cookbook',
+      projectUrl: 'https://github.com/ndlib/hydra-jetty-cookbook',
+      tags: ['hydra'],
+      platform: PLATFORM.SHELL,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ndlib/hydra-jetty-cookbook',
+      description: 'This cookbook installs hydra-jetty.',
+      author: 'Hesburgh Libraries of Notre Dame',
+      authorUrl: 'https://github.com/ndlib'
     }
 ];
 
