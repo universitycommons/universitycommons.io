@@ -3772,6 +3772,19 @@ module.exports = [
       description: 'This cookbook installs hydra-jetty.',
       author: 'Hesburgh Libraries of Notre Dame',
       authorUrl: 'https://github.com/ndlib'
+    },
+
+    {
+      name: 'vufind',
+      projectUrl: 'https://vufind.org/vufind/',
+      tags: ['library'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/vufind-org/vufind',
+      description: 'A library resource discovery portal designed and developed for libraries by libraries',
+      author: 'vufind.org',
+      authorUrl: 'https://github.com/vufind-org'
     }
 ];
 
