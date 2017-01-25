@@ -3785,6 +3785,32 @@ module.exports = [
       description: 'A library resource discovery portal designed and developed for libraries by libraries',
       author: 'vufind.org',
       authorUrl: 'https://github.com/vufind-org'
+    },
+
+    {
+      name: 'pdf to chronam',
+      projectUrl: 'https://github.com/uoregon-libraries/pdf-to-chronam',
+      tags: ['newspaper', 'bagit', 'chronam'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/uoregon-libraries/pdf-to-chronam',
+      description: 'Various scripts for converting born-digital PDF newspapers, as well as scanned newspapers, into a one-batch bag, which can then be directly ingested into chronam (or a fork thereof)',
+      author: 'University of Oregon Libraries',
+      authorUrl: 'https://github.com/uoregon-libraries'
+    },
+
+    {
+      name: 'alma offline circulation tool',
+      projectUrl: 'https://github.com/uoregon-libraries/alma-offline-circulation-tool',
+      tags: ['alma', 'exlibris'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.CC0,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/uoregon-libraries/alma-offline-circulation-tool',
+      description: 'Replacement offline circulation tool for Ex Libris\'s Alma offline circ tool',
+      author: 'University of Oregon Libraries',
+      authorUrl: 'https://github.com/uoregon-libraries'
     }
 ];
 
