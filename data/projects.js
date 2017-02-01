@@ -3811,6 +3811,19 @@ module.exports = [
       description: 'Replacement offline circulation tool for Ex Libris\'s Alma offline circ tool',
       author: 'University of Oregon Libraries',
       authorUrl: 'https://github.com/uoregon-libraries'
+    },
+
+    {
+      name: 'dms',
+      projectUrl: 'https://github.com/uthsc/dms',
+      tags: ['signage'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/uthsc/dms',
+      description: 'digital media signage',
+      author: 'University of Tennessee Health Science Center',
+      authorUrl: 'https://github.com/uthsc'
     }
 ];
 
