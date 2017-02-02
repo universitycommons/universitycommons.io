@@ -3824,6 +3824,19 @@ module.exports = [
       description: 'digital media signage',
       author: 'University of Tennessee Health Science Center',
       authorUrl: 'https://github.com/uthsc'
+    },
+
+    {
+      name: 'wp-bigdipper',
+      projectUrl: 'https://github.com/TheLibratory/wp-bigdipper',
+      tags: ['wordpress'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/TheLibratory/wp-bigdipper',
+      description: 'A new, more responsive, editable and stable Wordpress theme for library blogs',
+      author: 'Technology Integration Services',
+      authorUrl: 'https://github.com/TheLibratory'
     }
 ];
 
