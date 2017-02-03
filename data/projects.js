@@ -3837,6 +3837,19 @@ module.exports = [
       description: 'A new, more responsive, editable and stable Wordpress theme for library blogs',
       author: 'Technology Integration Services',
       authorUrl: 'https://github.com/TheLibratory'
+    },
+
+    {
+      name: 'Avalon Media System',
+      projectUrl: 'https://github.com/avalonmediasystem/avalon',
+      tags: ['hydra', 'collection'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/avalonmediasystem/avalon',
+      description: 'An open source system for managing large collections of digital audio and video.',
+      author: 'Avalon Media System',
+      authorUrl: 'https://github.com/avalonmediasystem'
     }
 ];
 
