@@ -3850,6 +3850,71 @@ module.exports = [
       description: 'An open source system for managing large collections of digital audio and video.',
       author: 'Avalon Media System',
       authorUrl: 'https://github.com/avalonmediasystem'
+    },
+
+    {
+      name: 'ATKreporting',
+      projectUrl: 'https://github.com/yalemssa/ATKreporting',
+      tags: ['archivists toolkit'],
+      platform: PLATFORM.SQL,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yalemssa/ATKreporting',
+      description: 'A bunch of SQL queries and functions to check the integrity of our data in Archivists\' Toolkit',
+      author: 'Manuscripts and Archives, Yale University Library',
+      authorUrl: 'https://github.com/yalemssa'
+    },
+
+    {
+      name: 'php at lookup',
+      projectUrl: 'https://github.com/yalemssa/php-at-lookup',
+      tags: ['archivists toolkit'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.ECL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yalemssa/php-at-lookup',
+      description: 'PHP code to query and retrieve data from an Archivists\' Toolkit database',
+      author: 'Manuscripts and Archives, Yale University Library',
+      authorUrl: 'https://github.com/yalemssa'
+    },
+
+    {
+      name: 'AT plugin Yale custom tasks',
+      projectUrl: 'https://github.com/yalemssa/AT-plugin-Yale-custom-tasks',
+      tags: ['archivists toolkit'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yalemssa/AT-plugin-Yale-custom-tasks',
+      description: 'Plugin to add custom tasks to the Archivists Toolkit to make container processing more efficient',
+      author: 'Manuscripts and Archives, Yale University Library',
+      authorUrl: 'https://github.com/yalemssa'
+    },
+
+    {
+      name: 'ATKBarcodeSheetGen',
+      projectUrl: 'https://github.com/yalemssa/ATKBarcodeSheetGen',
+      tags: ['archivists toolkit'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yalemssa/ATKBarcodeSheetGen',
+      description: 'A utility to generate barcode sheets from the Archivsts\' Toolkit using Barcode4J',
+      author: 'Manuscripts and Archives, Yale University Library',
+      authorUrl: 'https://github.com/yalemssa'
+    },
+
+    {
+      name: 'AeonATK',
+      projectUrl: 'https://github.com/yalemssa/AeonATK',
+      tags: ['archivists toolkit'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yalemssa/AeonATK',
+      description: 'A Grails-based interface for Aeon and the Archivists\' Toolkit',
+      author: 'Manuscripts and Archives, Yale University Library',
+      authorUrl: 'https://github.com/yalemssa'
     }
 ];
 
