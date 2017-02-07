@@ -3915,6 +3915,84 @@ module.exports = [
       description: 'A Grails-based interface for Aeon and the Archivists\' Toolkit',
       author: 'Manuscripts and Archives, Yale University Library',
       authorUrl: 'https://github.com/yalemssa'
+    },
+
+    {
+      name: 'pc access',
+      projectUrl: 'https://github.com/yorkulibraries/pc-access',
+      tags: ['computer lab'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulibraries/pc-access',
+      description: 'Simple Ruby on Rails app to detect which computers are available.',
+      author: 'York University Libraries',
+      authorUrl: 'https://github.com/yorkulibraries'
+    },
+
+    {
+      name: 'dspace deposit tools',
+      projectUrl: 'https://github.com/yorkulibraries/dspace-deposit-tools',
+      tags: ['dspace'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulibraries/dspace-deposit-tools',
+      description: 'dspace deposit tools',
+      author: 'York University Libraries',
+      authorUrl: 'https://github.com/yorkulibraries'
+    },
+
+    {
+      name: 'dspace simple archive packager',
+      projectUrl: 'https://github.com/yorkulibraries/dspace-simple-archive-packager',
+      tags: ['dspace'],
+      platform: PLATFORM.SHELL,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulibraries/dspace-simple-archive-packager',
+      description: 'The function of this script is to do the create Dspace Simple Archives in order to do batch uploading.',
+      author: 'York University Libraries',
+      authorUrl: 'https://github.com/yorkulibraries'
+    },
+
+    {
+      name: 'Islandora Transcript',
+      projectUrl: 'https://github.com/yorkulibraries/islandora_transcript',
+      tags: ['islandora'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulibraries/islandora_transcript',
+      description: 'Allows for viewing the TRANSCRIPT datastream of an object, if it exists, in a tab.',
+      author: 'York University Libraries',
+      authorUrl: 'https://github.com/yorkulibraries'
+    },
+
+    {
+      name: 'ojs aggregate stats',
+      projectUrl: 'https://github.com/yorkulibraries/ojs-aggregate-stats',
+      tags: ['ojs'],
+      platform: PLATFORM.SHELL,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulibraries/ojs-aggregate-stats',
+      description: 'A collection of various helper scripts we use to interact with OJS.',
+      author: 'York University Libraries',
+      authorUrl: 'https://github.com/yorkulibraries'
+    },
+
+    {
+      name: 'Dspacescripts',
+      projectUrl: 'https://github.com/yorkulibraries/dspacescripts',
+      tags: ['dspace'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.CUSTOM,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulibraries/dspacescripts',
+      description: 'The random assortment of DSpace scripts we have for doing stuff with DSpace.',
+      author: 'York University Libraries',
+      authorUrl: 'https://github.com/yorkulibraries'
     }
 ];
 
