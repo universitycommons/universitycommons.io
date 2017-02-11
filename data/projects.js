@@ -3993,6 +3993,19 @@ module.exports = [
       description: 'The random assortment of DSpace scripts we have for doing stuff with DSpace.',
       author: 'York University Libraries',
       authorUrl: 'https://github.com/yorkulibraries'
+    },
+
+    {
+      name: 'Concerto 2 Digital Signage System',
+      projectUrl: 'http://www.concerto-signage.org/',
+      tags: ['signage'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/concerto/concerto',
+      description: 'Concerto is an open source digital signage system.',
+      author: 'Concerto Digital Signage',
+      authorUrl: 'https://github.com/concerto'
     }
 ];
 
