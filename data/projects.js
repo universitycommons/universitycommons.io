@@ -4006,6 +4006,19 @@ module.exports = [
       description: 'Concerto is an open source digital signage system.',
       author: 'Concerto Digital Signage',
       authorUrl: 'https://github.com/concerto'
+    },
+
+    {
+      name: 'Papyrus',
+      projectUrl: 'https://github.com/yorkulcs/papyrus',
+      tags: ['library', 'acccessibility'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/yorkulcs/papyrus',
+      description: 'An accessible content delivery and student management application.',
+      author: 'York University Library Computing Services',
+      authorUrl: 'https://github.com/yorkulcs'
     }
 ];
 
