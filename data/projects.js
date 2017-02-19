@@ -4019,6 +4019,175 @@ module.exports = [
       description: 'An accessible content delivery and student management application.',
       author: 'York University Library Computing Services',
       authorUrl: 'https://github.com/yorkulcs'
+    },
+
+    {
+      name: 'ComPAIR',
+      projectUrl: 'https://github.com/ubc/compair',
+      tags: ['assessment'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/compair',
+      description: 'This application is based on an updated 2012 paper which details Adaptive Comparative Judgement\'s method and history. Students answer questions asked by instructors or other students and are then able to compare and judge the given answers. From these comparisons, a score for each answer is calculated according to ACJ\'s methods.',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'UBC Peer Instruction Tool for edX',
+      projectUrl: 'https://github.com/ubc/ubcpi',
+      tags: ['xblock', 'edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/ubcpi',
+      description: 'Peer Instruction XBlock',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Response Map',
+      projectUrl: 'https://github.com/ubc/response-map',
+      tags: ['question'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/response-map',
+      description: 'The response map is an LTI tool that allows students to respond to a question or give feedback and have the responses show up on a world map based on the location that they enter in.',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'iPeer',
+      projectUrl: 'http://ipeer.ctlt.ubc.ca/',
+      tags: ['evaluation'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/iPeer',
+      description: 'Peer Evaluation System',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Metadata Editor Building Block',
+      projectUrl: 'https://github.com/ubc/metadata-editor-b2',
+      tags: ['blackboard'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/metadata-editor-b2',
+      description: 'Bulk changing metadata for Blackboard Learn 9.1',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Basic LTI Building Block with Enhanced Features',
+      projectUrl: 'https://github.com/ubc/enhanced-basiclti-b2',
+      tags: ['blackboard'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/enhanced-basiclti-b2',
+      description: 'The Basic LTI Building Block with enhanced features',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'GroupBuilder',
+      projectUrl: 'https://github.com/ubc/GroupBuilder',
+      tags: ['blackboard'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/GroupBuilder',
+      description: 'Group building block for Blackboard Learn 9',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'lti parser',
+      projectUrl: 'https://github.com/ubc/lti-parser',
+      tags: ['lti'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/lti-parser',
+      description: 'A library for parsing Learning Tools Interoperability (LTI) messages',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'puppet learninglocker',
+      projectUrl: 'https://github.com/ubc/puppet-learninglocker',
+      tags: ['puppet', 'learning locker'],
+      platform: PLATFORM.PUPPET,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/puppet-learninglocker',
+      description: 'Learning Locker puppet module',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Building Block Template for Blackboard Learn',
+      projectUrl: 'https://github.com/ubc/b2-template',
+      tags: ['blackboard'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/b2-template',
+      description: 'This template helps developers to set up the building block development environment.',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Utility Class for Blackboard Building Block',
+      projectUrl: 'https://github.com/ubc/blackboard-b2-util',
+      tags: ['blackboard'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/blackboard-b2-util',
+      description: 'This tool provides easier interaction with Blackboard APIs.',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Blackboard Learn Assessment to Webwork Converter',
+      projectUrl: 'https://github.com/ubc/Blackboard-Learn-Assessment-to-Webwork-Converter',
+      tags: ['blackboard', 'webwork'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/Blackboard-Learn-Assessment-to-Webwork-Converter',
+      description: 'Convert exported Blackboard Learn Assessments to Webwork PG problems',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'WeBWorKCal',
+      projectUrl: 'https://github.com/ubc/webworkcal',
+      tags: ['webwork'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/ubc/webworkcal',
+      description: 'A simple script to grab the future assignments and due dates to put them on to Google calendar for WeBWorK.',
+      author: 'The University of British Columbia',
+      authorUrl: 'https://github.com/ubc'
     }
 ];
 

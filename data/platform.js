@@ -9,6 +9,7 @@ module.exports = {
   LUA: 'Lua',
   PERL: 'Perl',
   PHP: 'PHP',
+  PUPPET: 'Puppet',
   PYTHON: 'Python',
   RUBY: 'Ruby',
   SALTSTACK: 'SaltStack',
