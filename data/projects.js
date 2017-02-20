@@ -4188,6 +4188,227 @@ module.exports = [
       description: 'A simple script to grab the future assignments and due dates to put them on to Google calendar for WeBWorK.',
       author: 'The University of British Columbia',
       authorUrl: 'https://github.com/ubc'
+    },
+
+    {
+      name: 'Optimus Ingestor',
+      projectUrl: 'https://github.com/UQ-UQx/optimus_ingestor',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/optimus_ingestor',
+      description: 'Ingests data from the edX data package into usable database stored structres',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'lti base php',
+      projectUrl: 'https://github.com/UQ-UQx/lti_base_php',
+      tags: ['lti'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/lti_base_php',
+      description: 'A base package for LTI tools',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'videouploader',
+      projectUrl: 'https://github.com/UQ-UQx/video_uploader',
+      tags: ['edx', 'lti'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/video_uploader',
+      description: 'This module allows students to upload a single video into a predefined folder.',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'teams101x diydiagnosis',
+      projectUrl: 'https://github.com/UQ-UQx/teams101x_diydiagnosis',
+      tags: ['edx', 'teams101x'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/teams101x_diydiagnosis',
+      description: 'A self-help tool for use in teams101x for a learner to narrow down the causes of problems they are facing with their teams, and finding appropriate course content through "jump_to_id" links.',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'edX RAW HTML boiler plate',
+      projectUrl: 'https://github.com/UQ-UQx/edx_raw_html_boilerplate',
+      tags: ['edx'],
+      platform: PLATFORM.HTML,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/edx_raw_html_boilerplate',
+      description: 'Use this tool to develop small interactive html, css, js apps for RAW HTML xblocks in edX',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'drag and drop words',
+      projectUrl: 'https://github.com/UQ-UQx/drag_and_drop_words',
+      tags: ['edx', 'lts'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/drag_and_drop_words',
+      description: 'Drag and drop activity developed for use in IELTSx',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'IELTSx reading practice test pages',
+      projectUrl: 'https://github.com/UQ-UQx/IELTSx_reading_practice_test_pages',
+      tags: ['edx', 'lts'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/IELTSx_reading_practice_test_pages',
+      description: 'Reading practice test pages used in IELTSx',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'IELTSx writing practice test',
+      projectUrl: 'https://github.com/UQ-UQx/IELTSx_writing_practice_test',
+      tags: ['edx', 'lts'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/IELTSx_writing_practice_test',
+      description: 'Writing practice test used in IELTSx',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'IELTSx reading practice test',
+      projectUrl: 'https://github.com/UQ-UQx/IELTSx_reading_practice_test',
+      tags: ['edx', 'lts'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/IELTSx_reading_practice_test',
+      description: 'Reading practice test used in IELTSx',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'IELTSx listening practice test',
+      projectUrl: 'https://github.com/UQ-UQx/IELTSx_listening_practice_test',
+      tags: ['edx', 'lts'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/IELTSx_listening_practice_test',
+      description: 'Listening practice test used in IELTSx',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'Audio Recorder',
+      projectUrl: 'https://github.com/UQ-UQx/audio_recorder',
+      tags: ['edx', 'lts'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/audio_recorder',
+      description: 'Audio recorder desiged for and implimented in IELTSx MOOC on the edX platform.',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'teams101x peer compatibilities conflicts',
+      projectUrl: 'https://github.com/UQ-UQx/teams101x_peer_compatibilities_conflicts',
+      tags: ['edx', 'teams101x'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/teams101x_peer_compatibilities_conflicts',
+      description: 'Teams101x compatibilities and potential clashes activity',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'Teams101x Generate PDF Tool',
+      projectUrl: 'https://github.com/UQ-UQx/teams101x_generate_pdf',
+      tags: ['edx', 'teams101x'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/teams101x_generate_pdf',
+      description: 'PDF generator tool of user answers a questionnaire regading their personal traits and team preference roles.',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'teams101x team conflict survey',
+      projectUrl: 'https://github.com/UQ-UQx/teams101x_team_conflict_survey',
+      tags: ['edx', 'teams101x'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/teams101x_team_conflict_survey',
+      description: 'Teams101x Team Conflict Survey {{Activity}}',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'teams101x tuckman questionnaire',
+      projectUrl: 'https://github.com/UQ-UQx/teams101x_tuckman_questionnaire',
+      tags: ['edx', 'teams101x'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/teams101x_tuckman_questionnaire',
+      description: 'Tuckman Questionnare for teams101x',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'WebRecorder',
+      projectUrl: 'https://github.com/UQ-UQx/WebRecorder',
+      tags: ['edx'],
+      platform: PLATFORM.OBJECTIVEC,
+      license: LICENSE.MIT,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/WebRecorder',
+      description: 'iOS web recorder for edX audio recording',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'xygrapher',
+      projectUrl: 'https://github.com/UQ-UQx/xygrapher',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UQ-UQx/xygrapher',
+      description: 'This module allows students to enter a X/Y Value and see their value graphed along with the other learners in the cohourt.',
+      author: 'UQx',
+      authorUrl: 'https://github.com/UQ-UQx'
     }
 ];
 
