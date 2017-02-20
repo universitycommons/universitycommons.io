@@ -7,6 +7,7 @@ module.exports = {
   JAVA: 'Java',
   JAVASCRIPT: 'JavaScript',
   LUA: 'Lua',
+  OBJECTIVEC: 'Objective-C',
   PERL: 'Perl',
   PHP: 'PHP',
   PUPPET: 'Puppet',
