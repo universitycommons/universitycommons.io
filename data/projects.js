@@ -4409,6 +4409,19 @@ module.exports = [
       description: 'This module allows students to enter a X/Y Value and see their value graphed along with the other learners in the cohourt.',
       author: 'UQx',
       authorUrl: 'https://github.com/UQ-UQx'
+    },
+
+    {
+      name: 'WeBWork',
+      projectUrl: 'http://webwork.maa.org/wiki/Main_Page',
+      tags: ['webwork'],
+      platform: PLATFORM.PERL,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/openwebwork/webwork',
+      description: 'Open Source Online Homework System',
+      author: 'WeBWorK',
+      authorUrl: 'https://github.com/openwebwork'
     }
 ];
 
