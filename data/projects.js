@@ -4422,6 +4422,19 @@ module.exports = [
       description: 'Open Source Online Homework System',
       author: 'WeBWorK',
       authorUrl: 'https://github.com/openwebwork'
+    },
+
+    {
+      name: 'Learning Locker',
+      projectUrl: 'https://learninglocker.net/',
+      tags: ['learning record store', 'xapi'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/LearningLocker/learninglocker',
+      description: 'An open source Learning Record Store (LRS) implementing the xAPI (Tin Can API).',
+      author: 'Learning Locker',
+      authorUrl: 'https://github.com/LearningLocker'
     }
 ];
 
