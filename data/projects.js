@@ -4435,6 +4435,45 @@ module.exports = [
       description: 'An open source Learning Record Store (LRS) implementing the xAPI (Tin Can API).',
       author: 'Learning Locker',
       authorUrl: 'https://github.com/LearningLocker'
+    },
+
+    {
+      name: 'uMobile Android App',
+      projectUrl: 'https://github.com/Oakland-University/uMobile-Android-App',
+      tags: ['uportal'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Oakland-University/uMobile-Android-App',
+      description: 'uMobile is the mobilization of uPortal',
+      author: 'Oakland University',
+      authorUrl: 'https://github.com/Oakland-University'
+    },
+
+    {
+      name: 'uMobile iOS App',
+      projectUrl: 'https://github.com/Oakland-University/uMobile-iOS-app',
+      tags: ['uportal'],
+      platform: PLATFORM.OBJECTIVEC,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Oakland-University/uMobile-iOS-app',
+      description: 'uMobile is the mobilization of uPortal',
+      author: 'Oakland University',
+      authorUrl: 'https://github.com/Oakland-University'
+    },
+
+    {
+      name: 'uPortal Tester Webapp',
+      projectUrl: 'https://github.com/Oakland-University/uPortal-Tester',
+      tags: ['uportal'],
+      platform: PLATFORM.OBJECTIVEC,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Oakland-University/uPortal-Tester',
+      description: 'This app can test if uPortal is responding normally.',
+      author: 'Oakland University',
+      authorUrl: 'https://github.com/Oakland-University'
     }
 ];
 
