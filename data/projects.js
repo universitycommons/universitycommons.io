@@ -4474,20 +4474,7 @@ module.exports = [
       description: 'This app can test if uPortal is responding normally.',
       author: 'Oakland University',
       authorUrl: 'https://github.com/Oakland-University'
-    },
-
-    {
-      name: 'uPortal Tester Webapp',
-      projectUrl: 'https://github.com/Oakland-University/uPortal-Tester',
-      tags: ['uportal'],
-      platform: PLATFORM.OBJECTIVEC,
-      license: LICENSE.APACHE2,
-      sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/Oakland-University/uPortal-Tester',
-      description: 'This app can test if uPortal is responding normally.',
-      author: 'Oakland University',
-      authorUrl: 'https://github.com/Oakland-University'
-    },
+    }
 
     {
       name: 'LTI Proxy',
