@@ -4474,6 +4474,45 @@ module.exports = [
       description: 'This app can test if uPortal is responding normally.',
       author: 'Oakland University',
       authorUrl: 'https://github.com/Oakland-University'
+    },
+
+    {
+      name: 'Custom Course Menu Block',
+      projectUrl: 'https://github.com/UniversityofPortland/moodle-block_custom_course_menu',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UniversityofPortland/moodle-block_custom_course_menu',
+      description: 'A block to display enrolled course in a configurable manner for both students and teachers.',
+      author: 'University of Portland',
+      authorUrl: 'https://github.com/UniversityofPortland'
+    },
+
+    {
+      name: 'Mahara Assignment Submission Plugin',
+      projectUrl: 'https://github.com/UniversityofPortland/moodle-assign_mahara',
+      tags: ['moodle', 'mahara'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UniversityofPortland/moodle-assign_mahara',
+      description: 'An updated Mahara assignment submission plugin.',
+      author: 'University of Portland',
+      authorUrl: 'https://github.com/UniversityofPortland'
+    },
+
+    {
+      name: 'Mahara Local Plugin',
+      projectUrl: 'https://github.com/UniversityofPortland/moodle-local_mahara',
+      tags: ['moodle', 'mahara'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/UniversityofPortland/moodle-assign_mahara',
+      description: 'Allows your Moodle installation to subscribe to Mahara XML-RPC endpoints.',
+      author: 'University of Portland',
+      authorUrl: 'https://github.com/UniversityofPortland'
     }
 ];
 
