@@ -4513,7 +4513,7 @@ module.exports = [
       description: 'Allows your Moodle installation to subscribe to Mahara XML-RPC endpoints.',
       author: 'University of Portland',
       authorUrl: 'https://github.com/UniversityofPortland'
-    }
+    },
 
     {
       name: 'LTI Proxy',
@@ -4526,6 +4526,45 @@ module.exports = [
       description: 'A configurable service to sign LTI parameters are return form data for your application',
       author: 'University of Wisconsin - Madison - DoIT',
       authorUrl: 'https://github.com/UW-Madison-DoIT'
+    },
+
+    {
+      name: 'OJS EZID Plugin',
+      projectUrl: 'https://github.com/VTUL/EzidDOI',
+      tags: ['ojs', 'ezid'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/VTUL/EzidDOI',
+      description: 'A plugin for assigning and registering DOIs with EZID for OJS articles and issues.',
+      author: 'Virginia Polytechnic Institute and State University Libraries',
+      authorUrl: 'https://github.com/VTUL'
+    },
+
+    {
+      name: 'Sufia Development Environment',
+      projectUrl: 'https://github.com/VTUL/sufia-install',
+      tags: ['sufia'],
+      platform: PLATFORM.SHELL,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/VTUL/sufia-install',
+      description: 'This Vagrant environment enables a developer to install and run a Sufia application either locally, via VirtualBox, or to bring up an Amazon Web Services (AWS) server instead.',
+      author: 'Virginia Polytechnic Institute and State University Libraries',
+      authorUrl: 'https://github.com/VTUL'
+    },
+
+    {
+      name: 'DSpace Links',
+      projectUrl: 'https://github.com/VTUL/dspace-links',
+      tags: ['dspace'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/VTUL/dspace-links',
+      description: 'This is a simple service for converting a DSpace collection\'s OAI-PMH identifiers into HTML links.',
+      author: 'Virginia Polytechnic Institute and State University Libraries',
+      authorUrl: 'https://github.com/VTUL'
     }
 ];
 
