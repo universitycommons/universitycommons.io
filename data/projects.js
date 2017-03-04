@@ -4565,6 +4565,149 @@ module.exports = [
       description: 'This is a simple service for converting a DSpace collection\'s OAI-PMH identifiers into HTML links.',
       author: 'Virginia Polytechnic Institute and State University Libraries',
       authorUrl: 'https://github.com/VTUL'
+    },
+
+    {
+      name: 'Problem Builder and Step Builder',
+      projectUrl: 'https://github.com/open-craft/problem-builder',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/problem-builder',
+      description: 'Both blocks allow to create questions of various types. They can be used to simulate the workflow of real-life mentoring, within an edX course.',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'xblock vectordraw',
+      projectUrl: 'https://github.com/open-craft/xblock-vectordraw',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/xblock-vectordraw',
+      description: 'An XBlock for creating vector drawing exercises',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'Dalite NG',
+      projectUrl: 'https://github.com/open-craft/dalite-ng',
+      tags: ['edx', 'lti'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/dalite-ng',
+      description: 'Dalite NG is a Peer Instruction Tool for online learning platforms such as Open edX. It is implemented in Django as an LTI tool and should be compatible with most online learning platforms.',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'LTI Tool Provider',
+      projectUrl: 'https://github.com/open-craft/django-lti-tool-provider',
+      tags: ['lti'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/django-lti-tool-provider',
+      description: 'This is an implementation of IMS LTI Tool Provider in a from of pluggable Django application',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'xblock field test',
+      projectUrl: 'https://github.com/open-craft/xblock-field-test',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/xblock-field-test',
+      description: 'XBlock for testing field scopes',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'Grammarian XBlock',
+      projectUrl: 'https://github.com/open-craft/xblock-grammarian',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/xblock-grammarian',
+      description: 'Grammarian is an XBlock that displays a sentence and asks the learner to click on the part of the sentence that is incorrect.',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'xblock dalite',
+      projectUrl: 'https://github.com/open-craft/xblock-dalite',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/xblock-dalite',
+      description: 'XBlock for Dalite-NG',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'Forum Leaderboard XBlock',
+      projectUrl: 'https://github.com/open-craft/xblock-leaderboard',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/xblock-leaderboard',
+      description: 'An XBlock for displaying the top voted threads in an inline discussion.',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'ActiveTable XBlock',
+      projectUrl: 'https://github.com/open-craft/xblock-activetable',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/xblock-activetable',
+      description: 'An XBlock that implements a tabular problem type. Students are requested to fill in some of the table cells.',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'edX Analytics Devstack',
+      projectUrl: 'https://github.com/open-craft/edx-analytics-devstack',
+      tags: ['edx'],
+      platform: PLATFORM.SHELL,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/edx-analytics-devstack',
+      description: 'This is a basic devstack setup for hacking on edX analytics.',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'Dalite',
+      projectUrl: 'https://github.com/open-craft/edu8-dalite',
+      tags: ['edx'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.APACHE2,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/open-craft/edu8-dalite',
+      description: 'Dalite is a peer instruction assignment web application',
+      author: 'OpenCraft',
+      authorUrl: 'https://github.com/open-craft'
     }
 ];
 
