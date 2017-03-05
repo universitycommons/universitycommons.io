@@ -4708,6 +4708,19 @@ module.exports = [
       description: 'Dalite is a peer instruction assignment web application',
       author: 'OpenCraft',
       authorUrl: 'https://github.com/open-craft'
+    },
+
+    {
+      name: 'BU edX External Grader Framework',
+      projectUrl: 'https://github.com/bu-ist/bux-grader-framework',
+      tags: ['edx'],
+      platform: PLATFORM.PYTHON,
+      license: LICENSE.AGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/bu-ist/bux-grader-framework',
+      description: 'A simple framework for creating specialized external graders for your edX course.',
+      author: 'Boston University Information Services and Technology',
+      authorUrl: 'https://github.com/bu-ist'
     }
 ];
 
