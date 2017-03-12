@@ -4721,6 +4721,19 @@ module.exports = [
       description: 'A simple framework for creating specialized external graders for your edX course.',
       author: 'Boston University Information Services and Technology',
       authorUrl: 'https://github.com/bu-ist'
+    },
+
+    {
+      name: 'digibib',
+      projectUrl: 'https://github.com/KelvinSmithLibrary/digibib',
+      tags: ['bibliography'],
+      platform: PLATFORM.RUBY,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/KelvinSmithLibrary/digibib',
+      description: 'A digital bibliography of digital projects.',
+      author: 'Case Western Reserve University Kelvin Smith Library',
+      authorUrl: 'https://github.com/KelvinSmithLibrary'
     }
 ];
 
