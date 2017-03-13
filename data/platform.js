@@ -1,5 +1,6 @@
 module.exports = {
   ASP: 'ASP',
+  CPP: 'C++',
   CSHARP: 'C#',
   GO: 'Go',
   GROOVY: 'Groovy',
