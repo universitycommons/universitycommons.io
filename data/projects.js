@@ -4734,6 +4734,19 @@ module.exports = [
       description: 'A digital bibliography of digital projects.',
       author: 'Case Western Reserve University Kelvin Smith Library',
       authorUrl: 'https://github.com/KelvinSmithLibrary'
+    },
+
+    {
+      name: 'TRACK4K',
+      projectUrl: 'http://track4k.co.za/',
+      tags: ['lecture', 'recording'],
+      platform: PLATFORM.CPP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.SELFHOSTED,
+      sourceUrl: 'http://track4k.co.za/downloads.html',
+      description: 'An open-source, automated, lecture recording system that tracks the presenter in 4K video streams',
+      author: 'TRACK4K',
+      authorUrl: 'http://track4k.co.za/'
     }
 ];
 
