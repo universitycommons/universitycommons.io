@@ -4747,6 +4747,19 @@ module.exports = [
       description: 'An open-source, automated, lecture recording system that tracks the presenter in 4K video streams',
       author: 'TRACK4K',
       authorUrl: 'http://track4k.co.za/'
+    },
+
+    {
+      name: 'EduSec',
+      projectUrl: 'https://github.com/EduSec/EduSec',
+      tags: ['erp'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/EduSec/EduSec',
+      description: 'College Management System',
+      author: 'EduSec',
+      authorUrl: 'https://github.com/EduSec'
     }
 ];
 
