@@ -4760,6 +4760,19 @@ module.exports = [
       description: 'College Management System',
       author: 'EduSec',
       authorUrl: 'https://github.com/EduSec'
+    },
+
+    {
+      name: 'Moodle Module for EQUELLA Integration',
+      projectUrl: 'https://github.com/equella/moodle-mod_equella',
+      tags: ['moodle', 'equella'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/equella/moodle-mod_equella',
+      description: 'Moodle module for integration with EQUELLA',
+      author: 'Equella',
+      authorUrl: 'https://github.com/equella'
     }
 ];
 
