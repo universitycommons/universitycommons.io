@@ -11,7 +11,7 @@ if(searchInput && searchForm && mainContentArea)
   searchForm.className += ' minimal';
 
   // Display search results as user types
-  addEventListener('keyup', function() {
+  searchInput.addEventListener('keyup', function() {
     onExecuteSearch(searchInput, mainContentArea);
   });
 }
