@@ -4773,6 +4773,45 @@ module.exports = [
       description: 'Moodle module for integration with EQUELLA',
       author: 'Equella',
       authorUrl: 'https://github.com/equella'
+    },
+
+    {
+      name: 'FenixEdu Academic',
+      projectUrl: 'http://fenixedu.org/',
+      tags: ['sis', 'student information system'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/FenixEdu/fenixedu-academic',
+      description: 'An open source Student Information System',
+      author: 'FenixEdu',
+      authorUrl: 'https://github.com/FenixEdu'
+    },
+
+    {
+      name: 'FenixEdu Learning',
+      projectUrl: 'http://fenixedu.org/',
+      tags: ['lms', 'learning management system'],
+      platform: PLATFORM.JAVA,
+      license: LICENSE.LGPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/FenixEdu/fenixedu-learning',
+      description: 'An open source Learning Management System',
+      author: 'FenixEdu',
+      authorUrl: 'https://github.com/FenixEdu'
+    },
+
+    {
+      name: 'SViz',
+      projectUrl: 'http://fenixedu.org/sviz/',
+      tags: ['data visualization'],
+      platform: PLATFORM.JAVASCRIPT,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/FenixEdu/sviz',
+      description: 'A d3-based library of visualizations to display aggregated data about student related information',
+      author: 'FenixEdu',
+      authorUrl: 'https://github.com/FenixEdu'
     }
 ];
 
