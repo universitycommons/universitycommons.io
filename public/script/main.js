@@ -163,3 +163,18 @@ function elem(elementName, options)
 
   return element;
 }
+
+// Randomize the suggested search placeholder
+var suggestedSearchTerms = [
+  'learning management system',
+  'student information system',
+  'digital signage',
+  'library'
+];
+
+searchInput.setAttribute('placeholder', 'Search for ' + getRandomElement(suggestedSearchTerms) + '...');
+
+function getRandomElement(targetArray)
+{
+  return targetArray[Math.floor(Math.random() * targetArray.length)];
+}
