@@ -13,11 +13,12 @@ Projects must meet the **guidelines** outlined below.
 
 ## Guidelines
 
-Projects within the University Commons must meet three guidelines:
+Projects within the University Commons must meet four guidelines:
 
 * **Open-Source:** The source code of the project must be publicly accessible online
 * **Related to Higher Education:** The project must be related specifically to higher education
 * **Shareable:** The project must have applicability beyond a single university or organization
+* **Active**: The project must not be deprecated or obsolete
 
 ## Running University Commons
 
