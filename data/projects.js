@@ -4812,6 +4812,123 @@ module.exports = [
       description: 'A d3-based library of visualizations to display aggregated data about student related information',
       author: 'FenixEdu',
       authorUrl: 'https://github.com/FenixEdu'
+    },
+
+    {
+      name: 'Moodle Theme Tester',
+      projectUrl: 'https://docs.moodle.org/29/en/Theme_Tester_tool',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-tool_themetester',
+      description: 'A Moodle Theme Testing tool, with a focus on Bootstrap 3 based themes.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'Collaborate',
+      projectUrl: 'https://docs.moodle.org/dev/Collaborate',
+      tags: ['moodle', 'blackboard'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-mod_collaborate',
+      description: 'A module for integration with Blackboard Collaborate.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'Snap',
+      projectUrl: 'https://github.com/moodlerooms/moodle-theme_snap',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-theme_snap',
+      description: 'A Moodle theme that makes online learning an enjoyable and intuitive experience for learners and educators',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'Flexpage',
+      projectUrl: 'https://docs.moodle.org/dev/Flexpage',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-theme_flexpage',
+      description: 'A course format that provides a teacher with complete control of how educational materials and assessments are presented to a student.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'redislock',
+      projectUrl: 'https://github.com/moodlerooms/moodle-local_redislock',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-local_redislock',
+      description: 'Provides a Moodle lock factory class for locking with Redis.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'Checklist',
+      projectUrl: 'https://github.com/moodlerooms/moodle-gradingform_checklist',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-gradingform_checklist',
+      description: 'The Checklist advanced grading method is an easy way for the user and teacher to view a list of criteria and the associated grade value for each criteria.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'Folder View',
+      projectUrl: 'https://docs.moodle.org/dev/Folder_View',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-format_folderview',
+      description: 'The Folder View course format displays activities and resources within a folder that is expandable or collapsible.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'HTTPS Search and replace',
+      projectUrl: 'https://docs.moodle.org/30/en/HTTPS_Search_and_replace',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.NONE,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-tool_httpsreplace',
+      description: 'When turning on https security for a site, embedded content using http urls may stop working. This 3rd party tool allows you to locate and upgrade those links by searching the content in the database and changing it in one go.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'moodle plugin ci',
+      projectUrl: 'https://github.com/moodlerooms/moodle-plugin-ci',
+      tags: ['moodle'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/moodlerooms/moodle-plugin-ci',
+      description: 'The goal of this project is to facilitate the running of tests and code analysis tools against a Moodle plugin in Travis CI.',
+      author: 'Moodlerooms, Inc.',
+      authorUrl: 'https://github.com/moodlerooms'
     }
 ];
 
