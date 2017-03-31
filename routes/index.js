@@ -46,7 +46,7 @@ router.get('/', function(req, res, next) {
 
 // About
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About > University Commons' });
+  res.render('about', { title: 'About > University Commons', totalProjectCount: projects.length });
 });
 
 // Search
