@@ -4929,6 +4929,19 @@ module.exports = [
       description: 'The goal of this project is to facilitate the running of tests and code analysis tools against a Moodle plugin in Travis CI.',
       author: 'Moodlerooms, Inc.',
       authorUrl: 'https://github.com/moodlerooms'
+    },
+
+    {
+      name: 'Islandora',
+      projectUrl: 'http://islandora.ca/',
+      tags: ['islandora', 'repository', 'drupal'],
+      platform: PLATFORM.PHP,
+      license: LICENSE.GPL3,
+      sourceHost: SOURCEHOST.GITHUB,
+      sourceUrl: 'https://github.com/Islandora/islandora',
+      description: 'A Drupal module for browsing and managing Fedora-based digital repositories',
+      author: 'Islandora',
+      authorUrl: 'https://github.com/Islandora'
     }
 ];
 
