@@ -7,7 +7,7 @@ module.exports = [
     {
       name: 'ATutor',
       projectUrl: 'http://www.atutor.ca/',
-      tags: ['learning management system', 'lms'],
+      tags: ['learning management system', 'lms', 'online course'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -22,7 +22,7 @@ module.exports = [
       projectUrl: 'https://www.canvaslms.com/',
       tags: ['learning management system', 'lms'],
       platform: PLATFORM.RUBY,
-      license: LICENSE.GPL3,
+      license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/instructure/canvas-lms',
       description: 'The open LMS by Instructure, Inc.',
@@ -33,7 +33,7 @@ module.exports = [
     {
       name: 'Caucus',
       projectUrl: 'http://www.caucus.com/',
-      tags: ['learning management system', 'lms'],
+      tags: ['learning management system', 'lms', 'online course'],
       platform: PLATFORM.JAVA,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.SELFHOSTED,
@@ -57,19 +57,6 @@ module.exports = [
     },
 
     {
-      name: 'eFront',
-      projectUrl: 'https://www.efrontlearning.com/',
-      tags: ['learning management system', 'lms'],
-      platform: PLATFORM.PHP,
-      license: LICENSE.CPAL1,
-      sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/epignosis/efront_open_source',
-      description: 'A highly customized eLearning experience to fit your brand and preferences',
-      author: 'Epignosis',
-      authorUrl: 'https://github.com/epignosis/'
-    },
-
-    {
       name: 'ELMS LN',
       projectUrl: 'https://www.elmsln.org/',
       tags: ['learning management system', 'lms'],
@@ -85,7 +72,7 @@ module.exports = [
     {
       name: 'Forma LMS',
       projectUrl: 'http://www.formalms.org/',
-      tags: ['learning management system', 'lms'],
+      tags: ['learning management system', 'lms', 'online course'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SOURCEFORGE,
@@ -111,7 +98,7 @@ module.exports = [
     {
       name: 'LAMS',
       projectUrl: 'https://www.lamsfoundation.org/',
-      tags: ['learning management system', 'lms'],
+      tags: ['learning management system', 'lms', 'online course'],
       platform: PLATFORM.JAVA,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.SELFHOSTED,
