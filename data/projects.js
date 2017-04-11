@@ -123,7 +123,7 @@ module.exports = [
 
     {
       name: 'OLAT',
-      projectUrl: 'http://www.olat.org/product',
+      projectUrl: 'http://www.olat.org/',
       tags: ['learning management system', 'lms'],
       platform: PLATFORM.JAVA,
       license: LICENSE.APACHE2,
@@ -150,7 +150,7 @@ module.exports = [
     {
       name: 'Opigno',
       projectUrl: 'https://www.opigno.org/en',
-      tags: ['learning management system', 'lms'],
+      tags: ['learning management system', 'lms', 'drupal', 'online course'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.DRUPAL,
@@ -228,7 +228,7 @@ module.exports = [
     {
       name: 'Shopping Sheet',
       projectUrl: 'https://github.com/ucsbfinaid/Shopping-Sheet',
-      tags: ['financial aid'],
+      tags: ['financial aid', 'shopping sheet'],
       platform: PLATFORM.HTML,
       license: LICENSE.BSD3CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -241,7 +241,7 @@ module.exports = [
     {
       name: 'Course Cart',
       projectUrl: 'https://github.com/biola/course-cart',
-      tags: ['online courses'],
+      tags: ['online course', 'payment', 'touchnet', 'banner'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
