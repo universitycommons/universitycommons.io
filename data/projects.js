@@ -267,7 +267,7 @@ module.exports = [
     {
       name: 'Digital Signage',
       projectUrl: 'https://github.com/biola/digital_signage',
-      tags: ['signage'],
+      tags: ['digital signage'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -280,7 +280,7 @@ module.exports = [
     {
       name: 'VIVO',
       projectUrl: 'http://vivoweb.org/',
-      tags: ['research'],
+      tags: ['research', 'scholarship'],
       platform: PLATFORM.JAVA,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -357,8 +357,8 @@ module.exports = [
 
     {
       name: 'BibApp',
-      projectUrl: 'http://bibapp.org/',
-      tags: ['faculty', 'research'],
+      projectUrl: 'https://github.com/BibApp/BibApp',
+      tags: ['faculty', 'research', 'scholarship'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NCSA,
       sourceHost: SOURCEHOST.GITHUB,
