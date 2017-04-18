@@ -384,7 +384,7 @@ module.exports = [
     {
       name: 'Open Monograph Press',
       projectUrl: 'https://pkp.sfu.ca/omp/',
-      tags: ['editorial', 'review', 'workflow'],
+      tags: ['workflow', 'publishing'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -397,7 +397,7 @@ module.exports = [
     {
       name: 'Open Conference System',
       projectUrl: 'https://pkp.sfu.ca/ocs/',
-      tags: ['conference'],
+      tags: ['conference', 'content management system', 'cms'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -410,7 +410,7 @@ module.exports = [
     {
       name: 'Open Harvester Systems',
       projectUrl: 'https://pkp.sfu.ca/ohs/',
-      tags: ['metadata', 'index'],
+      tags: ['metadata', 'index', 'mods', 'marcxml'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -423,7 +423,7 @@ module.exports = [
     {
       name: 'DBTracker',
       projectUrl: 'https://github.com/BCLibraries/DBTracker',
-      tags: ['libguides'],
+      tags: ['libguides', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -436,7 +436,7 @@ module.exports = [
     {
       name: 'primo-services',
       projectUrl: 'https://github.com/BCLibraries/primo-services',
-      tags: ['primo', 'xservice'],
+      tags: ['primo', 'xservice', 'ex libris', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -449,7 +449,7 @@ module.exports = [
     {
       name: 'php-libguides',
       projectUrl: 'https://github.com/BCLibraries/php-libguides',
-      tags: ['libguides'],
+      tags: ['libguides', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -462,7 +462,7 @@ module.exports = [
     {
       name: 'php-metalib',
       projectUrl: 'https://github.com/BCLibraries/php-metalib',
-      tags: ['exlibris', 'metalib'],
+      tags: ['ex libris', 'metalib', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -475,7 +475,7 @@ module.exports = [
     {
       name: 'php-alma',
       projectUrl: 'https://github.com/BCLibraries/php-alma',
-      tags: ['alma'],
+      tags: ['alma', 'ex libris', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -488,7 +488,7 @@ module.exports = [
     {
       name: 'Digital Signage 2.0',
       projectUrl: 'https://github.com/chapmanu/signage',
-      tags: ['signage'],
+      tags: ['digital signage'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -501,7 +501,7 @@ module.exports = [
     {
       name: 'Series25',
       projectUrl: 'https://github.com/chapmanu/series25',
-      tags: ['series25'],
+      tags: ['series25', 'collegenet'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
