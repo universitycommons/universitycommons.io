@@ -514,7 +514,7 @@ module.exports = [
     {
       name: 'Digital Signage',
       projectUrl: 'https://github.com/chapmanu/digital-signage',
-      tags: ['signage'],
+      tags: ['digital signage'],
       platform: PLATFORM.HTML,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -527,7 +527,7 @@ module.exports = [
     {
       name: 'University Tickets',
       projectUrl: 'https://github.com/chapmanu/university_tickets',
-      tags: ['university tickets'],
+      tags: ['universitytickets'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -540,7 +540,7 @@ module.exports = [
     {
       name: 'Social Feed Manager',
       projectUrl: 'http://gwu-libraries.github.io/sfm-ui/',
-      tags: ['social'],
+      tags: ['social', 'collections', 'archives', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -553,7 +553,7 @@ module.exports = [
     {
       name: 'orcid2vivo',
       projectUrl: 'https://github.com/gwu-libraries/orcid2vivo',
-      tags: ['orcid', 'vivo'],
+      tags: ['orcid', 'vivo', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -566,7 +566,7 @@ module.exports = [
     {
       name: 'VIVO2NotLD',
       projectUrl: 'https://github.com/gwu-libraries/vivo2notld',
-      tags: ['vivo'],
+      tags: ['vivo', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -579,7 +579,7 @@ module.exports = [
     {
       name: 'inventory',
       projectUrl: 'https://github.com/gwu-libraries/inventory',
-      tags: ['inventory'],
+      tags: ['inventory', 'library', 'collections'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -592,7 +592,7 @@ module.exports = [
     {
       name: 'DigOps',
       projectUrl: 'https://github.com/gwu-libraries/DigOp',
-      tags: ['workflow', 'digitization'],
+      tags: ['workflow', 'digitization', 'library', 'django'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -605,7 +605,7 @@ module.exports = [
     {
       name: 'idservice',
       projectUrl: 'https://github.com/gwu-libraries/idservice',
-      tags: ['identifier', 'library'],
+      tags: ['identifier', 'library', 'collections', 'noid'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -618,7 +618,7 @@ module.exports = [
     {
       name: 'bagsinspace',
       projectUrl: 'https://github.com/gwu-libraries/bagsinspace',
-      tags: ['dspace'],
+      tags: ['dspace', 'repository', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -631,7 +631,7 @@ module.exports = [
     {
       name: 'summoner',
       projectUrl: 'https://github.com/gwu-libraries/summoner',
-      tags: ['summon'],
+      tags: ['summon', 'proquest', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
