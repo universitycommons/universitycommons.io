@@ -540,7 +540,7 @@ module.exports = [
     {
       name: 'Social Feed Manager',
       projectUrl: 'http://gwu-libraries.github.io/sfm-ui/',
-      tags: ['social', 'collections', 'archives', 'library'],
+      tags: ['social', 'collections', 'archive', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -643,8 +643,8 @@ module.exports = [
 
     {
       name: 'Omeka',
-      projectUrl: 'https://github.com/omeka/Omeka',
-      tags: ['library', 'museum', 'collections', 'archives', 'exhibitions'],
+      projectUrl: 'http://omeka.org/',
+      tags: ['library', 'museum', 'collections', 'archive', 'exhibitions'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -657,7 +657,7 @@ module.exports = [
     {
       name: 'Hydra',
       projectUrl: 'https://projecthydra.org/',
-      tags: ['repository'],
+      tags: ['repository', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -670,9 +670,9 @@ module.exports = [
     {
       name: 'batch-tools',
       projectUrl: 'http://georgetown-university-libraries.github.io/batch-tools/',
-      tags: ['dspace'],
+      tags: ['dspace', 'repository', 'library', 'collections'],
       platform: PLATFORM.PHP,
-      license: LICENSE.BSD2CLAUSE,
+      license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Georgetown-University-Libraries/batch-tools',
       description: 'This code was created by the Georgetown University Libraries to assist in the management of DSpace.',
@@ -683,9 +683,9 @@ module.exports = [
     {
       name: 'APTUploadVerification',
       projectUrl: 'https://github.com/Georgetown-University-Libraries/APTUploadVerification',
-      tags: ['aptrust'],
+      tags: ['aptrust', 'library'],
       platform: PLATFORM.JAVA,
-      license: LICENSE.BSD2CLAUSE,
+      license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Georgetown-University-Libraries/APTUploadVerification',
       description: 'Command Line Interface to the APTrust API',
@@ -696,9 +696,9 @@ module.exports = [
     {
       name: 'ASResourceToDSpaceFindingAid',
       projectUrl: 'https://github.com/Georgetown-University-Libraries/ASResourceToDSpaceFindingAid',
-      tags: ['archivesspace'],
+      tags: ['archivesspace', 'archive', 'collections', 'library'],
       platform: PLATFORM.JAVA,
-      license: LICENSE.BSD2CLAUSE,
+      license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Georgetown-University-Libraries/ASResourceToDSpaceFindingAid',
       description: 'Extract published resources using the ArchivesSpace API.',
@@ -711,7 +711,7 @@ module.exports = [
       projectUrl: 'http://georgetown-university-libraries.github.io/GUExtractSierraBibs/',
       tags: ['library', 'sierra'],
       platform: PLATFORM.JAVA,
-      license: LICENSE.BSD2CLAUSE,
+      license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Georgetown-University-Libraries/GUExtractSierraBibs',
       description: 'This code provides a sample implementation of a BIB and ITEM extract using the Sierra REST API.',
@@ -722,7 +722,7 @@ module.exports = [
     {
       name: 'DSpace',
       projectUrl: 'http://dspace.org/',
-      tags: ['library', 'repository'],
+      tags: ['library', 'repository', 'dspace'],
       platform: PLATFORM.JAVA,
       license: LICENSE.BSD3CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -735,7 +735,7 @@ module.exports = [
     {
       name: '360Link-Reset',
       projectUrl: 'https://github.com/gvsulib/360Link-Reset',
-      tags: ['360link'],
+      tags: ['360link', 'proquest', 'research', 'jquery', 'serials solutions', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -748,7 +748,7 @@ module.exports = [
     {
       name: 'Custom Summon Searches',
       projectUrl: 'https://github.com/gvsulib/Custom-Summon-Searches',
-      tags: ['summon'],
+      tags: ['summon', 'proquest', 'serials solutions', 'library'],
       platform: PLATFORM.HTML,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -761,7 +761,7 @@ module.exports = [
     {
       name: 'Summon Stats',
       projectUrl: 'https://github.com/gvsulib/Summon-Stats',
-      tags: ['summon'],
+      tags: ['summon', 'proquest', 'serials solutions', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -791,7 +791,7 @@ module.exports = [
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/gvsulib/Millennium-Stats',
+      sourceUrl: 'https://github.com/harvard-lil/map-it',
       description: 'Helping users locate items in the library stacks.',
       author: 'Harvard Library Innovation Laboratory',
       authorUrl: 'https://github.com/harvard-lil'
