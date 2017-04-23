@@ -800,7 +800,7 @@ module.exports = [
     {
       name: 'Computer Lab Availability',
       projectUrl: 'https://github.com/MontclairState/Computer-Lab-Availability',
-      tags: ['computer', 'lab'],
+      tags: ['computer lab'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -813,7 +813,7 @@ module.exports = [
     {
       name: 'vagrant archivesspace',
       projectUrl: 'https://github.com/NYULibraries/vagrant-archivesspace',
-      tags: ['vagrant', 'archivesspace'],
+      tags: ['vagrant', 'archivesspace', 'archive', 'library'],
       platform: PLATFORM.VAGRANT,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -826,7 +826,7 @@ module.exports = [
     {
       name: 'nyu marcxml export plugin',
       projectUrl: 'https://github.com/NYULibraries/nyu_marcxml_export_plugin',
-      tags: ['marcxml', 'archivesspace'],
+      tags: ['marcxml', 'archivesspace', 'archive', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -839,9 +839,9 @@ module.exports = [
     {
       name: 'at do cleanup',
       projectUrl: 'https://github.com/NYULibraries/at-do-cleanup',
-      tags: ['archivists', 'toolkit'],
+      tags: ['archivists toolkit', 'archive', 'library'],
       platform: PLATFORM.RUBY,
-      license: LICENSE.NONE,
+      license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/NYULibraries/at-do-cleanup',
       description: 'A utility script to remove duplicate "DigitalObjects" from Archivist\'s Toolkit databases.',
@@ -852,7 +852,7 @@ module.exports = [
     {
       name: 'ArchivesSpace',
       projectUrl: 'https://github.com/archivesspace/archivesspace',
-      tags: ['archivesspace', 'archive'],
+      tags: ['archivesspace', 'archive', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.ECL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -865,7 +865,7 @@ module.exports = [
     {
       name: 'QuickSearch',
       projectUrl: 'http://www.lib.ncsu.edu/reports/quicksearch',
-      tags: ['search'],
+      tags: ['search', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -878,7 +878,7 @@ module.exports = [
     {
       name: 'ArchivesSpace Public',
       projectUrl: 'https://github.com/NCSU-Libraries/aspace_public',
-      tags: ['archivesspace'],
+      tags: ['archivesspace', 'archive', 'collections', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -891,7 +891,7 @@ module.exports = [
     {
       name: 'Groovy MARC Extensions',
       projectUrl: 'https://github.com/NCSU-Libraries/groovy-marc',
-      tags: ['marc4j', 'marcxml'],
+      tags: ['marc4j', 'marcxml', 'marc', 'library'],
       platform: PLATFORM.GROOVY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3634,7 +3634,7 @@ module.exports = [
     {
       name: 'Honeycomb',
       projectUrl: 'https://github.com/ndlib/honeycomb',
-      tags: ['collection'],
+      tags: ['collections'],
       platform: PLATFORM.RUBY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3647,7 +3647,7 @@ module.exports = [
     {
       name: 'Beehive',
       projectUrl: 'https://github.com/ndlib/beehive',
-      tags: ['collection'],
+      tags: ['collections'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3829,7 +3829,7 @@ module.exports = [
     {
       name: 'Avalon Media System',
       projectUrl: 'https://github.com/avalonmediasystem/avalon',
-      tags: ['hydra', 'collection'],
+      tags: ['hydra', 'collections'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
