@@ -11,6 +11,7 @@ module.exports = {
   ECL2: 'ECL-2.0',
   GPL2: 'GPL-2.0',
   GPL3: 'GPL-3.0',
+  LGPL21: 'LGPL-2.1',
   LGPL3: 'LGPL-3.0',
   MIT: 'MIT',
   NCSA: 'NCSA',
