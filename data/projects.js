@@ -904,7 +904,7 @@ module.exports = [
     {
       name: 'OLE Migration Toolkit',
       projectUrl: 'https://github.com/NCSU-Libraries/ole-migrator-tools',
-      tags: ['marc4j', 'ole', 'kuali'],
+      tags: ['marc4j', 'ole', 'kuali', 'marc', 'marcxml', 'library'],
       platform: PLATFORM.GROOVY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -917,9 +917,9 @@ module.exports = [
     {
       name: 'MARC4J',
       projectUrl: 'https://github.com/marc4j/marc4j',
-      tags: ['marcxml', 'marc', 'marc4j'],
+      tags: ['marcxml', 'marc', 'marc4j', 'library'],
       platform: PLATFORM.JAVA,
-      license: LICENSE.GPL2,
+      license: LICENSE.LGPL21,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/marc4j/marc4j',
       description: 'The goal of MARC4J is to provide an easy to use Application Programming Interface (API) for working with MARC and MARCXML in Java.',
@@ -930,7 +930,7 @@ module.exports = [
     {
       name: 'manage user defined fields',
       projectUrl: 'https://github.com/osulibraries/manage_user_defined_fields',
-      tags: ['archivesspace'],
+      tags: ['archivesspace', 'archive', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -943,7 +943,7 @@ module.exports = [
     {
       name: 'dspace xmlui theme snazy',
       projectUrl: 'https://github.com/osulibraries/dspace-xmlui-theme-snazy',
-      tags: ['dspace'],
+      tags: ['dspace', 'repository', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -956,7 +956,7 @@ module.exports = [
     {
       name: 'dspace stats elasticsearch',
       projectUrl: 'https://github.com/osulibraries/dspace-stats-elasticsearch',
-      tags: ['dspace'],
+      tags: ['dspace', 'elasticsearch', 'search', 'repository', 'library'],
       platform: PLATFORM.JAVA,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -969,7 +969,7 @@ module.exports = [
     {
       name: 'SelfDeposit',
       projectUrl: 'https://github.com/osulp/selfdeposit',
-      tags: ['dspace'],
+      tags: ['dspace', 'repository', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -982,7 +982,7 @@ module.exports = [
     {
       name: 'ILLiad Request History',
       projectUrl: 'https://github.com/osulp/ILLiad-Request-History',
-      tags: ['illiad'],
+      tags: ['illiad', 'library'],
       platform: PLATFORM.LUA,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1006,22 +1006,9 @@ module.exports = [
     },
 
     {
-      name: 'Digtal Commons DOI',
-      projectUrl: 'https://github.com/pdxlibrary/DigtalCommons-DOI',
-      tags: ['digital commons', 'doi'],
-      platform: PLATFORM.RUBY,
-      license: LICENSE.NONE,
-      sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/pdxlibrary/DigtalCommons-DOI',
-      description: 'Ruby script that generates an XML file for import to Crossref DOI from a Digital Commons metadata export.',
-      author: 'Portland State University Library',
-      authorUrl: 'https://github.com/pdxlibrary'
-    },
-
-    {
       name: 'Primo Send Search To',
       projectUrl: 'https://github.com/pdxlibrary/Primo-Send-Search-To',
-      tags: ['ex libris', 'primo back office', 'worldcat', 'google scholar'],
+      tags: ['ex libris', 'primo back office', 'primo', 'worldcat', 'google scholar', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
