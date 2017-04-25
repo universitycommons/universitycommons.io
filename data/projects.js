@@ -1021,7 +1021,7 @@ module.exports = [
     {
       name: 'Primo Expandable Facets',
       projectUrl: 'https://github.com/pdxlibrary/Primo-Expandable-Facets',
-      tags: ['ex libris', 'primo back office'],
+      tags: ['ex libris', 'primo back office', 'primo', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1034,7 +1034,7 @@ module.exports = [
     {
       name: 'Primo Text a Call Number',
       projectUrl: 'https://github.com/pdxlibrary/Primo-Text-a-Call-Number',
-      tags: ['ex libris', 'primo back office'],
+      tags: ['ex libris', 'primo back office', 'primo', 'library', 'search', 'call number'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1047,7 +1047,7 @@ module.exports = [
     {
       name: 'Alma Hours Widget',
       projectUrl: 'https://github.com/pdxlibrary/Alma-Hours-Widget',
-      tags: ['ex libris', 'alma'],
+      tags: ['ex libris', 'alma', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1060,7 +1060,7 @@ module.exports = [
     {
       name: 'Alma Offline Circulation Tool',
       projectUrl: 'https://github.com/pdxlibrary/alma-offline-circulation-tool',
-      tags: ['ex libris', 'alma'],
+      tags: ['ex libris', 'alma', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.CC0,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1073,7 +1073,7 @@ module.exports = [
     {
       name: 'Primo Popup Sign In',
       projectUrl: 'https://github.com/pdxlibrary/Primo-Popup-Sign-In',
-      tags: ['ex libris', 'primo back office'],
+      tags: ['ex libris', 'primo back office', 'primo', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1086,7 +1086,7 @@ module.exports = [
     {
       name: 'Primo Guest Sign In Bar',
       projectUrl: 'https://github.com/pdxlibrary/Primo-Guest-Sign-In-Bar',
-      tags: ['ex libris', 'primo back office'],
+      tags: ['ex libris', 'primo back office', 'primo', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1099,7 +1099,7 @@ module.exports = [
     {
       name: 'DSpace to Digital Commons Migration',
       projectUrl: 'https://github.com/pdxlibrary/ds2dc',
-      tags: ['dspace', 'digital commons'],
+      tags: ['dspace', 'digital commons', 'repository', 'collections', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1111,7 +1111,7 @@ module.exports = [
 
     {
       name: 'Universal Viewer',
-      projectUrl: 'https://github.com/UniversalViewer/universalviewer',
+      projectUrl: 'http://universalviewer.io/',
       tags: ['digital artifacts', 'iiif'],
       platform: PLATFORM.HTML,
       license: LICENSE.MIT,
@@ -1125,7 +1125,7 @@ module.exports = [
     {
       name: 'Spotlight',
       projectUrl: 'http://spotlight.projectblacklight.org/',
-      tags: ['blacklight', 'digital collections'],
+      tags: ['blacklight', 'collections', 'solr', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1138,7 +1138,7 @@ module.exports = [
     {
       name: 'Blacklight',
       projectUrl: 'http://projectblacklight.org/',
-      tags: ['blacklight', 'digital collections', 'solr'],
+      tags: ['blacklight', 'collections', 'solr', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
