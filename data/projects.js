@@ -1164,7 +1164,7 @@ module.exports = [
     {
       name: 'Plum',
       projectUrl: 'https://github.com/pulibrary/plum',
-      tags: ['library', 'hydra', 'curationconcerns'],
+      tags: ['library', 'hydra', 'curationconcerns', 'digitization', 'workflow'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1177,7 +1177,7 @@ module.exports = [
     {
       name: 'MARC Liberation',
       projectUrl: 'https://github.com/pulibrary/marc_liberation',
-      tags: ['marc', 'voyager'],
+      tags: ['marc', 'voyager', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.BSD2CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1190,7 +1190,7 @@ module.exports = [
     {
       name: 'Voyager Helpers',
       projectUrl: 'https://github.com/pulibrary/voyager_helpers',
-      tags: ['voyager'],
+      tags: ['voyager', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.BSD2CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1203,7 +1203,7 @@ module.exports = [
     {
       name: 'marc cleanup',
       projectUrl: 'https://github.com/pulibrary/marc_cleanup',
-      tags: ['marc', 'voyager'],
+      tags: ['marc', 'voyager', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.BSD2CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1216,7 +1216,7 @@ module.exports = [
     {
       name: 'iiif schemas',
       projectUrl: 'https://github.com/pulibrary/iiif-schemas',
-      tags: ['iif', 'relax-ng'],
+      tags: ['iif', 'relax-ng', 'library'],
       platform: PLATFORM.XML,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1229,7 +1229,7 @@ module.exports = [
     {
       name: 'spiiiffy',
       projectUrl: 'https://github.com/pulibrary/spiiiffy',
-      tags: ['iif', 'mets'],
+      tags: ['iif', 'mets', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1242,7 +1242,7 @@ module.exports = [
     {
       name: 'lcsort',
       projectUrl: 'https://github.com/pulibrary/lcsort',
-      tags: ['library', 'call numbers'],
+      tags: ['library', 'call number'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1255,7 +1255,7 @@ module.exports = [
     {
       name: 'iiif image field',
       projectUrl: 'https://www.drupal.org/sandbox/sdellis/2421047',
-      tags: ['iiif', 'drupal'],
+      tags: ['iiif', 'drupal', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1268,7 +1268,7 @@ module.exports = [
     {
       name: 'ojs Cookbook',
       projectUrl: 'https://github.com/ryersonlibrary/ojs_cookbook',
-      tags: ['ojs'],
+      tags: ['ojs', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
