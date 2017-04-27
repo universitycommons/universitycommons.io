@@ -1281,7 +1281,7 @@ module.exports = [
     {
       name: 'OJS CAS',
       projectUrl: 'https://github.com/ryersonlibrary/ojs-cas',
-      tags: ['ojs', 'cas'],
+      tags: ['ojs', 'cas', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1296,7 +1296,7 @@ module.exports = [
       projectUrl: 'https://github.com/royalroads/rruopencourses',
       tags: ['moodle'],
       platform: PLATFORM.PHP,
-      license: LICENSE.NONE,
+      license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/royalroads/rruopencourses',
       description: 'A Moodle plug-in that automatically opens courses on their start date.',
@@ -1333,7 +1333,7 @@ module.exports = [
     {
       name: 'Guide on the Side',
       projectUrl: 'http://code.library.arizona.edu/gots/',
-      tags: ['library'],
+      tags: ['library', 'tutorial'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1344,22 +1344,9 @@ module.exports = [
     },
 
     {
-      name: 'chat analyzer',
-      projectUrl: 'https://github.com/ualibraries/chat-analyzer',
-      tags: ['library', 'libraryh3lp'],
-      platform: PLATFORM.PYTHON,
-      license: LICENSE.NONE,
-      sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/ualibraries/chat-analyzer',
-      description: 'A helpful little tool for analyzing chat data from libraryh3lp',
-      author: 'The University of Arizona Libraries',
-      authorUrl: 'https://github.com/ualibraries'
-    },
-
-    {
       name: 'CONTENTdm Collection Harvester',
       projectUrl: 'https://github.com/ubc-library/harvester-contentdm',
-      tags: ['contentdm'],
+      tags: ['contentdm', 'search', 'collections', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1385,7 +1372,7 @@ module.exports = [
     {
       name: 'Beehive',
       projectUrl: 'http://beehive.berkeley.edu/',
-      tags: ['research'],
+      tags: ['research', 'search'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1398,7 +1385,7 @@ module.exports = [
     {
       name: 'MOOCchat',
       projectUrl: 'https://github.com/ucberkeley/moocchat',
-      tags: ['mooc'],
+      tags: ['mooc', 'chat'],
       platform: PLATFORM.RUBY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
