@@ -1398,7 +1398,7 @@ module.exports = [
     {
       name: 'Digital Media Reserves',
       projectUrl: 'https://github.com/ucsdlib/dmr',
-      tags: ['videos'],
+      tags: ['video'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1411,7 +1411,7 @@ module.exports = [
     {
       name: 'damsmanager',
       projectUrl: 'https://github.com/ucsdlib/damsmanager',
-      tags: ['collections'],
+      tags: ['collections', 'library', 'repository'],
       platform: PLATFORM.JAVA,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1424,7 +1424,7 @@ module.exports = [
     {
       name: 'The UC San Diego Library DAMS repository',
       projectUrl: 'https://github.com/ucsdlib/damsrepo',
-      tags: ['library'],
+      tags: ['library', 'repository', 'hydra'],
       platform: PLATFORM.JAVA,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1450,7 +1450,7 @@ module.exports = [
     {
       name: 't4Query',
       projectUrl: 'https://github.com/userexec/t4Query',
-      tags: ['terminalfour', 'javascript'],
+      tags: ['terminalfour'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1463,9 +1463,9 @@ module.exports = [
     {
       name: 'openedx certificates',
       projectUrl: 'https://github.com/Stanford-Online/openedx-certificates',
-      tags: ['edx', 'xblock'],
+      tags: ['edx', 'xblock', 'xqueue'],
       platform: PLATFORM.PYTHON,
-      license: LICENSE.GPL3,
+      license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Stanford-Online/openedx-certificates',
       description: 'This script will continuously monitor an XQueue to generate course certificates for users.',
@@ -1476,9 +1476,9 @@ module.exports = [
     {
       name: 'Qualtrics Survey',
       projectUrl: 'https://github.com/Stanford-Online/xblock-qualtrics-survey',
-      tags: ['edx', 'xblock', 'qualtrics'],
+      tags: ['edx', 'xblock', 'qualtrics', 'survey'],
       platform: PLATFORM.PYTHON,
-      license: LICENSE.GPL3,
+      license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Stanford-Online/xblock-qualtrics-survey',
       description: 'Xblock for creating a Qualtrics survey.',
@@ -1502,7 +1502,7 @@ module.exports = [
     {
       name: 'edx theme',
       projectUrl: 'https://github.com/Stanford-Online/edx-theme',
-      tags: ['edx'],
+      tags: ['edx', 'theme'],
       platform: PLATFORM.HTML,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1517,7 +1517,7 @@ module.exports = [
       projectUrl: 'https://github.com/Stanford-Online/xblock-submit-and-compare',
       tags: ['edx', 'xblock'],
       platform: PLATFORM.PYTHON,
-      license: LICENSE.GPL3,
+      license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Stanford-Online/xblock-submit-and-compare',
       description: 'Self Assessment XBlock for the edX Platform',
