@@ -1658,7 +1658,7 @@ module.exports = [
     {
       name: 'Open edX Platform',
       projectUrl: 'https://open.edx.org/',
-      tags: ['edx', 'lms', 'learning management system'],
+      tags: ['edx', 'lms', 'learning management system', 'online course'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
