@@ -1775,7 +1775,7 @@ module.exports = [
     {
       name: 'Hydra North',
       projectUrl: 'https://github.com/ualbertalib/HydraNorth',
-      tags: ['hydra', 'dam'],
+      tags: ['hydra', 'dam', 'digital asset management system', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1788,7 +1788,7 @@ module.exports = [
     {
       name: 'sfx2sirsi',
       projectUrl: 'https://github.com/ualbertalib/sfx2sirsi',
-      tags: ['sfx', 'sirsi', 'symphony'],
+      tags: ['sfx', 'sirsi', 'symphony', 'marc', 'marcxml', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1801,7 +1801,7 @@ module.exports = [
     {
       name: 'MODS Oxygen Template',
       projectUrl: 'https://github.com/ualbertalib/MODS-Oxygen-Template',
-      tags: ['mods', 'oxygen'],
+      tags: ['mods', 'oxygen', 'marc', 'library'],
       platform: PLATFORM.HTML,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1814,7 +1814,7 @@ module.exports = [
     {
       name: 'RubyEDS',
       projectUrl: 'https://github.com/ualbertalib/ruby_eds',
-      tags: ['eds'],
+      tags: ['eds', 'ebsco', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1827,7 +1827,7 @@ module.exports = [
     {
       name: 'mods editor',
       projectUrl: 'https://github.com/ualbertalib/mods-editor',
-      tags: ['mods', 'cocoon'],
+      tags: ['mods', 'cocoon', 'marc', 'library'],
       platform: PLATFORM.HTML,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1840,7 +1840,7 @@ module.exports = [
     {
       name: 'Lagotto',
       projectUrl: 'http://www.lagotto.io/',
-      tags: ['scholar', 'research'],
+      tags: ['scholarship', 'research'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1866,7 +1866,7 @@ module.exports = [
     {
       name: 'Dataverse',
       projectUrl: 'http://dataverse.org/',
-      tags: ['research'],
+      tags: ['research', 'repository'],
       platform: PLATFORM.JAVA,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1879,7 +1879,7 @@ module.exports = [
     {
       name: 'Neatline',
       projectUrl: 'http://neatline.org/',
-      tags: ['omeka'],
+      tags: ['omeka', 'map'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1892,7 +1892,7 @@ module.exports = [
     {
       name: 'XML Import',
       projectUrl: 'https://github.com/scholarslab/GenericXmlImporter',
-      tags: ['omeka'],
+      tags: ['omeka', 'xml', 'xslt'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
