@@ -1944,7 +1944,7 @@ module.exports = [
     {
       name: 'SolrSearch',
       projectUrl: 'https://github.com/scholarslab/SolrSearch',
-      tags: ['omeka', 'solr'],
+      tags: ['omeka', 'solr', 'search'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -1957,7 +1957,7 @@ module.exports = [
     {
       name: 'BagIt Omeka Plugin',
       projectUrl: 'https://github.com/scholarslab/BagItPlugin',
-      tags: ['bagit', 'omeka'],
+      tags: ['bagit', 'omeka', 'dropbox'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2035,7 +2035,7 @@ module.exports = [
     {
       name: 'EAD Importer',
       projectUrl: 'https://github.com/scholarslab/EadImporter',
-      tags: ['ead'],
+      tags: ['ead', 'xsl', 'xml'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
