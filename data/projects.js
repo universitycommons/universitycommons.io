@@ -2100,7 +2100,7 @@ module.exports = [
     {
       name: 'SUSHI Lite plugin for OJS',
       projectUrl: 'https://github.com/ulsdevteam/ojs-sushiLite-plugin',
-      tags: ['ojs', 'sushi'],
+      tags: ['ojs', 'sushi', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2113,7 +2113,7 @@ module.exports = [
     {
       name: 'eprints marc',
       projectUrl: 'https://github.com/ulsdevteam/eprints-marc',
-      tags: ['eprints', 'marc', 'marcxml'],
+      tags: ['eprints', 'marc', 'marcxml', 'library'],
       platform: PLATFORM.XML,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2126,7 +2126,7 @@ module.exports = [
     {
       name: 'ORCID Profile Puller',
       projectUrl: 'https://github.com/ulsdevteam/pkp-orcidprofile',
-      tags: ['pkp', 'ojs', 'orcid'],
+      tags: ['pkp', 'ojs', 'orcid', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2139,7 +2139,7 @@ module.exports = [
     {
       name: 'Plum Analytics Artifact Widget plugin for OJS',
       projectUrl: 'https://github.com/ulsdevteam/ojs-plum-plugin',
-      tags: ['pkp', 'ojs', 'plum'],
+      tags: ['pkp', 'ojs', 'plum', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2152,7 +2152,7 @@ module.exports = [
     {
       name: 'COUNTER Reports classes',
       projectUrl: 'https://github.com/ulsdevteam/COUNTER',
-      tags: ['counter'],
+      tags: ['counter', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2165,7 +2165,7 @@ module.exports = [
     {
       name: 'Marc to Bibframe Validation',
       projectUrl: 'https://github.com/sul-dlss/marc-to-bibframe-validation',
-      tags: ['marc', 'bibframe'],
+      tags: ['marc', 'bibframe', 'marcxml', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
