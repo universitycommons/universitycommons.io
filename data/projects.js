@@ -2178,7 +2178,7 @@ module.exports = [
     {
       name: 'Mods',
       projectUrl: 'https://github.com/sul-dlss/mods',
-      tags: ['mods'],
+      tags: ['mods', 'library', 'metadata'],
       platform: PLATFORM.RUBY,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2191,7 +2191,7 @@ module.exports = [
     {
       name: 'Triannon',
       projectUrl: 'https://github.com/sul-dlss/triannon',
-      tags: ['rdf'],
+      tags: ['rdf', 'open annotation', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2204,7 +2204,7 @@ module.exports = [
     {
       name: 'BlacklightHeatmaps',
       projectUrl: 'https://github.com/sul-dlss/blacklight_heatmaps',
-      tags: ['blacklight'],
+      tags: ['blacklight', 'heatmap'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2217,7 +2217,7 @@ module.exports = [
     {
       name: 'Colligo',
       projectUrl: 'https://github.com/sul-dlss/colligo',
-      tags: ['blacklight', 'manuscript'],
+      tags: ['blacklight', 'manuscript', 'collections', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2230,7 +2230,7 @@ module.exports = [
     {
       name: 'crez-sw-ingest',
       projectUrl: 'https://github.com/sul-dlss/crez-sw-ingest',
-      tags: ['sirsi', 'searchworks', 'solr', 'ingest'],
+      tags: ['sirsi', 'searchworks', 'solr', 'ingest', 'symphony', 'search', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2243,7 +2243,7 @@ module.exports = [
     {
       name: 'archive-utils',
       projectUrl: 'https://github.com/sul-dlss/archive-utils',
-      tags: ['archive', 'bagit'],
+      tags: ['archive', 'bagit', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2256,7 +2256,7 @@ module.exports = [
     {
       name: 'Blacklight::Oembed',
       projectUrl: 'https://github.com/sul-dlss/blacklight-oembed',
-      tags: ['blacklight', 'oembed'],
+      tags: ['blacklight', 'oembed', 'search', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2269,7 +2269,7 @@ module.exports = [
     {
       name: 'traject_profiling',
       projectUrl: 'https://github.com/sul-dlss/traject_profiling',
-      tags: ['traject', 'marc'],
+      tags: ['traject', 'marc', 'solr', 'search', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
