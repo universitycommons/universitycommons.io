@@ -2308,7 +2308,7 @@ module.exports = [
     {
       name: 'edxcut',
       projectUrl: 'https://github.com/mitodl/edxcut',
-      tags: ['edx'],
+      tags: ['edx', 'testing'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2399,7 +2399,7 @@ module.exports = [
     {
       name: 'edx sandbox',
       projectUrl: 'https://github.com/mitodl/edx-sandbox-formula',
-      tags: ['edx'],
+      tags: ['edx', 'saltstack'],
       platform: PLATFORM.SALTSTACK,
       license: LICENSE.BSD3CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
