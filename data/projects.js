@@ -2503,7 +2503,7 @@ module.exports = [
     {
       name: 'PTF',
       projectUrl: 'https://github.com/ucdavis/PTF',
-      tags: ['facility'],
+      tags: ['facility', 'order'],
       platform: PLATFORM.CSHARP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2516,7 +2516,7 @@ module.exports = [
     {
       name: 'Gramps',
       projectUrl: 'https://github.com/ucdavis/Gramps',
-      tags: ['granr'],
+      tags: ['grant'],
       platform: PLATFORM.CSHARP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
