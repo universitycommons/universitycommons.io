@@ -2594,9 +2594,9 @@ module.exports = [
     {
       name: 'DataDictionary',
       projectUrl: 'https://github.com/ucdavis/DataDictionary',
-      tags: ['data'],
+      tags: ['data', 'oracle'],
       platform: PLATFORM.CSHARP,
-      license: LICENSE.MIT,
+      license: LICENSE.BSD2CLAUSE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ucdavis/DataDictionary',
       description: 'An application that collects miscellaneous table and column meta-data from various campus\' Oracle databases and displays that information back out as an on-line data dictionary.',
@@ -2633,9 +2633,9 @@ module.exports = [
     {
       name: 'ohmageX',
       projectUrl: 'http://ohmage.org/',
-      tags: ['data', 'research'],
+      tags: ['data', 'research', 'mobile'],
       platform: PLATFORM.JAVASCRIPT,
-      license: LICENSE.NONE,
+      license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ucla/ohmageX',
       description: 'An open-source, mobile to web platform that records, analyzes, and visualizes data from both prompted experience samples entered by the user, as well as continuous streams of data passively collected from sensors or applications onboard the mobile device.',
