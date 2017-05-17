@@ -1,4 +1,4 @@
- .var LICENSE = require('./license.js');
+var LICENSE = require('./license.js');
 var PLATFORM = require('./platform.js');
 var SOURCEHOST = require('./sourcehost.js');
 
