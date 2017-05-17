@@ -2698,7 +2698,7 @@ module.exports = [
     {
       name: 'IMS Global - LTI Utilities',
       projectUrl: 'https://github.com/IMSGlobal/basiclti-util-java',
-      tags: ['lti'],
+      tags: ['lti', 'learning tools interoperability'],
       platform: PLATFORM.JAVA,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2711,7 +2711,7 @@ module.exports = [
     {
       name: 'LTI Tool Provider Library PHP',
       projectUrl: 'https://github.com/IMSGlobal/LTI-Tool-Provider-Library-PHP',
-      tags: ['lti'],
+      tags: ['lti', 'learning tools interoperability'],
       platform: PLATFORM.PHP,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2802,7 +2802,7 @@ module.exports = [
     {
       name: 'Coursework Activity',
       projectUrl: 'https://github.com/ULCC/open-mod_coursework',
-      tags: ['moodle'],
+      tags: ['moodle', 'grading'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
