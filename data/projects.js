@@ -2880,7 +2880,7 @@ module.exports = [
     {
       name: 'moodle theme javascript collapse course navigation',
       projectUrl: 'https://github.com/ULCC/moodle-theme-javascript_collapse_course_navigation',
-      tags: ['moodle'],
+      tags: ['moodle', 'navigation'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2906,7 +2906,7 @@ module.exports = [
     {
       name: 'public moodle block reports',
       projectUrl: 'https://github.com/ULCC/public-moodle-block_reports',
-      tags: ['moodle'],
+      tags: ['moodle', 'navigation'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2919,7 +2919,7 @@ module.exports = [
     {
       name: 'moodle format single',
       projectUrl: 'https://github.com/ULCC/moodle-format_single',
-      tags: ['moodle'],
+      tags: ['moodle', 'navigation'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2932,7 +2932,7 @@ module.exports = [
     {
       name: 'moodle block jumpmenu',
       projectUrl: 'https://github.com/ULCC/moodle-block_jumpmenu',
-      tags: ['moodle'],
+      tags: ['moodle', 'navigation'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2945,7 +2945,7 @@ module.exports = [
     {
       name: 'moodle enrol qualification',
       projectUrl: 'https://github.com/ULCC/moodle-enrol_qualification',
-      tags: ['moodle'],
+      tags: ['moodle', 'grading'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
