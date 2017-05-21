@@ -2958,7 +2958,7 @@ module.exports = [
     {
       name: 'moodle mod questionnaire',
       projectUrl: 'https://github.com/remotelearner/moodle-mod_questionnaire',
-      tags: ['moodle'],
+      tags: ['moodle', 'survey'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2971,7 +2971,7 @@ module.exports = [
     {
       name: 'Moodle Tours Plugin',
       projectUrl: 'https://github.com/remotelearner/moodle-local_tours',
-      tags: ['moodle'],
+      tags: ['moodle', 'tour', 'tutorial'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -2997,7 +2997,7 @@ module.exports = [
     {
       name: 'moodle mod adobeconnect',
       projectUrl: 'https://github.com/remotelearner/moodle-mod_adobeconnect',
-      tags: ['moodle', 'connect'],
+      tags: ['moodle', 'adobe connect'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3010,7 +3010,7 @@ module.exports = [
     {
       name: 'OU blog',
       projectUrl: 'https://github.com/moodleou/moodle-mod_oublog',
-      tags: ['moodle'],
+      tags: ['moodle', 'blog'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3023,7 +3023,7 @@ module.exports = [
     {
       name: 'OU wiki',
       projectUrl: 'https://github.com/moodleou/moodle-mod_ouwiki',
-      tags: ['moodle'],
+      tags: ['moodle', 'wiki'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3036,7 +3036,7 @@ module.exports = [
     {
       name: 'ForumNG',
       projectUrl: 'https://github.com/moodleou/moodle-mod_forumng',
-      tags: ['moodle'],
+      tags: ['moodle', 'forum'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3049,7 +3049,7 @@ module.exports = [
     {
       name: 'Subpage',
       projectUrl: 'https://github.com/moodleou/moodle-mod_subpage',
-      tags: ['moodle'],
+      tags: ['moodle', 'subpage'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3062,7 +3062,7 @@ module.exports = [
     {
       name: 'OU search',
       projectUrl: 'https://github.com/moodleou/moodle-local_ousearch',
-      tags: ['moodle'],
+      tags: ['moodle', 'search'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3075,7 +3075,7 @@ module.exports = [
     {
       name: 'News block',
       projectUrl: 'https://github.com/moodleou/moodle-block_news',
-      tags: ['moodle'],
+      tags: ['moodle', 'news'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
