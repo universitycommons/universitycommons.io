@@ -3088,7 +3088,7 @@ module.exports = [
     {
       name: 'Course rate block',
       projectUrl: 'https://docs.moodle.org/32/en/Course_rate_block',
-      tags: ['moodle'],
+      tags: ['moodle', 'rating'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3114,7 +3114,7 @@ module.exports = [
     {
       name: 'moodle dataplus',
       projectUrl: 'https://github.com/moodleou/moodle-mod_dataplus',
-      tags: ['moodle'],
+      tags: ['moodle', 'sqlite'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3127,7 +3127,7 @@ module.exports = [
     {
       name: 'Ad-hoc database queries',
       projectUrl: 'https://github.com/moodleou/moodle-report_customsql',
-      tags: ['moodle'],
+      tags: ['moodle', 'sql', 'report'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3153,7 +3153,7 @@ module.exports = [
     {
       name: 'Pattern match question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_pmatch',
-      tags: ['moodle'],
+      tags: ['moodle', 'pattern match', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3166,7 +3166,7 @@ module.exports = [
     {
       name: 'Pattern match with JME editor question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_pmatchjme',
-      tags: ['moodle'],
+      tags: ['moodle', 'pattern match', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3192,7 +3192,7 @@ module.exports = [
     {
       name: 'Variable Numeric Set Question Type With Units',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_varnumunit',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3205,7 +3205,7 @@ module.exports = [
     {
       name: 'The manual grading by student quiz report',
       projectUrl: 'https://github.com/moodleou/moodle-quiz_gradingstudents',
-      tags: ['moodle'],
+      tags: ['moodle', 'grading'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
