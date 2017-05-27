@@ -3218,7 +3218,7 @@ module.exports = [
     {
       name: 'The Edit quiz settings quiz report',
       projectUrl: 'https://github.com/moodleou/moodle-quiz_editquizsettings',
-      tags: ['moodle'],
+      tags: ['moodle', 'quiz'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3231,7 +3231,7 @@ module.exports = [
     {
       name: 'The Honesty check quiz access rule',
       projectUrl: 'https://github.com/moodleou/moodle-quizaccess_honestycheck',
-      tags: ['moodle'],
+      tags: ['moodle', 'quiz'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3244,7 +3244,7 @@ module.exports = [
     {
       name: 'Variable Numeric Question Type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_varnumeric',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3257,7 +3257,7 @@ module.exports = [
     {
       name: 'The Opaque question type and behaviour',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_opaque',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type', 'opaque'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3270,7 +3270,7 @@ module.exports = [
     {
       name: 'The OU Multi-response question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_oumultiresponse',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3283,7 +3283,7 @@ module.exports = [
     {
       name: 'Edit roles by capability tool',
       projectUrl: 'https://github.com/moodleou/moodle-tool_editrolesbycap',
-      tags: ['moodle'],
+      tags: ['moodle', 'permissions'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3296,7 +3296,7 @@ module.exports = [
     {
       name: 'Combined question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_combined',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3309,7 +3309,7 @@ module.exports = [
     {
       name: 'Variable Numeric Sets question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_varnumericset',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3322,7 +3322,7 @@ module.exports = [
     {
       name: 'Drag-and-drop markers question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_ddmarker',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3335,7 +3335,7 @@ module.exports = [
     {
       name: 'Gap-select question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_gapselect',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
