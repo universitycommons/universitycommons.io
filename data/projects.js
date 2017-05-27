@@ -3348,7 +3348,7 @@ module.exports = [
     {
       name: 'A drag-and-drop question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_ddimageortext',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3361,7 +3361,7 @@ module.exports = [
     {
       name: 'Drag-and-drop, words to sentences question type',
       projectUrl: 'https://github.com/moodleou/moodle-qtype_ddwtos',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3374,7 +3374,7 @@ module.exports = [
     {
       name: 'The Opaque question type and behaviour',
       projectUrl: 'https://github.com/moodleou/moodle-qbehaviour_opaque',
-      tags: ['moodle'],
+      tags: ['moodle', 'question type', 'opaque'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3387,7 +3387,7 @@ module.exports = [
     {
       name: 'Superscript/subscript editor',
       projectUrl: 'https://github.com/moodleou/moodle-editor_supsub',
-      tags: ['moodle'],
+      tags: ['moodle', 'tinymce'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3413,7 +3413,7 @@ module.exports = [
     {
       name: 'moodle block recommender',
       projectUrl: 'https://github.com/moodleou/moodle-block_recommender',
-      tags: ['moodle'],
+      tags: ['moodle', 'recommendation'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3424,9 +3424,9 @@ module.exports = [
     },
 
     {
-      name: 'Kuali Coeus',
-      projectUrl: 'http://www.kuali.org/kc',
-      tags: ['research'],
+      name: 'Kuali Research',
+      projectUrl: 'https://kuali.org/portfolio/research/',
+      tags: ['research', 'grant', 'grant administration', 'funding'],
       platform: PLATFORM.JAVA,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3439,7 +3439,7 @@ module.exports = [
     {
       name: 'canvas sis integration php',
       projectUrl: 'https://github.com/umhbwebservices/canvas-sis-integration-php',
-      tags: ['canvas'],
+      tags: ['canvas', 'sis', 'student information system'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3452,7 +3452,7 @@ module.exports = [
     {
       name: 'canvas ara custom report php',
       projectUrl: 'https://github.com/umhbwebservices/canvas-ara-custom-report-php',
-      tags: ['canvas'],
+      tags: ['canvas', 'email', 'report', 'samba'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
