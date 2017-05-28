@@ -3491,7 +3491,7 @@ module.exports = [
     {
       name: 'MediaHub',
       projectUrl: 'https://github.com/unl/UNL_MediaHub',
-      tags: ['media'],
+      tags: ['media', 'aggregator'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3504,7 +3504,7 @@ module.exports = [
     {
       name: 'E-resource access checker',
       projectUrl: 'https://github.com/UNC-Libraries/Ebook-Access-Checker',
-      tags: ['e-resource'],
+      tags: ['e-resource', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3517,7 +3517,7 @@ module.exports = [
     {
       name: 'HathiTrust Print Holdings',
       projectUrl: 'https://github.com/UNC-Libraries/HathiTrust-Print-Holdings',
-      tags: ['hathitrust'],
+      tags: ['hathitrust', 'library', 'oracle', 'report', 'millennium', 'iii millennium'],
       platform: PLATFORM.PERL,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3530,7 +3530,7 @@ module.exports = [
     {
       name: 'E-collections discovery evaluation: catalog data',
       projectUrl: 'https://github.com/UNC-Libraries/Syndetics-Catalog-Coverage-Assessment',
-      tags: ['catalog'],
+      tags: ['catalog', 'library', 'collections'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3543,7 +3543,7 @@ module.exports = [
     {
       name: 'millennium global update commands',
       projectUrl: 'https://github.com/UNC-Libraries/millennium-global-update-commands',
-      tags: ['millennium'],
+      tags: ['millennium', 'iii millennium'],
       platform: PLATFORM.UNKNOWN,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3556,7 +3556,7 @@ module.exports = [
     {
       name: 'OmekaOembedImportPlugin',
       projectUrl: 'https://github.com/UNC-Libraries/OmekaOembedImportPlugin',
-      tags: ['omeka'],
+      tags: ['omeka', 'oembed', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3569,7 +3569,7 @@ module.exports = [
     {
       name: 'Citation Builder',
       projectUrl: 'https://github.com/UNC-Libraries/citationbuilder',
-      tags: ['citation'],
+      tags: ['citation', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3582,7 +3582,7 @@ module.exports = [
     {
       name: 'Millennium Payment Information Processor',
       projectUrl: 'https://github.com/UNC-Libraries/Millennium-Helpers',
-      tags: ['millennium'],
+      tags: ['millennium', 'iii millennium', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
