@@ -3608,7 +3608,7 @@ module.exports = [
     {
       name: 'Honeycomb',
       projectUrl: 'https://github.com/ndlib/honeycomb',
-      tags: ['collections'],
+      tags: ['collections', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3621,7 +3621,7 @@ module.exports = [
     {
       name: 'Beehive',
       projectUrl: 'https://github.com/ndlib/beehive',
-      tags: ['collections'],
+      tags: ['collections', 'library', 'exhibit'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3634,9 +3634,9 @@ module.exports = [
     {
       name: 'Disadis',
       projectUrl: 'https://github.com/ndlib/disadis',
-      tags: ['hydra'],
+      tags: ['hydra', 'library', 'fedora', 'fedora commons'],
       platform: PLATFORM.GO,
-      license: LICENSE.NONE,
+      license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ndlib/disadis',
       description: 'Disadis is an download proxy for Hydra-based applications.',
@@ -3647,9 +3647,9 @@ module.exports = [
     {
       name: 'noids',
       projectUrl: 'https://github.com/ndlib/noids',
-      tags: ['noid'],
+      tags: ['noid', 'library', 'identifier', 'collections'],
       platform: PLATFORM.GO,
-      license: LICENSE.NONE,
+      license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ndlib/noids',
       description: 'Implements a server to provide a NOID service.',
@@ -3660,7 +3660,7 @@ module.exports = [
     {
       name: 'Ex Libris Primo JavaScript Files',
       projectUrl: 'https://github.com/ndlib/primo-javascript',
-      tags: ['ex libris', 'primo'],
+      tags: ['ex libris', 'primo', 'library'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3673,7 +3673,7 @@ module.exports = [
     {
       name: 'Hydramata::Works',
       projectUrl: 'https://github.com/ndlib/hydramata-works',
-      tags: ['hydra'],
+      tags: ['hydra', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3686,7 +3686,7 @@ module.exports = [
     {
       name: 'Hydramaton',
       projectUrl: 'https://github.com/ndlib/hydramaton',
-      tags: ['hydra'],
+      tags: ['hydra', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3699,7 +3699,7 @@ module.exports = [
     {
       name: 'Hydra::ObjectViewer',
       projectUrl: 'https://github.com/ndlib/hydra-object_viewer',
-      tags: ['hydra'],
+      tags: ['hydra', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3712,25 +3712,12 @@ module.exports = [
     {
       name: 'hydra registry',
       projectUrl: 'https://github.com/ndlib/hydra-registry',
-      tags: ['hydra'],
+      tags: ['hydra', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ndlib/hydra-registry',
       description: 'An end point for reporting Hydra Project Usage',
-      author: 'Hesburgh Libraries of Notre Dame',
-      authorUrl: 'https://github.com/ndlib'
-    },
-
-    {
-      name: 'Hydra Jetty Cookbook',
-      projectUrl: 'https://github.com/ndlib/hydra-jetty-cookbook',
-      tags: ['hydra'],
-      platform: PLATFORM.SHELL,
-      license: LICENSE.APACHE2,
-      sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/ndlib/hydra-jetty-cookbook',
-      description: 'This cookbook installs hydra-jetty.',
       author: 'Hesburgh Libraries of Notre Dame',
       authorUrl: 'https://github.com/ndlib'
     },
