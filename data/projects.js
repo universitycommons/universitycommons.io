@@ -3738,7 +3738,7 @@ module.exports = [
     {
       name: 'pdf to chronam',
       projectUrl: 'https://github.com/uoregon-libraries/pdf-to-chronam',
-      tags: ['newspaper', 'bagit', 'chronam'],
+      tags: ['newspaper', 'bagit', 'chronam', 'library'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3751,7 +3751,7 @@ module.exports = [
     {
       name: 'alma offline circulation tool',
       projectUrl: 'https://github.com/uoregon-libraries/alma-offline-circulation-tool',
-      tags: ['alma', 'exlibris'],
+      tags: ['alma', 'ex libris', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.CC0,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3764,7 +3764,7 @@ module.exports = [
     {
       name: 'dms',
       projectUrl: 'https://github.com/uthsc/dms',
-      tags: ['signage'],
+      tags: ['digital signage'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3777,7 +3777,7 @@ module.exports = [
     {
       name: 'wp-bigdipper',
       projectUrl: 'https://github.com/TheLibratory/wp-bigdipper',
-      tags: ['wordpress'],
+      tags: ['wordpress', 'library', 'theme'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3790,9 +3790,9 @@ module.exports = [
     {
       name: 'Avalon Media System',
       projectUrl: 'https://github.com/avalonmediasystem/avalon',
-      tags: ['hydra', 'collections'],
+      tags: ['hydra', 'collections', 'library'],
       platform: PLATFORM.RUBY,
-      license: LICENSE.APACHE2,
+      license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/avalonmediasystem/avalon',
       description: 'An open source system for managing large collections of digital audio and video.',
@@ -3803,7 +3803,7 @@ module.exports = [
     {
       name: 'ATKreporting',
       projectUrl: 'https://github.com/yalemssa/ATKreporting',
-      tags: ['archivists toolkit'],
+      tags: ['archivists toolkit', 'library'],
       platform: PLATFORM.SQL,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3816,7 +3816,7 @@ module.exports = [
     {
       name: 'php at lookup',
       projectUrl: 'https://github.com/yalemssa/php-at-lookup',
-      tags: ['archivists toolkit'],
+      tags: ['archivists toolkit', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.ECL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3829,7 +3829,7 @@ module.exports = [
     {
       name: 'AT plugin Yale custom tasks',
       projectUrl: 'https://github.com/yalemssa/AT-plugin-Yale-custom-tasks',
-      tags: ['archivists toolkit'],
+      tags: ['archivists toolkit', 'library'],
       platform: PLATFORM.JAVA,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3842,7 +3842,7 @@ module.exports = [
     {
       name: 'ATKBarcodeSheetGen',
       projectUrl: 'https://github.com/yalemssa/ATKBarcodeSheetGen',
-      tags: ['archivists toolkit'],
+      tags: ['archivists toolkit', 'barcode4j', 'library'],
       platform: PLATFORM.JAVA,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3946,7 +3946,7 @@ module.exports = [
     {
       name: 'Concerto 2 Digital Signage System',
       projectUrl: 'http://www.concerto-signage.org/',
-      tags: ['signage'],
+      tags: ['digital signage'],
       platform: PLATFORM.RUBY,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
