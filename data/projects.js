@@ -3855,7 +3855,7 @@ module.exports = [
     {
       name: 'AeonATK',
       projectUrl: 'https://github.com/yalemssa/AeonATK',
-      tags: ['archivists toolkit'],
+      tags: ['archivists toolkit', 'aeon', 'library'],
       platform: PLATFORM.JAVA,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3881,7 +3881,7 @@ module.exports = [
     {
       name: 'dspace deposit tools',
       projectUrl: 'https://github.com/yorkulibraries/dspace-deposit-tools',
-      tags: ['dspace'],
+      tags: ['dspace', 'marc', 'marcxml', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3894,7 +3894,7 @@ module.exports = [
     {
       name: 'dspace simple archive packager',
       projectUrl: 'https://github.com/yorkulibraries/dspace-simple-archive-packager',
-      tags: ['dspace'],
+      tags: ['dspace', 'archive', 'library'],
       platform: PLATFORM.SHELL,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3907,7 +3907,7 @@ module.exports = [
     {
       name: 'Islandora Transcript',
       projectUrl: 'https://github.com/yorkulibraries/islandora_transcript',
-      tags: ['islandora'],
+      tags: ['islandora', 'library'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3920,7 +3920,7 @@ module.exports = [
     {
       name: 'ojs aggregate stats',
       projectUrl: 'https://github.com/yorkulibraries/ojs-aggregate-stats',
-      tags: ['ojs'],
+      tags: ['ojs', 'library'],
       platform: PLATFORM.SHELL,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3933,7 +3933,7 @@ module.exports = [
     {
       name: 'Dspacescripts',
       projectUrl: 'https://github.com/yorkulibraries/dspacescripts',
-      tags: ['dspace'],
+      tags: ['dspace', 'library'],
       platform: PLATFORM.JAVA,
       license: LICENSE.CUSTOM,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3959,7 +3959,7 @@ module.exports = [
     {
       name: 'Papyrus',
       projectUrl: 'https://github.com/yorkulcs/papyrus',
-      tags: ['library', 'acccessibility'],
+      tags: ['library', 'acccessibility', 'a11y'],
       platform: PLATFORM.RUBY,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -3974,7 +3974,7 @@ module.exports = [
       projectUrl: 'https://github.com/ubc/compair',
       tags: ['assessment'],
       platform: PLATFORM.PYTHON,
-      license: LICENSE.NONE,
+      license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ubc/compair',
       description: 'This application is based on an updated 2012 paper which details Adaptive Comparative Judgement\'s method and history. Students answer questions asked by instructors or other students and are then able to compare and judge the given answers. From these comparisons, a score for each answer is calculated according to ACJ\'s methods.',
