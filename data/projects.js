@@ -3998,7 +3998,7 @@ module.exports = [
     {
       name: 'Response Map',
       projectUrl: 'https://github.com/ubc/response-map',
-      tags: ['question'],
+      tags: ['question', 'map', 'lti'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4011,7 +4011,7 @@ module.exports = [
     {
       name: 'iPeer',
       projectUrl: 'http://ipeer.ctlt.ubc.ca/',
-      tags: ['evaluation'],
+      tags: ['evaluation', 'peer evaluation'],
       platform: PLATFORM.PHP,
       license: LICENSE.MIT,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4037,7 +4037,7 @@ module.exports = [
     {
       name: 'Basic LTI Building Block with Enhanced Features',
       projectUrl: 'https://github.com/ubc/enhanced-basiclti-b2',
-      tags: ['blackboard'],
+      tags: ['blackboard', 'lti'],
       platform: PLATFORM.JAVA,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4065,7 +4065,7 @@ module.exports = [
       projectUrl: 'https://github.com/ubc/lti-parser',
       tags: ['lti'],
       platform: PLATFORM.PYTHON,
-      license: LICENSE.GPL3,
+      license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/ubc/lti-parser',
       description: 'A library for parsing Learning Tools Interoperability (LTI) messages',
