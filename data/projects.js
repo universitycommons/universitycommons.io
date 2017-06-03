@@ -4206,7 +4206,7 @@ module.exports = [
     {
       name: 'drag and drop words',
       projectUrl: 'https://github.com/UQ-UQx/drag_and_drop_words',
-      tags: ['edx', 'lts'],
+      tags: ['edx', 'lts', 'ieltsx'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4219,7 +4219,7 @@ module.exports = [
     {
       name: 'IELTSx reading practice test pages',
       projectUrl: 'https://github.com/UQ-UQx/IELTSx_reading_practice_test_pages',
-      tags: ['edx', 'lts'],
+      tags: ['edx', 'lts', 'ieltsx'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4232,7 +4232,7 @@ module.exports = [
     {
       name: 'IELTSx writing practice test',
       projectUrl: 'https://github.com/UQ-UQx/IELTSx_writing_practice_test',
-      tags: ['edx', 'lts'],
+      tags: ['edx', 'lts', 'ieltsx'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4245,7 +4245,7 @@ module.exports = [
     {
       name: 'IELTSx reading practice test',
       projectUrl: 'https://github.com/UQ-UQx/IELTSx_reading_practice_test',
-      tags: ['edx', 'lts'],
+      tags: ['edx', 'lts', 'ieltsx'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4258,7 +4258,7 @@ module.exports = [
     {
       name: 'IELTSx listening practice test',
       projectUrl: 'https://github.com/UQ-UQx/IELTSx_listening_practice_test',
-      tags: ['edx', 'lts'],
+      tags: ['edx', 'lts', 'ieltsx'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4271,7 +4271,7 @@ module.exports = [
     {
       name: 'Audio Recorder',
       projectUrl: 'https://github.com/UQ-UQx/audio_recorder',
-      tags: ['edx', 'lts'],
+      tags: ['edx', 'lts', 'ieltsx'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
