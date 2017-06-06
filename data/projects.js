@@ -4388,7 +4388,7 @@ module.exports = [
     {
       name: 'uMobile Android App',
       projectUrl: 'https://github.com/Oakland-University/uMobile-Android-App',
-      tags: ['uportal'],
+      tags: ['uportal', 'mobile', 'android'],
       platform: PLATFORM.JAVA,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4401,7 +4401,7 @@ module.exports = [
     {
       name: 'uMobile iOS App',
       projectUrl: 'https://github.com/Oakland-University/uMobile-iOS-app',
-      tags: ['uportal'],
+      tags: ['uportal', 'mobile', 'ios'],
       platform: PLATFORM.OBJECTIVEC,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4414,8 +4414,8 @@ module.exports = [
     {
       name: 'uPortal Tester Webapp',
       projectUrl: 'https://github.com/Oakland-University/uPortal-Tester',
-      tags: ['uportal'],
-      platform: PLATFORM.OBJECTIVEC,
+      tags: ['uportal', 'testing'],
+      platform: PLATFORM.JAVA,
       license: LICENSE.APACHE2,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/Oakland-University/uPortal-Tester',
@@ -4440,7 +4440,7 @@ module.exports = [
     {
       name: 'Mahara Assignment Submission Plugin',
       projectUrl: 'https://github.com/UniversityofPortland/moodle-assign_mahara',
-      tags: ['moodle', 'mahara'],
+      tags: ['moodle', 'mahara', 'xml-rpc'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4453,11 +4453,11 @@ module.exports = [
     {
       name: 'Mahara Local Plugin',
       projectUrl: 'https://github.com/UniversityofPortland/moodle-local_mahara',
-      tags: ['moodle', 'mahara'],
+      tags: ['moodle', 'mahara', 'xml-rpc'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/UniversityofPortland/moodle-assign_mahara',
+      sourceUrl: 'https://github.com/UniversityofPortland/moodle-local_mahara',
       description: 'Allows your Moodle installation to subscribe to Mahara XML-RPC endpoints.',
       author: 'University of Portland',
       authorUrl: 'https://github.com/UniversityofPortland'
@@ -4479,7 +4479,7 @@ module.exports = [
     {
       name: 'OJS EZID Plugin',
       projectUrl: 'https://github.com/VTUL/EzidDOI',
-      tags: ['ojs', 'ezid'],
+      tags: ['ojs', 'ezid', 'library', 'doi'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL2,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4492,7 +4492,7 @@ module.exports = [
     {
       name: 'Sufia Development Environment',
       projectUrl: 'https://github.com/VTUL/sufia-install',
-      tags: ['sufia'],
+      tags: ['sufia', 'hydra', 'library', 'repository'],
       platform: PLATFORM.SHELL,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
