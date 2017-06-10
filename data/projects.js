@@ -4505,7 +4505,7 @@ module.exports = [
     {
       name: 'DSpace Links',
       projectUrl: 'https://github.com/VTUL/dspace-links',
-      tags: ['dspace'],
+      tags: ['dspace', 'library', 'identifier', 'oai-pmh'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4518,7 +4518,7 @@ module.exports = [
     {
       name: 'Problem Builder and Step Builder',
       projectUrl: 'https://github.com/open-craft/problem-builder',
-      tags: ['edx'],
+      tags: ['edx', 'xblock', 'question type'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4531,7 +4531,7 @@ module.exports = [
     {
       name: 'xblock vectordraw',
       projectUrl: 'https://github.com/open-craft/xblock-vectordraw',
-      tags: ['edx'],
+      tags: ['edx', 'xblock', 'question type'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4544,7 +4544,7 @@ module.exports = [
     {
       name: 'Dalite NG',
       projectUrl: 'https://github.com/open-craft/dalite-ng',
-      tags: ['edx', 'lti'],
+      tags: ['edx', 'lti', 'django'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4557,7 +4557,7 @@ module.exports = [
     {
       name: 'LTI Tool Provider',
       projectUrl: 'https://github.com/open-craft/django-lti-tool-provider',
-      tags: ['lti'],
+      tags: ['lti', 'django'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4570,7 +4570,7 @@ module.exports = [
     {
       name: 'xblock field test',
       projectUrl: 'https://github.com/open-craft/xblock-field-test',
-      tags: ['edx'],
+      tags: ['edx', 'xblock'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4583,7 +4583,7 @@ module.exports = [
     {
       name: 'Grammarian XBlock',
       projectUrl: 'https://github.com/open-craft/xblock-grammarian',
-      tags: ['edx'],
+      tags: ['edx', 'xblock', 'question type'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4596,7 +4596,7 @@ module.exports = [
     {
       name: 'xblock dalite',
       projectUrl: 'https://github.com/open-craft/xblock-dalite',
-      tags: ['edx'],
+      tags: ['edx', 'xblock'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4609,7 +4609,7 @@ module.exports = [
     {
       name: 'Forum Leaderboard XBlock',
       projectUrl: 'https://github.com/open-craft/xblock-leaderboard',
-      tags: ['edx'],
+      tags: ['edx', 'xblock', 'forum'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4622,7 +4622,7 @@ module.exports = [
     {
       name: 'ActiveTable XBlock',
       projectUrl: 'https://github.com/open-craft/xblock-activetable',
-      tags: ['edx'],
+      tags: ['edx', 'xblock', 'question type'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
