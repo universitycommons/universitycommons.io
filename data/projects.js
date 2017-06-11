@@ -4635,7 +4635,7 @@ module.exports = [
     {
       name: 'edX Analytics Devstack',
       projectUrl: 'https://github.com/open-craft/edx-analytics-devstack',
-      tags: ['edx'],
+      tags: ['edx', 'analytics'],
       platform: PLATFORM.SHELL,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4661,7 +4661,7 @@ module.exports = [
     {
       name: 'BU edX External Grader Framework',
       projectUrl: 'https://github.com/bu-ist/bux-grader-framework',
-      tags: ['edx'],
+      tags: ['edx', 'grading'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.AGPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4674,7 +4674,7 @@ module.exports = [
     {
       name: 'digibib',
       projectUrl: 'https://github.com/KelvinSmithLibrary/digibib',
-      tags: ['bibliography'],
+      tags: ['bibliography', 'library'],
       platform: PLATFORM.RUBY,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4700,7 +4700,7 @@ module.exports = [
     {
       name: 'EduSec',
       projectUrl: 'https://github.com/EduSec/EduSec',
-      tags: ['erp'],
+      tags: ['erp', 'enterprise resource planning'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4713,7 +4713,7 @@ module.exports = [
     {
       name: 'Moodle Module for EQUELLA Integration',
       projectUrl: 'https://github.com/equella/moodle-mod_equella',
-      tags: ['moodle', 'equella'],
+      tags: ['moodle', 'equella', 'repository'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4752,7 +4752,7 @@ module.exports = [
     {
       name: 'SViz',
       projectUrl: 'http://fenixedu.org/sviz/',
-      tags: ['data visualization'],
+      tags: ['data visualization', 'd3'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4765,7 +4765,7 @@ module.exports = [
     {
       name: 'Moodle Theme Tester',
       projectUrl: 'https://docs.moodle.org/29/en/Theme_Tester_tool',
-      tags: ['moodle'],
+      tags: ['moodle', 'theme', 'bootstrap'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4778,7 +4778,7 @@ module.exports = [
     {
       name: 'Collaborate',
       projectUrl: 'https://docs.moodle.org/dev/Collaborate',
-      tags: ['moodle', 'blackboard'],
+      tags: ['moodle', 'blackboard', 'collaborate'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4791,7 +4791,7 @@ module.exports = [
     {
       name: 'Snap',
       projectUrl: 'https://github.com/moodlerooms/moodle-theme_snap',
-      tags: ['moodle'],
+      tags: ['moodle', 'theme'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4804,9 +4804,9 @@ module.exports = [
     {
       name: 'Flexpage',
       projectUrl: 'https://docs.moodle.org/dev/Flexpage',
-      tags: ['moodle'],
+      tags: ['moodle', 'course format'],
       platform: PLATFORM.PHP,
-      license: LICENSE.GPL3,
+      license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
       sourceUrl: 'https://github.com/moodlerooms/moodle-theme_flexpage',
       description: 'A course format that provides a teacher with complete control of how educational materials and assessments are presented to a student.',
@@ -4817,7 +4817,7 @@ module.exports = [
     {
       name: 'redislock',
       projectUrl: 'https://github.com/moodlerooms/moodle-local_redislock',
-      tags: ['moodle'],
+      tags: ['moodle', 'redis'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4830,7 +4830,7 @@ module.exports = [
     {
       name: 'Checklist',
       projectUrl: 'https://github.com/moodlerooms/moodle-gradingform_checklist',
-      tags: ['moodle'],
+      tags: ['moodle', 'grading'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4843,7 +4843,7 @@ module.exports = [
     {
       name: 'Folder View',
       projectUrl: 'https://docs.moodle.org/dev/Folder_View',
-      tags: ['moodle'],
+      tags: ['moodle', 'course format'],
       platform: PLATFORM.PHP,
       license: LICENSE.NONE,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4869,7 +4869,7 @@ module.exports = [
     {
       name: 'moodle plugin ci',
       projectUrl: 'https://github.com/moodlerooms/moodle-plugin-ci',
-      tags: ['moodle'],
+      tags: ['moodle', 'travis', 'testing'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
@@ -4882,7 +4882,7 @@ module.exports = [
     {
       name: 'Islandora',
       projectUrl: 'http://islandora.ca/',
-      tags: ['islandora', 'repository', 'drupal'],
+      tags: ['islandora', 'repository', 'drupal', 'fedora'],
       platform: PLATFORM.PHP,
       license: LICENSE.GPL3,
       sourceHost: SOURCEHOST.GITHUB,
