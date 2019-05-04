@@ -2723,12 +2723,12 @@ module.exports = [
 
     {
       name: 'caliper net',
-      projectUrl: 'https://github.com/IMSGlobal/caliper-net-public',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-net',
       tags: ['caliper'],
       platform: PLATFORM.CSHARP,
       license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/IMSGlobal/caliper-net-public',
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-net',
       description: 'A .NET client for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
@@ -2736,12 +2736,12 @@ module.exports = [
 
     {
       name: 'caliper php',
-      projectUrl: 'https://github.com/IMSGlobal/caliper-php-public',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-php',
       tags: ['caliper'],
       platform: PLATFORM.PHP,
       license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/IMSGlobal/caliper-php-public',
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-php',
       description: 'A PHP library for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
@@ -2749,12 +2749,12 @@ module.exports = [
 
     {
       name: 'caliper ruby',
-      projectUrl: 'https://github.com/IMSGlobal/caliper-ruby-public',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-ruby',
       tags: ['caliper'],
       platform: PLATFORM.RUBY,
       license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/IMSGlobal/caliper-ruby-public',
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-ruby',
       description: 'A Ruby client for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
@@ -2762,12 +2762,12 @@ module.exports = [
 
     {
       name: 'caliper js',
-      projectUrl: 'https://github.com/IMSGlobal/caliper-js-public',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-js',
       tags: ['caliper'],
       platform: PLATFORM.JAVASCRIPT,
       license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/IMSGlobal/caliper-js-public',
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-js',
       description: 'A Javascript client for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
@@ -2775,12 +2775,12 @@ module.exports = [
 
     {
       name: 'caliper java',
-      projectUrl: 'https://github.com/IMSGlobal/caliper-java-public',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-java',
       tags: ['caliper'],
       platform: PLATFORM.JAVA,
       license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/IMSGlobal/caliper-java-public',
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-java',
       description: 'A Java client for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
@@ -2788,12 +2788,12 @@ module.exports = [
 
     {
       name: 'caliper python',
-      projectUrl: 'https://github.com/IMSGlobal/caliper-python-public',
+      projectUrl: 'https://github.com/IMSGlobal/caliper-python',
       tags: ['caliper'],
       platform: PLATFORM.PYTHON,
       license: LICENSE.LGPL3,
       sourceHost: SOURCEHOST.GITHUB,
-      sourceUrl: 'https://github.com/IMSGlobal/caliper-python-public',
+      sourceUrl: 'https://github.com/IMSGlobal/caliper-python',
       description: 'A Python client package for Caliper that provides an implementation of the Caliper SensorAPI',
       author: 'IMS Global Learning Consortium',
       authorUrl: 'https://github.com/IMSGlobal'
