@@ -4,6 +4,10 @@
 
 A search engine for open-source higher education projects
 
+## Deprecated
+
+This project is now discontinued and the URL above no longer works. However, this repository still contains [a number of wonderful open-source, higher education projects](https://github.com/universitycommons/universitycommons.io/blob/master/data/projects.js) to check out!
+
 ## Add a Project
 
 Projects can be added by [opening a GitHub issue](https://github.com/universitycommons/universitycommons.io/issues),
